@@ -1,0 +1,126 @@
+{
+  "artifacts": {
+    "brake_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P2A_BRAKE_SENSITIVITY_20260914T111309Z.csv",
+    "sensitivity_figure": "<PQC_V2X_PROJECT_ROOT>/05_figures/P2A_SENSITIVITY_20260914T111309Z.png",
+    "slice_figure": "<PQC_V2X_PROJECT_ROOT>/05_figures/P2A_FALLBACK_GUARD_SLICE_20260914T111309Z.png",
+    "switch_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P2A_SWITCH_SENSITIVITY_20260914T111309Z.csv",
+    "tau_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P2A_TAU_SENSITIVITY_20260914T111309Z.csv"
+  },
+  "brake_sensitivity": [
+    {
+      "brake_command": -4.5,
+      "fallback_fraction_physical": 0.8782782627270873,
+      "guard_fraction_physical": 0.8278748215828875
+    },
+    {
+      "brake_command": -5.0,
+      "fallback_fraction_physical": 0.8960956995407277,
+      "guard_fraction_physical": 0.8502655623416093
+    },
+    {
+      "brake_command": -6.0,
+      "fallback_fraction_physical": 0.9216032780199828,
+      "guard_fraction_physical": 0.8830166328442843
+    },
+    {
+      "brake_command": -7.0,
+      "fallback_fraction_physical": 0.9389546456417676,
+      "guard_fraction_physical": 0.9057666352717281
+    },
+    {
+      "brake_command": -8.0,
+      "fallback_fraction_physical": 0.9510530250803484,
+      "guard_fraction_physical": 0.921972249463535
+    }
+  ],
+  "checks": {
+    "ACTUATOR_LAG_MONOTONE": true,
+    "BRAKE_STRENGTH_MONOTONE": true,
+    "FALLBACK_SET_NONEMPTY": true,
+    "FOLLOWER_STOP_MONOTONE_A": true,
+    "FOLLOWER_STOP_MONOTONE_V": true,
+    "GUARD_SUBSET_FALLBACK": true,
+    "PREDECESSOR_STOP_MONOTONE_V": true,
+    "QMC_REPLICATE_STABLE": true,
+    "STOPPING_FORMULA_VS_IVP": true,
+    "SWITCH_DELAY_MONOTONE": true,
+    "SWITCH_GUARD_NONEMPTY": true
+  },
+  "interpretation": "certified-physics recoverability baseline; not yet the maximal fallback viability kernel",
+  "metrics": {
+    "box_volume": 2060100.0,
+    "fallback_fraction_physical": 0.9216032780199828,
+    "fallback_volume": 1491809.0171813965,
+    "follower_min_increment_acceleration": -4.041359143439602e-24,
+    "follower_min_increment_velocity": 0.005210676835201221,
+    "guard_fraction_physical": 0.8830166328442843,
+    "guard_subset_violations": 0,
+    "guard_volume": 1429348.4046936035,
+    "physical_fraction_box": 0.7857437133789062,
+    "physical_volume": 1618710.6239318848,
+    "predecessor_min_increment_velocity": 0.0039052556158421293,
+    "qmc_fallback_mean": 0.9216209783751634,
+    "qmc_fallback_std": 0.00024358698368141888,
+    "qmc_guard_mean": 0.8829607346473389,
+    "qmc_guard_std": 0.0002776275872654648,
+    "stopping_distance_ivp_max_error": 2.1316282072803006e-13,
+    "stopping_time_ivp_max_error": 8.881784197001252e-15
+  },
+  "platform": {
+    "executable": "<USER_HOME>/envs/research/bin/python",
+    "numpy": "2.4.6",
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "system": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "schema": "SCV_P2A_RECOVERABILITY_RESULT_V1",
+  "status": "PASS",
+  "switch_sensitivity": [
+    {
+      "guard_fraction_physical": 0.9048053675635263,
+      "switch_steps": 0
+    },
+    {
+      "guard_fraction_physical": 0.8941731641243239,
+      "switch_steps": 1
+    },
+    {
+      "guard_fraction_physical": 0.8830166328442843,
+      "switch_steps": 2
+    },
+    {
+      "guard_fraction_physical": 0.8717047451669596,
+      "switch_steps": 3
+    },
+    {
+      "guard_fraction_physical": 0.859402460456942,
+      "switch_steps": 4
+    },
+    {
+      "guard_fraction_physical": 0.8470419170979425,
+      "switch_steps": 5
+    }
+  ],
+  "tau_sensitivity": [
+    {
+      "fallback_fraction_physical": 0.9288176407189117,
+      "guard_fraction_physical": 0.89918340793677,
+      "tau": 0.2
+    },
+    {
+      "fallback_fraction_physical": 0.9216032780199828,
+      "guard_fraction_physical": 0.8830166328442843,
+      "tau": 0.35
+    },
+    {
+      "fallback_fraction_physical": 0.9148646942877394,
+      "guard_fraction_physical": 0.8668595675266291,
+      "tau": 0.5
+    },
+    {
+      "fallback_fraction_physical": 0.90582489392071,
+      "guard_fraction_physical": 0.8447212809134956,
+      "tau": 0.7
+    }
+  ],
+  "timestamp_utc": "20260914T111309Z"
+}

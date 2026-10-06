@@ -1,0 +1,61 @@
+{
+  "artifacts": {
+    "matched_chi_tests_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9G_MATCHED_CHI_TESTS_20260916T030816Z.csv",
+    "witness_summary_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9G_WITNESS_SUMMARY_20260916T030816Z.csv"
+  },
+  "classification": "MATCHED_CHI_SERVICE_PROGRESS_SENSITIVITY_FOUND_DIAGNOSTIC_BRANCHING_AUDIT",
+  "continuous_state_separation_certified": false,
+  "diagnostic_contract": {
+    "R": 2,
+    "completion_adoption": "CAUSAL_ADOPT_OR_HOLD_AFTER_OUTPUT",
+    "deployment_protocol_certified": false,
+    "fragmented_branch": "NONELIGIBLE_PROGRESS_TO_VERIFYING_LAST",
+    "profile": "diagnostic_fast",
+    "shared_pending_descriptor": true,
+    "shared_pending_generation_time": true,
+    "shared_scalar_liveness_upper_bound_steps": 2,
+    "stage_pair": [
+      "FRAGMENTED_TWO_STEP",
+      "VERIFYING_TWO_STEP"
+    ],
+    "terminal_continuation": "R9D_TIMESTAMPED_RESTART_CONTINUATION",
+    "verifying_branches": [
+      "ELIGIBLE_COMPLETION",
+      "CONTINUE_TO_VERIFYING_LAST"
+    ],
+    "verifying_last_branch": "ELIGIBLE_COMPLETION_REQUIRED_BY_DIAGNOSTIC_LIVENESS"
+  },
+  "gates": {
+    "continuous_action_interval_certificate": false,
+    "deployment_protocol_certified": false,
+    "full_augmented_gfp_solved": false,
+    "general_propagator_regression": true,
+    "matched_adopted_information": true,
+    "matched_chi_carry_invariance": true,
+    "matched_chi_envelope": true,
+    "matched_pending_generation_time": true,
+    "matched_physical_state": true,
+    "only_stage_branching_differs": true,
+    "r9f_upstream_pass": true,
+    "r9f_witness_filter_count": true,
+    "same_scalar_liveness_bound": true
+  },
+  "markov_sufficiency_certified": false,
+  "metrics": {
+    "frozen_progress_sensitive_nodes": 4,
+    "full_action_fragment_more_demanding_tests": 0,
+    "full_action_progress_sensitive_nodes": 4,
+    "full_action_verify_more_demanding_tests": 16,
+    "general_propagator_regression_max_error": 4.440892098500626e-16,
+    "matched_chi_tests": 16,
+    "max_frozen_matched_chi_progress_gap_m": 0.4641350247898499,
+    "max_full_matched_chi_progress_gap_m": 0.4641350247898499,
+    "skipped_domain_tests": 0,
+    "upstream_r9f_robust_full_qdep_nodes": 4
+  },
+  "next_action": "R9H_FULL_SPARSE_AUGMENTED_SERVICE_GFP_PLUS_INTERVAL_ACTION_INNER_OUTER_CERTIFICATES",
+  "schema": "SCV_P3B1_R9G_MATCHED_CHI_BRANCHING_SERVICE_V1",
+  "service_progress_claim_certified": true,
+  "status": "PASS",
+  "timestamp_utc": "20260916T030816Z"
+}

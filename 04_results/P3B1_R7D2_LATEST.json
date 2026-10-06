@@ -1,0 +1,161 @@
+{
+  "branch_stats": [
+    {
+      "R": 1,
+      "best_action_completion_dominant_nodes": 0,
+      "best_action_defer_dominant_nodes": 0,
+      "best_action_equal_branch_nodes": 0,
+      "best_action_index_counts": {},
+      "defer_branch_available": false,
+      "gain_nodes": 42,
+      "gain_nodes_completion_dominant": 0,
+      "gain_nodes_defer_dominant": 0,
+      "gain_nodes_equal_branch": 0,
+      "gain_nodes_with_q_dependence": 0,
+      "profile": "ideal"
+    },
+    {
+      "R": 2,
+      "best_action_completion_dominant_nodes": 64222,
+      "best_action_defer_dominant_nodes": 6007,
+      "best_action_equal_branch_nodes": 73096,
+      "best_action_index_counts": {
+        "0": 143325,
+        "1": 0,
+        "2": 0
+      },
+      "defer_branch_available": true,
+      "gain_nodes": 42,
+      "gain_nodes_completion_dominant": 3,
+      "gain_nodes_defer_dominant": 0,
+      "gain_nodes_equal_branch": 39,
+      "gain_nodes_with_q_dependence": 0,
+      "profile": "diagnostic_fast"
+    },
+    {
+      "R": 5,
+      "best_action_completion_dominant_nodes": 64222,
+      "best_action_defer_dominant_nodes": 6007,
+      "best_action_equal_branch_nodes": 73096,
+      "best_action_index_counts": {
+        "0": 143325,
+        "1": 0,
+        "2": 0
+      },
+      "defer_branch_available": true,
+      "gain_nodes": 42,
+      "gain_nodes_completion_dominant": 3,
+      "gain_nodes_defer_dominant": 0,
+      "gain_nodes_equal_branch": 39,
+      "gain_nodes_with_q_dependence": 0,
+      "profile": "diagnostic_nominal"
+    },
+    {
+      "R": 10,
+      "best_action_completion_dominant_nodes": 64222,
+      "best_action_defer_dominant_nodes": 6007,
+      "best_action_equal_branch_nodes": 73096,
+      "best_action_index_counts": {
+        "0": 143325,
+        "1": 0,
+        "2": 0
+      },
+      "defer_branch_available": true,
+      "gain_nodes": 42,
+      "gain_nodes_completion_dominant": 3,
+      "gain_nodes_defer_dominant": 0,
+      "gain_nodes_equal_branch": 39,
+      "gain_nodes_with_q_dependence": 0,
+      "profile": "diagnostic_stressed"
+    }
+  ],
+  "checks": {
+    "COOPERATIVE_GAIN_REPRODUCED": true,
+    "FINAL_PROFILE_COLLAPSE_REPRODUCED": true,
+    "HALO_COVERAGE": true,
+    "PROFILE_AUDIT_COMPLETE": true
+  },
+  "classification": "service-recursion diagnostic; no kernel certification claim",
+  "interpretation": "Q_SLICES_COLLAPSE_WITHIN_EACH_PROFILE",
+  "profile_pair_differences": [
+    {
+      "different_nodes": 0,
+      "left": "ideal",
+      "max_abs_difference_m": 0.0,
+      "mean_abs_difference_m": 0.0,
+      "right": "diagnostic_fast"
+    },
+    {
+      "different_nodes": 0,
+      "left": "diagnostic_fast",
+      "max_abs_difference_m": 0.0,
+      "mean_abs_difference_m": 0.0,
+      "right": "diagnostic_nominal"
+    },
+    {
+      "different_nodes": 0,
+      "left": "diagnostic_nominal",
+      "max_abs_difference_m": 0.0,
+      "mean_abs_difference_m": 0.0,
+      "right": "diagnostic_stressed"
+    },
+    {
+      "different_nodes": 0,
+      "left": "ideal",
+      "max_abs_difference_m": 0.0,
+      "mean_abs_difference_m": 0.0,
+      "right": "diagnostic_stressed"
+    }
+  ],
+  "q_slice_stats": [
+    {
+      "R": 1,
+      "adjacent_difference_max_m": 0.0,
+      "adjacent_difference_nodes_total": 0,
+      "nodes_with_q_dependence": 0,
+      "profile": "ideal",
+      "q_dependence_fraction": 0.0,
+      "q_range_max_m": 0.0,
+      "q_range_mean_m": 0.0,
+      "q_range_p95_positive_m": 0.0
+    },
+    {
+      "R": 2,
+      "adjacent_difference_max_m": 0.0,
+      "adjacent_difference_nodes_total": 0,
+      "nodes_with_q_dependence": 0,
+      "profile": "diagnostic_fast",
+      "q_dependence_fraction": 0.0,
+      "q_range_max_m": 0.0,
+      "q_range_mean_m": 0.0,
+      "q_range_p95_positive_m": 0.0
+    },
+    {
+      "R": 5,
+      "adjacent_difference_max_m": 0.0,
+      "adjacent_difference_nodes_total": 0,
+      "nodes_with_q_dependence": 0,
+      "profile": "diagnostic_nominal",
+      "q_dependence_fraction": 0.0,
+      "q_range_max_m": 0.0,
+      "q_range_mean_m": 0.0,
+      "q_range_p95_positive_m": 0.0
+    },
+    {
+      "R": 10,
+      "adjacent_difference_max_m": 0.0,
+      "adjacent_difference_nodes_total": 0,
+      "nodes_with_q_dependence": 0,
+      "profile": "diagnostic_stressed",
+      "q_dependence_fraction": 0.0,
+      "q_range_max_m": 0.0,
+      "q_range_mean_m": 0.0,
+      "q_range_p95_positive_m": 0.0
+    }
+  ],
+  "recommended_next_step": "REPLACE_DIAGNOSTIC_PROFILE_HORIZON_WITH_EXPLICIT_Q_AUTOMATON",
+  "schema": "SCV_P3B1_R7D2_SERVICE_RECURSION_AUDIT_V1",
+  "scientific_kernel_claim_authorized": false,
+  "status": "PASS",
+  "timestamp_utc": "20260914T131212Z"
+}

@@ -1,0 +1,75 @@
+{
+  "aggregate": {
+    "all_profiles_center_kernel_positive_occurrences": 16,
+    "center_not_reproduced_occurrences": 0,
+    "completion_invalid": 0,
+    "defer_invalid": 0,
+    "duplicate_occurrence_collapse_count": 0,
+    "expected_stage1_kernel_positive_occurrences": 16,
+    "isolated_occurrences": 0,
+    "localized_stage1_kernel_positive_occurrences": 16,
+    "machine_ulp_sensitive_occurrences": 0,
+    "minimum_positive_center_kernel_multiple_of_tol": 18806169.833736062,
+    "one_sided_boundary_occurrences": 0,
+    "open_neighborhood_occurrences": 16,
+    "unique_machine_ulp_sensitive_witnesses": 0,
+    "unique_one_sided_boundary_witnesses": 0,
+    "unique_open_neighborhood_witnesses": 16,
+    "unique_physical_kernel_sample_coordinates": 16
+  },
+  "artifacts": {
+    "latest_json": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6C_LATEST.json",
+    "local_stress_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6C_LOCAL_PERSISTENCE_ULP_20260914T135806Z.csv",
+    "manifest": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6C_MANIFEST_20260914T135806Z.sha256",
+    "occurrence_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6C_KERNEL_OCCURRENCES_20260914T135806Z.csv",
+    "result_json": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6C_KERNEL_WITNESS_AUDIT_20260914T135806Z.json",
+    "unique_witness_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6C_UNIQUE_KERNEL_WITNESSES_20260914T135806Z.csv"
+  },
+  "claims": {
+    "continuous_domain_global_claim_authorized": false,
+    "implementation_refinement_claim_authorized": false,
+    "maximal_kernel_claim_authorized": false,
+    "operator_level_refined_fixed_point_recompute_candidate": true,
+    "reason": "D6C can justify a refined fixed-point recomputation only. A q-dependent kernel claim requires re-solving the frozen-halo fixed point on a refined lookup/evaluation grid and re-establishing fallback inclusion, service dominance, replay, and refinement gates.",
+    "refined_fixed_point_kernel_claim_authorized": false,
+    "scientific_kernel_claim_authorized": false
+  },
+  "classification": "operator-level localization and local persistence audit of R7-D6B q-dependent kernel-component sample occurrences; not a refined fixed point, maximal kernel, continuous-domain proof, or implementation-refinement result",
+  "classification_counts": {
+    "OPEN_NEIGHBORHOOD_KERNEL_WITNESS_CANDIDATE": 16
+  },
+  "integrity_checks": {
+    "D4_UPSTREAM_PASS": true,
+    "D5_UPSTREAM_PASS": true,
+    "D6B_KERNEL_INTERPRETATION_MATCH": true,
+    "D6B_UPSTREAM_PASS": true,
+    "D6_UPSTREAM_PASS": true,
+    "STAGE1_KERNEL_OCCURRENCE_COUNT_REPRODUCED": true,
+    "TRANSITION_COVERAGE_COMPLETE": true,
+    "UNIQUE_COORDINATE_SET_NONEMPTY": true
+  },
+  "interpretation": "Q_DEPENDENT_KERNEL_COMPONENT_HAS_ULP_STABLE_OPEN_NEIGHBORHOOD_OPERATOR_WITNESSES",
+  "protocol": {
+    "claim_calibration": {
+      "continuous_domain_global_claim_authorized": false,
+      "implementation_refinement_claim_authorized": false,
+      "maximal_kernel_claim_authorized": false,
+      "scientific_kernel_claim_authorized": false
+    },
+    "coordinate_dedup_tolerance": 1e-12,
+    "description": "Localization, physical-coordinate deduplication, dyadic local-persistence replay, and machine-ULP stress for the kernel-positive sample occurrences revealed by R7-D6B Stage 1. This is an operator-level witness audit, not a refined fixed-point or maximal-kernel claim.",
+    "local_dyadic_offsets_t": [
+      0.0009765625,
+      0.000244140625,
+      6.103515625e-05
+    ],
+    "minimum_center_kernel_multiple_of_tolerance": 1000.0,
+    "numeric_tolerance_m": 1e-10,
+    "schema": "SCV_P3B1_R7D6C_KERNEL_WITNESS_PROTOCOL_V1",
+    "stage1_subdivisions": 32
+  },
+  "recommended_next_step": "RUN_P3B1_R7D7_REFINED_FIXED_POINT_KERNEL_RECOMPUTATION",
+  "schema": "SCV_P3B1_R7D6C_KERNEL_WITNESS_LOCALIZATION_V1",
+  "status": "PASS",
+  "timestamp_utc": "20260914T135806Z"
+}

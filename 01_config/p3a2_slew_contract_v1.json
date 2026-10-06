@@ -1,0 +1,34 @@
+{
+  "schema": "SCV_P3A2_SLEW_CONTRACT_V1",
+  "status": "PROVISIONAL_SLEW_SENSITIVITY_NOT_FINAL_PHYSICAL_PARAMETER",
+
+  "random_seed": 20260914,
+
+  "slew_contract": {
+    "candidate_slew_rate": 6.0,
+    "sensitivity_rates": [2.0, 4.0, 6.0, 8.0, 10.0, 15.0, 20.0]
+  },
+
+  "grid": {
+    "age_max_seconds": 2.0,
+    "age_points": 201,
+
+    "audit_age_points": 61,
+    "bar_u_points": 51,
+
+    "selected_bar_u": [-8.0, -4.0, 0.0, 3.0],
+
+    "summary_ages": [0.1, 0.2, 0.5, 1.0, 2.0]
+  },
+
+  "validation": {
+    "random_piecewise_trials": 3000,
+    "segments_per_trial": 24,
+
+    "ivp_extremal_trials": 128,
+
+    "containment_tolerance": 1e-10,
+    "ivp_tolerance": 2e-10,
+    "nesting_tolerance": 1e-11
+  }
+}

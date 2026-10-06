@@ -1,0 +1,5 @@
+profile,R,nodes_with_q_dependence,q_dependence_fraction,q_range_mean_m,q_range_p95_positive_m,q_range_max_m,adjacent_difference_nodes_total,adjacent_difference_max_m
+ideal,1,0,0.0,0.0,0.0,0.0,0,0.0
+diagnostic_fast,2,0,0.0,0.0,0.0,0.0,0,0.0
+diagnostic_nominal,5,0,0.0,0.0,0.0,0.0,0,0.0
+diagnostic_stressed,10,0,0.0,0.0,0.0,0.0,0,0.0

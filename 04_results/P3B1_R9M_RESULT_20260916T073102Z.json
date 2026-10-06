@@ -1,0 +1,52 @@
+{
+  "artifacts": {
+    "conditional_lemma_tex": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9M_VALUE_NONDominance_LEMMA_20260916T073102Z.tex",
+    "value_witness_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9M_VALUE_WITNESSES_20260916T073102Z.csv"
+  },
+  "classification": "PAIR_SUCCESSOR_IMAGE_AVOIDS_ALL_GLOBAL_LAST_STAGE_VALUE_DIFFERENCE",
+  "continuous_state_separation_certified": false,
+  "continuous_value_nondominance_theorem_certified": false,
+  "gates": {
+    "continuous_action_value_nondominance_theorem_certified": false,
+    "continuous_state_separation_certified": false,
+    "deployment_protocol_certified": false,
+    "material_global_last_stage_value_difference": true,
+    "point_action_value_nondominance_necessity_audit": true,
+    "upstream_r9k_full_gfp_collapsed": true,
+    "upstream_r9l_forced_adopt_still_collapsed": true
+  },
+  "metrics": {
+    "actual_full_gfp_pair_gap_m": 0.0,
+    "actual_requirement_control_min_difference_nodes": 0,
+    "bellman_requirement_difference_nodes": 0,
+    "bellman_requirement_difference_tests": 0,
+    "common_nodes": 810810,
+    "continuation_active_tests": 11046658,
+    "continuation_difference_nodes": 0,
+    "continuation_difference_tests": 0,
+    "continuation_only_control_min_difference_nodes": 0,
+    "global_last_stage_gap_m": 0.20676080345072378,
+    "max_activation_deficit_m": 0.0,
+    "max_actual_requirement_control_min_gap_m": 0.0,
+    "max_continuation_gap_m": 0.0,
+    "max_continuation_only_control_min_gap_m": 0.0,
+    "max_reachable_future_value_gap_m": 0.0,
+    "mean_activation_deficit_m": 0.0,
+    "min_activation_deficit_m": 0.0,
+    "point_action_count": 18,
+    "point_action_width": 0.5,
+    "reachable_future_value_difference_nodes": 0,
+    "reachable_future_value_difference_tests": 0,
+    "step_dominates_both_tests": 3547922,
+    "step_loss_erasure_nodes": 0,
+    "step_loss_erasure_tests": 0,
+    "total_state_action_tests": 14594580,
+    "zero_clip_erasure_nodes": 0,
+    "zero_clip_erasure_tests": 0
+  },
+  "next_action": "R9N_SCREEN_SERVICE_PAIRS_ON_REACHABLE_SUCCESSOR_VALUE_IMAGE_BEFORE_ANY_NEW_GFP",
+  "schema": "SCV_P3B1_R9M_VALUE_NONDOMINANCE_NECESSITY_V1",
+  "status": "PASS",
+  "timestamp_utc": "20260916T073102Z",
+  "trace_nondominance_sufficient_for_gfp_separation": false
+}

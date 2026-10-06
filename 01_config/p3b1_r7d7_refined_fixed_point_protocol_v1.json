@@ -1,0 +1,16 @@
+{
+  "claim_calibration": {
+    "implementation_refinement_claim_authorized": false,
+    "maximal_continuous_kernel_claim_authorized": false,
+    "refined_finite_abstraction_kernel_candidate_only": true,
+    "scientific_kernel_claim_authorized": false
+  },
+  "description": "Axis-grouped tensor refinement that inserts every R7-D6C open-neighborhood kernel witness as an exact evaluation/lookup-grid coordinate and then re-solves the frozen-halo Bellman fixed point. The original grid is used as a zero-q-dependence control. This is a finite-abstraction refined fixed-point audit, not yet a maximal continuous-domain or implementation claim.",
+  "fixed_point_candidate_min_multiple_of_tolerance": 1000.0,
+  "max_eval_grid_nodes_per_axis_scenario": 1200000,
+  "max_lookup_grid_nodes_per_axis_scenario": 2500000,
+  "numeric_tolerance_m": 1e-10,
+  "require_all_d6c_open_witnesses_reproduced": true,
+  "require_all_three_diagnostic_profiles_at_candidate_nodes": true,
+  "schema": "SCV_P3B1_R7D7_REFINED_FIXED_POINT_PROTOCOL_V1"
+}

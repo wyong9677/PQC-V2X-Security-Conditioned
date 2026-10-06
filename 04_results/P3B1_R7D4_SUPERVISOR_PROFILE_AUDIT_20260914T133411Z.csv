@@ -1,0 +1,5 @@
+profile,R,evaluation_nodes,fixed_point_replay_max_error_m,raw_q_dependence_nodes,kernel_q_component_nodes,safe_switch_q_component_nodes,safe_switch_witness_nodes,raw_q_span_max_m,kernel_q_component_max_m,safe_switch_component_max_m,safe_switch_component_mean_positive_m,safe_switch_component_p95_positive_m,q_span_decomposition_max_error_m,witness_component_max_error_m,best_action_q_change_nodes,best_branch_q_change_nodes,gain_nodes_initial_slice,gain_nodes_with_safe_switch_q_component,witness_rows_emitted
+ideal,1,143325,0.0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,42,0,0
+diagnostic_fast,2,143325,0.0,2443,0,2443,2443,0.6700681845816163,0.0,0.6700681845816163,0.22414377375737812,0.48154280932430993,0.0,0.0,0,70229,42,0,128
+diagnostic_nominal,5,143325,0.0,2443,0,2443,2443,0.6700681845816163,0.0,0.6700681845816163,0.22414377375737812,0.48154280932430993,0.0,0.0,0,70229,42,0,128
+diagnostic_stressed,10,143325,0.0,2443,0,2443,2443,0.6700681845816163,0.0,0.6700681845816163,0.22414377375737812,0.48154280932430993,0.0,0.0,0,70229,42,0,128

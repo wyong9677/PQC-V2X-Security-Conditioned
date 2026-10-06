@@ -1,0 +1,115 @@
+{
+  "schema": "PQC_V2X_E5_PROVENANCE_CONTRACT_V1",
+  "experiment": "E5_REAL_PROFILE_NUMERICAL_CLOSURE",
+  "manuscript_mutation": false,
+  "workspace_default": ".",
+  "sampling_period_seconds": 0.1,
+  "max_age_steps": 20,
+  "packetization": {
+    "frame_limit_bytes": 2304,
+    "frame_limit_source": {
+      "kind": "direct_literature_fact",
+      "citation": "Twardokus et al., NDSS 2024, DOI 10.14722/ndss.2024.24267, Fig. 4 and Sec. V-D",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2024-267-paper.pdf"
+    },
+    "mac_frame_overhead_bytes": 40,
+    "spdu_fixed_overhead_bytes": 24,
+    "ecdsa_certificate_bytes": 162,
+    "pure_ecdsa_first_frame_bytes": 330,
+    "tau_messages": 5,
+    "formula_source": {
+      "kind": "direct_literature_fact",
+      "citation": "Twardokus et al., NDSS 2024, Table III and Sec. V-D",
+      "statements": [
+        "certificate size = 30 + |pk| + |sig_pk|",
+        "SPDU size = 24 + |BSM| + |certificate| + |sig_BSM|",
+        "MAC-layer frame size = 40 + |SPDU|",
+        "current certificate-transmission cycle tau = 5"
+      ]
+    },
+    "derived_baseline_bsm_plus_signature_bytes": 104,
+    "derived_fragment_capacity_bytes": 2136,
+    "hybrid_certificate_fixed_prefix_bytes": 30,
+    "hybrid_classical_credential_component_bytes": 162
+  },
+  "pqc_profiles": {
+    "ML_DSA_65": {
+      "display_name": "ML-DSA-65",
+      "liboqs_candidates": [
+        "ML-DSA-65",
+        "ML_DSA_65"
+      ],
+      "public_key_bytes": 1952,
+      "signature_bytes": 3309,
+      "standard": "NIST FIPS 204",
+      "standard_url": "https://csrc.nist.gov/pubs/fips/204/final"
+    },
+    "SLH_DSA_SHA2_192S": {
+      "display_name": "SLH-DSA-SHA2-192s",
+      "liboqs_candidates": [
+        "SLH_DSA_PURE_SHA2_192S",
+        "SLH-DSA-SHA2-192s",
+        "SLH_DSA_SHA2_192S"
+      ],
+      "public_key_bytes": 48,
+      "signature_bytes": 16224,
+      "standard": "NIST FIPS 205",
+      "standard_url": "https://csrc.nist.gov/pubs/fips/205/final"
+    }
+  },
+  "network_contract": {
+    "queue_bound_steps": 1,
+    "consecutive_loss_bound": 1,
+    "kind": "declared_engineering_assumption",
+    "network_bound_measured": false,
+    "deployment_protocol_certified": false
+  },
+  "service_policies": {
+    "strict_tau5": {
+      "description": "Certificate transmission must complete within the five-message cycle; incomplete transport at the cycle boundary produces Timeout and resets the service entry state."
+    },
+    "extended_reassembly": {
+      "description": "Certificate fragmentation may continue across nominal cycles while the same queue/loss bounds remain in force."
+    }
+  },
+  "verification_semantics": {
+    "eligible_valid_message": "Primary conditional profile: the pending candidate is assumed to pass the declared protocol-eligibility checks once verification completes.",
+    "general_verify_outcome": "Stress profile: verification completion may produce either Eligible or Rejected; rejection retains old authenticated information and resets service entry."
+  },
+  "liboqs": {
+    "legacy_expected_version": "0.15.0",
+    "legacy_prefix_default": "~/ResearchTools/openssl_oqs/liboqs-install",
+    "research_expected_version": "0.16.0",
+    "research_prefix_default": "~/ResearchTools/liboqs_versions/install/0.16.0",
+    "research_release_note": "liboqs 0.16.0 integrates mldsa-native as the default ML-DSA implementation; the research installation must remain isolated from the validated 0.15.0 host stack.",
+    "release_url": "https://github.com/open-quantum-safe/liboqs/releases"
+  },
+  "literature_bridge": [
+    {
+      "authors": "Julien Calbert, Antoine Girard, Raphaël M. Jungers",
+      "title": "Characterizing simulation relations through control architectures in abstraction-based control",
+      "venue": "Automatica",
+      "year": 2026,
+      "doi": "10.1016/j.automatica.2026.113040",
+      "role": "Generic simulation/refinement literature; use to position rather than claim invention of simulation relations."
+    },
+    {
+      "authors": "Wei Ren, Dimos V. Dimarogonas",
+      "title": "Symbolic abstractions for nonlinear control systems via feedback refinement relation",
+      "venue": "Automatica",
+      "year": 2020,
+      "doi": "10.1016/j.automatica.2020.108828",
+      "role": "Generic symbolic abstraction and feedback-refinement background."
+    }
+  ],
+  "post_result_manuscript_obligations": {
+    "canonical_quotient": [
+      "Prove future-service equivalence is continuation-compatible (right congruence under admissible service extensions).",
+      "Define the induced quotient transition relation on H_c/~_c and prove representative independence.",
+      "State the minimal quotient as a well-defined service automaton, not only a factorization of representations."
+    ],
+    "related_work": "Explicitly distinguish generic simulation/refinement machinery from the manuscript's authentication-service trace semantics and Bellman-active viability coupling.",
+    "finite_gap_interpretation": "The millimeter-scale finite gap is an existence certificate for state-dependent membership in the declared abstraction, not a deployment-scale spacing margin.",
+    "title_candidate": "Authentication-Service-State-Aware Viability for Post-Quantum V2X Control: Robust Supervision, Service Equivalence, and Certified Fallback"
+  }
+}

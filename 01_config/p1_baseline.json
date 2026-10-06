@@ -1,0 +1,59 @@
+{
+  "schema": "SCV_P1_BASELINE_V1",
+  "status": "PROVISIONAL_ENGINEERING_BASELINE_NOT_FOR_MANUSCRIPT",
+
+  "plant": {
+    "Ts": 0.1,
+    "tau_follower": 0.35,
+    "tau_predecessor": 0.35,
+
+    "u_min": -6.0,
+    "u_max": 2.5,
+
+    "a_min": -8.0,
+    "a_max": 3.0
+  },
+
+  "safety": {
+    "d_min": 2.0,
+    "v_min": 0.0,
+    "v_max": 40.0
+  },
+
+  "uncertainty": {
+    "delta_bar_pred": 3.0,
+    "follower_actuation_abs": 0.20,
+    "local_sensing_abs": 0.05,
+    "abstraction_abs": 0.02
+  },
+
+  "age": {
+    "max_seconds": 2.0
+  },
+
+  "fallback": {
+    "switch_steps": 2
+  },
+
+  "diagnostic_service_profiles": {
+    "ideal": {
+      "eligible_bound_steps": 0,
+      "max_loss_burst": 0
+    },
+
+    "diagnostic_fast": {
+      "eligible_bound_steps": 2,
+      "max_loss_burst": 1
+    },
+
+    "diagnostic_nominal": {
+      "eligible_bound_steps": 5,
+      "max_loss_burst": 2
+    },
+
+    "diagnostic_stressed": {
+      "eligible_bound_steps": 10,
+      "max_loss_burst": 4
+    }
+  }
+}

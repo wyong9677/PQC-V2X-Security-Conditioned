@@ -1,0 +1,4 @@
+file,line,risk_tag,text
+PQC_V2X_Security_Conditioned.tex,184,CONTINUOUS_KERNEL_SEPARATION,viability; continuous-domain maximal-kernel separation and concrete
+PQC_V2X_Security_Conditioned.tex,2466,CONTINUOUS_KERNEL_SEPARATION,continuous-domain maximal kernel. Such a transfer requires independent control
+PQC_V2X_Security_Conditioned.tex,2537,CONTINUOUS_KERNEL_SEPARATION,witnesses to a continuous-domain maximal-kernel separation. The transfer

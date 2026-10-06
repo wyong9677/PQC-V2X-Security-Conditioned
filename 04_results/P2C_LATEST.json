@@ -1,0 +1,143 @@
+{
+  "artifacts": {
+    "convergence_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P2C_TEMPORAL_CONVERGENCE_20260914T112312Z.csv",
+    "convergence_figure": "<PQC_V2X_PROJECT_ROOT>/05_figures/P2C_TEMPORAL_CONVERGENCE_20260914T112312Z.png",
+    "sensitivity_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P2C_SWITCHING_SENSITIVITY_20260914T112312Z.csv",
+    "sensitivity_figure": "<PQC_V2X_PROJECT_ROOT>/05_figures/P2C_SWITCHING_SENSITIVITY_20260914T112312Z.png"
+  },
+  "boundary_replay": {
+    "residual_ambiguity_fraction": 0.25,
+    "resolved_certified_fraction": 0.75,
+    "states_replayed": 4
+  },
+  "checks": {
+    "CERTIFIED_GUARD_NONEMPTY": true,
+    "CERTIFIED_SUBSET_CANDIDATE": true,
+    "QMC_REPLICATE_STABLE": true,
+    "SWITCH_CONTRACT_VALID": true,
+    "SWITCH_DELAY_MONOTONE": true,
+    "SWITCH_GUARD_SUBSET_IMMEDIATE_FALLBACK": true,
+    "TEMPORAL_AMBIGUITY_SMALL": true,
+    "TEMPORAL_BRACKET_ORDERED": true,
+    "TEMPORAL_P95_WIDTH_SMALL": true,
+    "ZERO_SWITCH_REDUCES_TO_P2B": true
+  },
+  "classification": "certified conservative finite-switch fallback guard under explicit switching acceleration contract",
+  "metrics": {
+    "boundary_residual_ambiguity_fraction": 0.25,
+    "boundary_resolved_certified_fraction": 0.75,
+    "boundary_states_replayed": 4,
+    "candidate_guard_fraction_physical": 0.895613354037267,
+    "candidate_guard_volume": 15955024.356079102,
+    "certified_guard_fraction_physical": 0.8954580745341615,
+    "certified_guard_volume": 15952258.108520508,
+    "gap_width_max_m": 0.11414841863323488,
+    "gap_width_mean_m": 0.0349923168535313,
+    "gap_width_p95_m": 0.09925644749866258,
+    "immediate_fallback_fraction": 0.9312888198757764,
+    "immediate_guard_fraction": 0.8954580745341615,
+    "immediate_subset_violations": 0,
+    "immediate_switching_penalty_absolute": 0.0358307453416149,
+    "immediate_switching_penalty_relative": 0.03847436431846602,
+    "physical_fraction_box": 0.7861328125,
+    "physical_volume": 17814634.27734375,
+    "qmc_candidate_mean": 0.8944874614137239,
+    "qmc_candidate_std": 0.000426393574382749,
+    "qmc_certified_mean": 0.8941378531289988,
+    "qmc_certified_std": 0.0005696002613622361,
+    "switch_contract_a_equilibrium_upper": 2.57,
+    "switch_contract_a_required_upper": 3.0,
+    "switch_contract_a_state_max": 3.0,
+    "switch_contract_a_switch_upper": 3.0,
+    "switch_contract_valid": true,
+    "temporal_ambiguity_fraction_physical": 0.00015527950310559007,
+    "zero_switch_classification_difference": 0,
+    "zero_switch_lower_error": 0.0,
+    "zero_switch_upper_error": 0.0
+  },
+  "platform": {
+    "executable": "<USER_HOME>/envs/research/bin/python",
+    "numpy": "2.4.6",
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "system": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "schema": "SCV_P2C_SWITCHING_GUARD_RESULT_V1",
+  "status": "PASS",
+  "switching_sensitivity": [
+    {
+      "N_sw": 0,
+      "ambiguity_fraction": 0.0003109452736318408,
+      "candidate_fraction": 0.9320584577114428,
+      "certified_fraction": 0.931747512437811
+    },
+    {
+      "N_sw": 1,
+      "ambiguity_fraction": 0.0004664179104477612,
+      "candidate_fraction": 0.9085820895522388,
+      "certified_fraction": 0.9081156716417911
+    },
+    {
+      "N_sw": 2,
+      "ambiguity_fraction": 0.0003109452736318408,
+      "candidate_fraction": 0.8976990049751243,
+      "certified_fraction": 0.8973880597014925
+    },
+    {
+      "N_sw": 3,
+      "ambiguity_fraction": 0.000777363184079602,
+      "candidate_fraction": 0.882929104477612,
+      "certified_fraction": 0.8821517412935324
+    },
+    {
+      "N_sw": 4,
+      "ambiguity_fraction": 0.0003109452736318408,
+      "candidate_fraction": 0.8714241293532339,
+      "certified_fraction": 0.871113184079602
+    },
+    {
+      "N_sw": 5,
+      "ambiguity_fraction": 0.0,
+      "candidate_fraction": 0.8592972636815921,
+      "certified_fraction": 0.8592972636815921
+    }
+  ],
+  "temporal_convergence": [
+    {
+      "ambiguity_fraction": 0.0013198757763975156,
+      "candidate_fraction": 0.895613354037267,
+      "certified_fraction": 0.8942934782608696,
+      "resolution": 129,
+      "width_max_m": 0.9131873490659075,
+      "width_mean_m": 0.2803051551392455,
+      "width_p95_m": 0.7940515799893205
+    },
+    {
+      "ambiguity_fraction": 0.0006987577639751553,
+      "candidate_fraction": 0.895613354037267,
+      "certified_fraction": 0.894914596273292,
+      "resolution": 257,
+      "width_max_m": 0.45659367453295374,
+      "width_mean_m": 0.14005052254225184,
+      "width_p95_m": 0.3970257899946567
+    },
+    {
+      "ambiguity_fraction": 0.00034937888198757766,
+      "candidate_fraction": 0.895613354037267,
+      "certified_fraction": 0.8952639751552796,
+      "resolution": 513,
+      "width_max_m": 0.22829683726646977,
+      "width_mean_m": 0.06999870575006721,
+      "width_p95_m": 0.1985128949973319
+    },
+    {
+      "ambiguity_fraction": 0.00015527950310559007,
+      "candidate_fraction": 0.895613354037267,
+      "certified_fraction": 0.8954580745341615,
+      "resolution": 1025,
+      "width_max_m": 0.11414841863323488,
+      "width_mean_m": 0.0349923168535313,
+      "width_p95_m": 0.09925644749866258
+    }
+  ],
+  "timestamp_utc": "20260914T112312Z"
+}

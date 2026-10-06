@@ -1,0 +1,114 @@
+{
+  "comparison_pair": [
+    "FRAGMENT_CARRY",
+    "CREDENTIAL_DECISION"
+  ],
+  "contract_type": "DECLARED_DIAGNOSTIC_NOT_DEPLOYMENT",
+  "deployment_certified": false,
+  "edges": [
+    {
+      "candidate_update": "preserve",
+      "dst": "FRAGMENT_CARRY",
+      "event": "fragment_path_realized",
+      "evidence_class": "DECLARED_DIAGNOSTIC_EDGE",
+      "outcome": "NoOutput",
+      "src": "SAME_CANDIDATE_ENTRY"
+    },
+    {
+      "candidate_update": "preserve",
+      "dst": "CREDENTIAL_DECISION",
+      "event": "credential_path_realized",
+      "evidence_class": "DECLARED_DIAGNOSTIC_EDGE",
+      "outcome": "NoOutput",
+      "src": "SAME_CANDIDATE_ENTRY"
+    },
+    {
+      "candidate_update": "preserve",
+      "dst": "VERIFY_OLD_LAST",
+      "event": "remaining_fragment_delivered",
+      "evidence_class": "MANUSCRIPT_CONCEPTUAL_SEMANTIC",
+      "outcome": "NoOutput",
+      "src": "FRAGMENT_CARRY"
+    },
+    {
+      "candidate_update": "terminate",
+      "dst": "POST_TERMINATION_ENTRY",
+      "event": "verification_completes",
+      "evidence_class": "DECLARED_DIAGNOSTIC_EDGE",
+      "outcome": "Eligible",
+      "src": "VERIFY_OLD_LAST"
+    },
+    {
+      "candidate_update": "terminate_and_replace",
+      "dst": "VERIFY_REPLACEMENT_LAST",
+      "event": "credential_or_protocol_rejects_then_replacement_generated",
+      "evidence_class": "DECLARED_DIAGNOSTIC_EDGE_USING_MANUSCRIPT_PERMITTED_REJECTION_REPLACEMENT",
+      "outcome": "Rejected",
+      "src": "CREDENTIAL_DECISION"
+    },
+    {
+      "candidate_update": "terminate",
+      "dst": "POST_TERMINATION_ENTRY",
+      "event": "replacement_verification_completes",
+      "evidence_class": "DECLARED_DIAGNOSTIC_EDGE",
+      "outcome": "Eligible",
+      "src": "VERIFY_REPLACEMENT_LAST"
+    },
+    {
+      "candidate_update": "new_candidate",
+      "dst": "SAME_CANDIDATE_ENTRY",
+      "event": "new_cycle_candidate_available",
+      "evidence_class": "DECLARED_DIAGNOSTIC_RESTART_EDGE",
+      "outcome": "NoOutput",
+      "src": "POST_TERMINATION_ENTRY"
+    }
+  ],
+  "profile_basis": "diagnostic_fast_two_step_liveness",
+  "schema": "SCV_R9J_DECLARED_DIAGNOSTIC_SERVICE_CONTRACT_V2",
+  "scientific_boundary": [
+    "This contract is an explicit mathematical diagnostic instantiation of service mechanisms already admitted by the manuscript.",
+    "It is not asserted to be a measured ML-DSA/SLH-DSA or production V2X deployment.",
+    "Rejection/replacement are used because the manuscript explicitly permits them in q and R_c; they are not presented as observed frequencies.",
+    "Any positive continuous result obtained from this contract remains diagnostic-contract conditioned unless mapped to deployment evidence."
+  ],
+  "screening_horizon": 4,
+  "states": {
+    "CREDENTIAL_DECISION": {
+      "liveness_bound": 2,
+      "matched_current_chi": true,
+      "meaning": "Same current candidate enters a credential/eligibility decision; rejection may terminate it and invoke replacement.",
+      "stage": "Verifying"
+    },
+    "FRAGMENT_CARRY": {
+      "liveness_bound": 2,
+      "matched_current_chi": true,
+      "meaning": "One fragment remains; current candidate and generation time are preserved.",
+      "stage": "Fragmented"
+    },
+    "POST_TERMINATION_ENTRY": {
+      "liveness_bound": 3,
+      "matched_current_chi": false,
+      "meaning": "Post-output restart state; future candidate cycle restarts.",
+      "stage": "Idle"
+    },
+    "SAME_CANDIDATE_ENTRY": {
+      "liveness_bound": 3,
+      "matched_current_chi": true,
+      "meaning": "Common-history predecessor holding the same pending message/generation time before the service fork.",
+      "stage": "Received"
+    },
+    "VERIFY_OLD_LAST": {
+      "liveness_bound": 1,
+      "matched_current_chi": true,
+      "meaning": "Last verification interval for the original candidate.",
+      "stage": "Verifying"
+    },
+    "VERIFY_REPLACEMENT_LAST": {
+      "liveness_bound": 1,
+      "matched_current_chi": false,
+      "meaning": "Last verification interval for a newly generated replacement candidate.",
+      "stage": "Verifying"
+    }
+  },
+  "status": "DECLARED_DIAGNOSTIC_CONTRACT_FOR_THEOREM_FALSIFICATION_NOT_DEPLOYMENT_DATA"
+}

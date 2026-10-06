@@ -1,0 +1,3370 @@
+{
+  "initial_state": {
+    "age_steps": 0,
+    "fragments_remaining": 8,
+    "loss_streak": 0,
+    "queue_remaining": 1,
+    "stage": "QUEUE",
+    "tx_opportunities_used": 0
+  },
+  "profile_id": "SLH_DSA_SHA2_192S_NDSS_PARTIALLY_HYBRID",
+  "schema": "PQC_V2X_FINITE_SERVICE_AUTOMATON_V1",
+  "semantics": {
+    "cross_cycle_reassembly": true,
+    "eligible_liveness_condition": "VALID_CANDIDATE_AND_ACCEPT_BRANCH_WITHIN_DECLARED_BOUNDED_QUEUE_LOSS_CONTRACT",
+    "loss_beyond_declared_burst_is_outside_contract": true,
+    "rejection_is_counted_as_eligible_success": false,
+    "rejection_is_represented": true
+  },
+  "state_count": 100,
+  "states": [
+    {
+      "age_steps": 10,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "ELIGIBLE",
+      "tx_opportunities_used": 8
+    },
+    {
+      "age_steps": 11,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "ELIGIBLE",
+      "tx_opportunities_used": 9
+    },
+    {
+      "age_steps": 12,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "ELIGIBLE",
+      "tx_opportunities_used": 10
+    },
+    {
+      "age_steps": 13,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "ELIGIBLE",
+      "tx_opportunities_used": 11
+    },
+    {
+      "age_steps": 14,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "ELIGIBLE",
+      "tx_opportunities_used": 12
+    },
+    {
+      "age_steps": 15,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "ELIGIBLE",
+      "tx_opportunities_used": 13
+    },
+    {
+      "age_steps": 16,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "ELIGIBLE",
+      "tx_opportunities_used": 14
+    },
+    {
+      "age_steps": 17,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "ELIGIBLE",
+      "tx_opportunities_used": 15
+    },
+    {
+      "age_steps": 18,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "ELIGIBLE",
+      "tx_opportunities_used": 16
+    },
+    {
+      "age_steps": 0,
+      "fragments_remaining": 8,
+      "loss_streak": 0,
+      "queue_remaining": 1,
+      "stage": "QUEUE",
+      "tx_opportunities_used": 0
+    },
+    {
+      "age_steps": 10,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "REJECTED",
+      "tx_opportunities_used": 8
+    },
+    {
+      "age_steps": 11,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "REJECTED",
+      "tx_opportunities_used": 9
+    },
+    {
+      "age_steps": 12,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "REJECTED",
+      "tx_opportunities_used": 10
+    },
+    {
+      "age_steps": 13,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "REJECTED",
+      "tx_opportunities_used": 11
+    },
+    {
+      "age_steps": 14,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "REJECTED",
+      "tx_opportunities_used": 12
+    },
+    {
+      "age_steps": 15,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "REJECTED",
+      "tx_opportunities_used": 13
+    },
+    {
+      "age_steps": 16,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "REJECTED",
+      "tx_opportunities_used": 14
+    },
+    {
+      "age_steps": 17,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "REJECTED",
+      "tx_opportunities_used": 15
+    },
+    {
+      "age_steps": 18,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "REJECTED",
+      "tx_opportunities_used": 16
+    },
+    {
+      "age_steps": 8,
+      "fragments_remaining": 1,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 7
+    },
+    {
+      "age_steps": 9,
+      "fragments_remaining": 1,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 8
+    },
+    {
+      "age_steps": 10,
+      "fragments_remaining": 1,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 9
+    },
+    {
+      "age_steps": 11,
+      "fragments_remaining": 1,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 10
+    },
+    {
+      "age_steps": 12,
+      "fragments_remaining": 1,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 11
+    },
+    {
+      "age_steps": 13,
+      "fragments_remaining": 1,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 12
+    },
+    {
+      "age_steps": 14,
+      "fragments_remaining": 1,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 13
+    },
+    {
+      "age_steps": 15,
+      "fragments_remaining": 1,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 14
+    },
+    {
+      "age_steps": 9,
+      "fragments_remaining": 1,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 8
+    },
+    {
+      "age_steps": 10,
+      "fragments_remaining": 1,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 9
+    },
+    {
+      "age_steps": 11,
+      "fragments_remaining": 1,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 10
+    },
+    {
+      "age_steps": 12,
+      "fragments_remaining": 1,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 11
+    },
+    {
+      "age_steps": 13,
+      "fragments_remaining": 1,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 12
+    },
+    {
+      "age_steps": 14,
+      "fragments_remaining": 1,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 13
+    },
+    {
+      "age_steps": 15,
+      "fragments_remaining": 1,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 14
+    },
+    {
+      "age_steps": 16,
+      "fragments_remaining": 1,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 15
+    },
+    {
+      "age_steps": 7,
+      "fragments_remaining": 2,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 6
+    },
+    {
+      "age_steps": 8,
+      "fragments_remaining": 2,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 7
+    },
+    {
+      "age_steps": 9,
+      "fragments_remaining": 2,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 8
+    },
+    {
+      "age_steps": 10,
+      "fragments_remaining": 2,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 9
+    },
+    {
+      "age_steps": 11,
+      "fragments_remaining": 2,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 10
+    },
+    {
+      "age_steps": 12,
+      "fragments_remaining": 2,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 11
+    },
+    {
+      "age_steps": 13,
+      "fragments_remaining": 2,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 12
+    },
+    {
+      "age_steps": 8,
+      "fragments_remaining": 2,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 7
+    },
+    {
+      "age_steps": 9,
+      "fragments_remaining": 2,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 8
+    },
+    {
+      "age_steps": 10,
+      "fragments_remaining": 2,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 9
+    },
+    {
+      "age_steps": 11,
+      "fragments_remaining": 2,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 10
+    },
+    {
+      "age_steps": 12,
+      "fragments_remaining": 2,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 11
+    },
+    {
+      "age_steps": 13,
+      "fragments_remaining": 2,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 12
+    },
+    {
+      "age_steps": 14,
+      "fragments_remaining": 2,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 13
+    },
+    {
+      "age_steps": 6,
+      "fragments_remaining": 3,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 5
+    },
+    {
+      "age_steps": 7,
+      "fragments_remaining": 3,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 6
+    },
+    {
+      "age_steps": 8,
+      "fragments_remaining": 3,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 7
+    },
+    {
+      "age_steps": 9,
+      "fragments_remaining": 3,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 8
+    },
+    {
+      "age_steps": 10,
+      "fragments_remaining": 3,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 9
+    },
+    {
+      "age_steps": 11,
+      "fragments_remaining": 3,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 10
+    },
+    {
+      "age_steps": 7,
+      "fragments_remaining": 3,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 6
+    },
+    {
+      "age_steps": 8,
+      "fragments_remaining": 3,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 7
+    },
+    {
+      "age_steps": 9,
+      "fragments_remaining": 3,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 8
+    },
+    {
+      "age_steps": 10,
+      "fragments_remaining": 3,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 9
+    },
+    {
+      "age_steps": 11,
+      "fragments_remaining": 3,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 10
+    },
+    {
+      "age_steps": 12,
+      "fragments_remaining": 3,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 11
+    },
+    {
+      "age_steps": 5,
+      "fragments_remaining": 4,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 4
+    },
+    {
+      "age_steps": 6,
+      "fragments_remaining": 4,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 5
+    },
+    {
+      "age_steps": 7,
+      "fragments_remaining": 4,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 6
+    },
+    {
+      "age_steps": 8,
+      "fragments_remaining": 4,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 7
+    },
+    {
+      "age_steps": 9,
+      "fragments_remaining": 4,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 8
+    },
+    {
+      "age_steps": 6,
+      "fragments_remaining": 4,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 5
+    },
+    {
+      "age_steps": 7,
+      "fragments_remaining": 4,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 6
+    },
+    {
+      "age_steps": 8,
+      "fragments_remaining": 4,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 7
+    },
+    {
+      "age_steps": 9,
+      "fragments_remaining": 4,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 8
+    },
+    {
+      "age_steps": 10,
+      "fragments_remaining": 4,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 9
+    },
+    {
+      "age_steps": 4,
+      "fragments_remaining": 5,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 3
+    },
+    {
+      "age_steps": 5,
+      "fragments_remaining": 5,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 4
+    },
+    {
+      "age_steps": 6,
+      "fragments_remaining": 5,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 5
+    },
+    {
+      "age_steps": 7,
+      "fragments_remaining": 5,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 6
+    },
+    {
+      "age_steps": 5,
+      "fragments_remaining": 5,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 4
+    },
+    {
+      "age_steps": 6,
+      "fragments_remaining": 5,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 5
+    },
+    {
+      "age_steps": 7,
+      "fragments_remaining": 5,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 6
+    },
+    {
+      "age_steps": 8,
+      "fragments_remaining": 5,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 7
+    },
+    {
+      "age_steps": 3,
+      "fragments_remaining": 6,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 2
+    },
+    {
+      "age_steps": 4,
+      "fragments_remaining": 6,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 3
+    },
+    {
+      "age_steps": 5,
+      "fragments_remaining": 6,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 4
+    },
+    {
+      "age_steps": 4,
+      "fragments_remaining": 6,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 3
+    },
+    {
+      "age_steps": 5,
+      "fragments_remaining": 6,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 4
+    },
+    {
+      "age_steps": 6,
+      "fragments_remaining": 6,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 5
+    },
+    {
+      "age_steps": 2,
+      "fragments_remaining": 7,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 1
+    },
+    {
+      "age_steps": 3,
+      "fragments_remaining": 7,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 2
+    },
+    {
+      "age_steps": 3,
+      "fragments_remaining": 7,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 2
+    },
+    {
+      "age_steps": 4,
+      "fragments_remaining": 7,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 3
+    },
+    {
+      "age_steps": 1,
+      "fragments_remaining": 8,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 0
+    },
+    {
+      "age_steps": 2,
+      "fragments_remaining": 8,
+      "loss_streak": 1,
+      "queue_remaining": 0,
+      "stage": "TX_FRAGMENT",
+      "tx_opportunities_used": 1
+    },
+    {
+      "age_steps": 9,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "VERIFYING",
+      "tx_opportunities_used": 8
+    },
+    {
+      "age_steps": 10,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "VERIFYING",
+      "tx_opportunities_used": 9
+    },
+    {
+      "age_steps": 11,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "VERIFYING",
+      "tx_opportunities_used": 10
+    },
+    {
+      "age_steps": 12,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "VERIFYING",
+      "tx_opportunities_used": 11
+    },
+    {
+      "age_steps": 13,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "VERIFYING",
+      "tx_opportunities_used": 12
+    },
+    {
+      "age_steps": 14,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "VERIFYING",
+      "tx_opportunities_used": 13
+    },
+    {
+      "age_steps": 15,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "VERIFYING",
+      "tx_opportunities_used": 14
+    },
+    {
+      "age_steps": 16,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "VERIFYING",
+      "tx_opportunities_used": 15
+    },
+    {
+      "age_steps": 17,
+      "fragments_remaining": 0,
+      "loss_streak": 0,
+      "queue_remaining": 0,
+      "stage": "VERIFYING",
+      "tx_opportunities_used": 16
+    }
+  ],
+  "terminal_counts": {
+    "ELIGIBLE": 9,
+    "REJECTED": 9,
+    "TIMEOUT": 0
+  },
+  "transition_count": 127,
+  "transitions": [
+    {
+      "event": "QUEUE_ADVANCE",
+      "from": {
+        "age_steps": 0,
+        "fragments_remaining": 8,
+        "loss_streak": 0,
+        "queue_remaining": 1,
+        "stage": "QUEUE",
+        "tx_opportunities_used": 0
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 1,
+        "fragments_remaining": 8,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 0
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 1,
+        "fragments_remaining": 8,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 0
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 2,
+        "fragments_remaining": 7,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 1
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 1,
+        "fragments_remaining": 8,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 0
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 2,
+        "fragments_remaining": 8,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 1
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 2,
+        "fragments_remaining": 7,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 1
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 3,
+        "fragments_remaining": 6,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 2
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 2,
+        "fragments_remaining": 7,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 1
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 3,
+        "fragments_remaining": 7,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 2
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 2,
+        "fragments_remaining": 8,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 1
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 3,
+        "fragments_remaining": 7,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 2
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 3,
+        "fragments_remaining": 6,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 2
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 4,
+        "fragments_remaining": 5,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 3
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 3,
+        "fragments_remaining": 6,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 2
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 4,
+        "fragments_remaining": 6,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 3
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 3,
+        "fragments_remaining": 7,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 2
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 4,
+        "fragments_remaining": 6,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 3
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 3,
+        "fragments_remaining": 7,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 2
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 4,
+        "fragments_remaining": 6,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 3
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 3,
+        "fragments_remaining": 7,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 2
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 4,
+        "fragments_remaining": 7,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 3
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 4,
+        "fragments_remaining": 5,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 3
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 5,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 4
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 4,
+        "fragments_remaining": 5,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 3
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 5,
+        "fragments_remaining": 5,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 4
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 4,
+        "fragments_remaining": 6,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 3
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 5,
+        "fragments_remaining": 5,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 4
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 4,
+        "fragments_remaining": 6,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 3
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 5,
+        "fragments_remaining": 5,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 4
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 4,
+        "fragments_remaining": 6,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 3
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 5,
+        "fragments_remaining": 6,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 4
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 4,
+        "fragments_remaining": 7,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 3
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 5,
+        "fragments_remaining": 6,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 4
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 5,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 4
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 6,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 5,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 4
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 6,
+        "fragments_remaining": 4,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 5,
+        "fragments_remaining": 5,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 4
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 6,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 5,
+        "fragments_remaining": 5,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 4
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 6,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 5,
+        "fragments_remaining": 5,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 4
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 6,
+        "fragments_remaining": 5,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 5,
+        "fragments_remaining": 6,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 4
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 6,
+        "fragments_remaining": 5,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 5,
+        "fragments_remaining": 6,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 4
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 6,
+        "fragments_remaining": 5,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 5,
+        "fragments_remaining": 6,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 4
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 6,
+        "fragments_remaining": 6,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 6,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 7,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 6,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 7,
+        "fragments_remaining": 3,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 6,
+        "fragments_remaining": 4,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 7,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 6,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 7,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 6,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 7,
+        "fragments_remaining": 4,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 6,
+        "fragments_remaining": 5,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 7,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 6,
+        "fragments_remaining": 5,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 7,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 6,
+        "fragments_remaining": 5,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 7,
+        "fragments_remaining": 5,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 6,
+        "fragments_remaining": 6,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 5
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 7,
+        "fragments_remaining": 5,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 7,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 8,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 7,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 8,
+        "fragments_remaining": 2,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 7,
+        "fragments_remaining": 3,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 8,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 7,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 8,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 7,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 8,
+        "fragments_remaining": 3,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 7,
+        "fragments_remaining": 4,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 8,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 7,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 8,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 7,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 8,
+        "fragments_remaining": 4,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 7,
+        "fragments_remaining": 5,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 8,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 7,
+        "fragments_remaining": 5,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 8,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 7,
+        "fragments_remaining": 5,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 6
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 8,
+        "fragments_remaining": 5,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 8,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 9,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 8
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 8,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 9,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 8,
+        "fragments_remaining": 2,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 9,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 8,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 9,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 8,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 9,
+        "fragments_remaining": 2,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 8,
+        "fragments_remaining": 3,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 9,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 8,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 9,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 8,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 9,
+        "fragments_remaining": 3,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 8,
+        "fragments_remaining": 4,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 9,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 8,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 9,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 8,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 9,
+        "fragments_remaining": 4,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 8,
+        "fragments_remaining": 5,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 7
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 9,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      }
+    },
+    {
+      "event": "VERIFY_ACCEPT",
+      "from": {
+        "age_steps": 9,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 8
+      },
+      "output": "Eligible(m)",
+      "to": {
+        "age_steps": 10,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "ELIGIBLE",
+        "tx_opportunities_used": 8
+      }
+    },
+    {
+      "event": "VERIFY_REJECT",
+      "from": {
+        "age_steps": 9,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 8
+      },
+      "output": "Rejected(m)",
+      "to": {
+        "age_steps": 10,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "REJECTED",
+        "tx_opportunities_used": 8
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 9,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 10,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 9
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 9,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 10,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 9
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 9,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 10,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 9,
+        "fragments_remaining": 2,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 10,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 9,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 10,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 9,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 10,
+        "fragments_remaining": 2,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 9,
+        "fragments_remaining": 3,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 10,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 9,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 10,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 9,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 10,
+        "fragments_remaining": 3,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 9,
+        "fragments_remaining": 4,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 10,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 9,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 10,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 9,
+        "fragments_remaining": 4,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 8
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 10,
+        "fragments_remaining": 4,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      }
+    },
+    {
+      "event": "VERIFY_ACCEPT",
+      "from": {
+        "age_steps": 10,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 9
+      },
+      "output": "Eligible(m)",
+      "to": {
+        "age_steps": 11,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "ELIGIBLE",
+        "tx_opportunities_used": 9
+      }
+    },
+    {
+      "event": "VERIFY_REJECT",
+      "from": {
+        "age_steps": 10,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 9
+      },
+      "output": "Rejected(m)",
+      "to": {
+        "age_steps": 11,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "REJECTED",
+        "tx_opportunities_used": 9
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 10,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 11,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 10
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 10,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 11,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 10
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 10,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 11,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 10,
+        "fragments_remaining": 2,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 11,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 10,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 11,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 10,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 11,
+        "fragments_remaining": 2,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 10,
+        "fragments_remaining": 3,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 11,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 10,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 11,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 10,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 11,
+        "fragments_remaining": 3,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 10,
+        "fragments_remaining": 4,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 9
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 11,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      }
+    },
+    {
+      "event": "VERIFY_ACCEPT",
+      "from": {
+        "age_steps": 11,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 10
+      },
+      "output": "Eligible(m)",
+      "to": {
+        "age_steps": 12,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "ELIGIBLE",
+        "tx_opportunities_used": 10
+      }
+    },
+    {
+      "event": "VERIFY_REJECT",
+      "from": {
+        "age_steps": 11,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 10
+      },
+      "output": "Rejected(m)",
+      "to": {
+        "age_steps": 12,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "REJECTED",
+        "tx_opportunities_used": 10
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 11,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 12,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 11
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 11,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 12,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 11
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 11,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 12,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 11
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 11,
+        "fragments_remaining": 2,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 12,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 11
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 11,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 12,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 11
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 11,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 12,
+        "fragments_remaining": 2,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 11
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 11,
+        "fragments_remaining": 3,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 12,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 11
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 11,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 12,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 11
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 11,
+        "fragments_remaining": 3,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 10
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 12,
+        "fragments_remaining": 3,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 11
+      }
+    },
+    {
+      "event": "VERIFY_ACCEPT",
+      "from": {
+        "age_steps": 12,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 11
+      },
+      "output": "Eligible(m)",
+      "to": {
+        "age_steps": 13,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "ELIGIBLE",
+        "tx_opportunities_used": 11
+      }
+    },
+    {
+      "event": "VERIFY_REJECT",
+      "from": {
+        "age_steps": 12,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 11
+      },
+      "output": "Rejected(m)",
+      "to": {
+        "age_steps": 13,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "REJECTED",
+        "tx_opportunities_used": 11
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 12,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 11
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 13,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 12
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 12,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 11
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 13,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 12
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 12,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 11
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 13,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 12
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 12,
+        "fragments_remaining": 2,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 11
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 13,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 12
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 12,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 11
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 13,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 12
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 12,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 11
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 13,
+        "fragments_remaining": 2,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 12
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 12,
+        "fragments_remaining": 3,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 11
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 13,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 12
+      }
+    },
+    {
+      "event": "VERIFY_ACCEPT",
+      "from": {
+        "age_steps": 13,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 12
+      },
+      "output": "Eligible(m)",
+      "to": {
+        "age_steps": 14,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "ELIGIBLE",
+        "tx_opportunities_used": 12
+      }
+    },
+    {
+      "event": "VERIFY_REJECT",
+      "from": {
+        "age_steps": 13,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 12
+      },
+      "output": "Rejected(m)",
+      "to": {
+        "age_steps": 14,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "REJECTED",
+        "tx_opportunities_used": 12
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 13,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 12
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 14,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 13
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 13,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 12
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 14,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 13
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 13,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 12
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 14,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 13
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 13,
+        "fragments_remaining": 2,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 12
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 14,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 13
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 13,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 12
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 14,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 13
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 13,
+        "fragments_remaining": 2,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 12
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 14,
+        "fragments_remaining": 2,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 13
+      }
+    },
+    {
+      "event": "VERIFY_ACCEPT",
+      "from": {
+        "age_steps": 14,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 13
+      },
+      "output": "Eligible(m)",
+      "to": {
+        "age_steps": 15,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "ELIGIBLE",
+        "tx_opportunities_used": 13
+      }
+    },
+    {
+      "event": "VERIFY_REJECT",
+      "from": {
+        "age_steps": 14,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 13
+      },
+      "output": "Rejected(m)",
+      "to": {
+        "age_steps": 15,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "REJECTED",
+        "tx_opportunities_used": 13
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 14,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 13
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 15,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 14
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 14,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 13
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 15,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 14
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 14,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 13
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 15,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 14
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 14,
+        "fragments_remaining": 2,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 13
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 15,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 14
+      }
+    },
+    {
+      "event": "VERIFY_ACCEPT",
+      "from": {
+        "age_steps": 15,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 14
+      },
+      "output": "Eligible(m)",
+      "to": {
+        "age_steps": 16,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "ELIGIBLE",
+        "tx_opportunities_used": 14
+      }
+    },
+    {
+      "event": "VERIFY_REJECT",
+      "from": {
+        "age_steps": 15,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 14
+      },
+      "output": "Rejected(m)",
+      "to": {
+        "age_steps": 16,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "REJECTED",
+        "tx_opportunities_used": 14
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 15,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 14
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 16,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 15
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 15,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 14
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 16,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 15
+      }
+    },
+    {
+      "event": "FRAGMENT_LOSS",
+      "from": {
+        "age_steps": 15,
+        "fragments_remaining": 1,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 14
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 16,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 15
+      }
+    },
+    {
+      "event": "VERIFY_ACCEPT",
+      "from": {
+        "age_steps": 16,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 15
+      },
+      "output": "Eligible(m)",
+      "to": {
+        "age_steps": 17,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "ELIGIBLE",
+        "tx_opportunities_used": 15
+      }
+    },
+    {
+      "event": "VERIFY_REJECT",
+      "from": {
+        "age_steps": 16,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 15
+      },
+      "output": "Rejected(m)",
+      "to": {
+        "age_steps": 17,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "REJECTED",
+        "tx_opportunities_used": 15
+      }
+    },
+    {
+      "event": "FRAGMENT_SUCCESS",
+      "from": {
+        "age_steps": 16,
+        "fragments_remaining": 1,
+        "loss_streak": 1,
+        "queue_remaining": 0,
+        "stage": "TX_FRAGMENT",
+        "tx_opportunities_used": 15
+      },
+      "output": "NoOutput",
+      "to": {
+        "age_steps": 17,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 16
+      }
+    },
+    {
+      "event": "VERIFY_ACCEPT",
+      "from": {
+        "age_steps": 17,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 16
+      },
+      "output": "Eligible(m)",
+      "to": {
+        "age_steps": 18,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "ELIGIBLE",
+        "tx_opportunities_used": 16
+      }
+    },
+    {
+      "event": "VERIFY_REJECT",
+      "from": {
+        "age_steps": 17,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "VERIFYING",
+        "tx_opportunities_used": 16
+      },
+      "output": "Rejected(m)",
+      "to": {
+        "age_steps": 18,
+        "fragments_remaining": 0,
+        "loss_streak": 0,
+        "queue_remaining": 0,
+        "stage": "REJECTED",
+        "tx_opportunities_used": 16
+      }
+    }
+  ]
+}

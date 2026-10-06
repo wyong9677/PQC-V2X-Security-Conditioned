@@ -1,0 +1,30 @@
+{
+  "artifacts": {
+    "branch_dominance_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9HH_BRANCH_DOMINANCE_20260916T062426Z.csv"
+  },
+  "classification": "FULL_GFP_STAGE_COLLAPSE_EXPLAINED_BY_ACTIONWISE_VERIFY_COMPLETION_BRANCH_DOMINANCE",
+  "continuous_state_separation_certified": false,
+  "gates": {
+    "continuous_action_structural_dominance_certified": false,
+    "fragmented_verifying_fixed_point_equal_on_semantic_domain": true,
+    "upper_full_service_gfp_reconverged": true,
+    "upstream_r9hg_full_gfp_collapse": true,
+    "verify_completion_branch_never_exceeds_last_branch_on_sampled_actions": true
+  },
+  "metrics": {
+    "actions_with_completion_branch_dominance_violation": 0,
+    "branch_tests": 16216200,
+    "completion_branch_dominance_violations": 0,
+    "fixed_point_nonzero_stage_nodes": 0,
+    "max_completion_minus_last_m": 0.0,
+    "max_fixed_point_stage_abs_gap_m": 0.0,
+    "max_verify_requirement_minus_fragment_requirement_m": 0.0,
+    "point_action_count": 18,
+    "point_action_width": 0.5,
+    "valid_semantic_compare_nodes": 900900
+  },
+  "next_action": "R9H_I_FREEZE_CURRENT_DIAGNOSTIC_CONTINUOUS_PROMOTION_AND_REVISE_CLAIM_SCOPE",
+  "schema": "SCV_P3B1_R9HH_STRUCTURAL_COLLAPSE_AUDIT_V1",
+  "status": "PASS",
+  "timestamp_utc": "20260916T062426Z"
+}

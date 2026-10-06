@@ -1,0 +1,91 @@
+{
+  "artifacts": {
+    "convergence_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P2B_TEMPORAL_CONVERGENCE_20260914T111922Z.csv",
+    "convergence_figure": "<PQC_V2X_PROJECT_ROOT>/05_figures/P2B_TEMPORAL_CONVERGENCE_20260914T111922Z.png",
+    "kernel_slice_figure": "<PQC_V2X_PROJECT_ROOT>/05_figures/P2B_KERNEL_ENVELOPE_SLICE_20260914T111922Z.png"
+  },
+  "checks": {
+    "BELLMAN_BRACKET_CONSISTENT": true,
+    "INNER_SUBSET_OUTER": true,
+    "KERNEL_INNER_NONEMPTY": true,
+    "KERNEL_OUTER_NOT_FULL": true,
+    "PHYSICAL_SAMPLE_NONEMPTY": true,
+    "PREDECESSOR_EXTREMAL_DOMINANCE": true,
+    "QMC_REPLICATE_STABLE": true,
+    "TEMPORAL_AMBIGUITY_SMALL": true,
+    "TEMPORAL_BRACKET_ORDERED": true,
+    "TEMPORAL_P95_WIDTH_SMALL": true
+  },
+  "classification": "validated conservative inner/outer envelope of the prescribed-fallback hybrid safety kernel; formal rational certification deferred to P6",
+  "metrics": {
+    "bellman_max_disjoint_gap": 0.0,
+    "bellman_mean_initial_width": 0.040464349014774095,
+    "bellman_mean_recursive_width": 0.02892739716297226,
+    "bellman_sample_count": 256,
+    "dominance_max_position_dominance_violation": -1.3107330706918496e-08,
+    "dominance_positive_violation_count": 0,
+    "gap_bracket_max_m": 0.10999023657138451,
+    "gap_bracket_mean_m": 0.040397379135288146,
+    "gap_bracket_p95_m": 0.09188164455612657,
+    "inner_outer_subset_violations": 0,
+    "kernel_ambiguity_fraction_physical": 0.00015542430836182778,
+    "kernel_inner_fraction_physical": 0.9312247435498912,
+    "kernel_inner_volume": 16573972.247314453,
+    "kernel_outer_fraction_physical": 0.9313801678582531,
+    "kernel_outer_volume": 16576738.494873047,
+    "ordered_bracket_violations": 0,
+    "physical_fraction_box": 0.785400390625,
+    "physical_volume": 17798036.791992188,
+    "qmc_inner_mean": 0.9313542186130053,
+    "qmc_inner_std": 0.0008228488810402238,
+    "qmc_outer_mean": 0.9316261690558293,
+    "qmc_outer_std": 0.0008562008195845914
+  },
+  "platform": {
+    "executable": "<USER_HOME>/envs/research/bin/python",
+    "numpy": "2.4.6",
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "system": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "schema": "SCV_P2B_HYBRID_FALLBACK_RESULT_V1",
+  "status": "PASS",
+  "temporal_convergence": [
+    {
+      "ambiguity_fraction": 0.001593099160708735,
+      "gap_width_max_m": 0.8799218925710619,
+      "gap_width_mean_m": 0.32317903308230517,
+      "gap_width_p95_m": 0.7350531564490304,
+      "inner_fraction": 0.9297870686975443,
+      "outer_fraction": 0.9313801678582531,
+      "resolution": 129
+    },
+    {
+      "ambiguity_fraction": 0.0008159776188995959,
+      "gap_width_max_m": 0.43996094628553095,
+      "gap_width_mean_m": 0.16158951654115258,
+      "gap_width_p95_m": 0.3675265782245152,
+      "inner_fraction": 0.9305641902393534,
+      "outer_fraction": 0.9313801678582531,
+      "resolution": 257
+    },
+    {
+      "ambiguity_fraction": 0.00034970469381411255,
+      "gap_width_max_m": 0.21998047314276903,
+      "gap_width_mean_m": 0.08079475827057632,
+      "gap_width_p95_m": 0.18376328911226203,
+      "inner_fraction": 0.9310304631644389,
+      "outer_fraction": 0.9313801678582531,
+      "resolution": 513
+    },
+    {
+      "ambiguity_fraction": 0.00015542430836182778,
+      "gap_width_max_m": 0.10999023657138451,
+      "gap_width_mean_m": 0.040397379135288146,
+      "gap_width_p95_m": 0.09188164455612657,
+      "inner_fraction": 0.9312247435498912,
+      "outer_fraction": 0.9313801678582531,
+      "resolution": 1025
+    }
+  ],
+  "timestamp_utc": "20260914T111922Z"
+}

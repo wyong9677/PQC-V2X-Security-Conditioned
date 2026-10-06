@@ -1,0 +1,117 @@
+{
+  "artifacts": {
+    "age_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P1V2_AGE_BOUNDS_20260914T105651Z.csv",
+    "age_figure": "<PQC_V2X_PROJECT_ROOT>/05_figures/P1V2_AGE_BOUNDS_20260914T105651Z.png",
+    "zoh_figure": "<PQC_V2X_PROJECT_ROOT>/05_figures/P1V2_ZOH_IVP_ERROR_20260914T105651Z.png"
+  },
+  "checks": {
+    "CONFIG_PROVISIONAL_ONLY": true,
+    "CONTROL_BOUNDS_VALID": true,
+    "DISCRETE_SEMIGROUP": true,
+    "FALLBACK_SWITCH_BOUND_VALID": true,
+    "MATRICES_FINITE": true,
+    "SAFETY_BOUNDS_VALID": true,
+    "SERVICE_PROFILE_BOUNDS_VALID": true,
+    "STALE_ACC_BOUND_MONOTONE": true,
+    "STALE_RANDOM_ENVELOPE": true,
+    "STALE_VEL_BOUND_MONOTONE": true,
+    "STALE_WORST_CASE_TIGHT": true,
+    "ZERO_AGE_ZERO_ERROR": true,
+    "ZOH_DIMENSIONS": true,
+    "ZOH_VS_IVP": true
+  },
+  "metrics": {
+    "age_acceleration_bound_max": 1.0465365689562638,
+    "age_acceleration_increment_min": 0.00010038237800946703,
+    "age_velocity_bound_max": 1.7337122008653076,
+    "age_velocity_increment_min": 0.00014858157462055606,
+    "semigroup_max_abs_error": 6.761952109357594e-15,
+    "spectral_radius_Ad": 1.0,
+    "stale_random_max_acceleration_ratio": 0.581242537491336,
+    "stale_random_max_velocity_ratio": 0.4456086453050661,
+    "stale_random_max_violation": 0.0,
+    "stale_worst_case_tightness_error": 1.3322676295501878e-15,
+    "zoh_ivp_max_abs_error": 1.5720758028692217e-13,
+    "zoh_ivp_p95_abs_error": 1.2194689702482718e-13
+  },
+  "platform": {
+    "executable": "<USER_HOME>/envs/research/bin/python",
+    "numpy": "2.4.6",
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "system": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "provisional_parameters_only": true,
+  "sampled_model": {
+    "Ad": [
+      [
+        1.0,
+        0.09999999999999999,
+        0.0,
+        -0.004555968401722529
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.08698294742364993
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.08698294742364993
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.7514772930752859
+      ]
+    ],
+    "Bd": [
+      [
+        -0.0004440315982774715
+      ],
+      [
+        -0.013017052576350087
+      ],
+      [
+        0.013017052576350087
+      ],
+      [
+        0.2485227069247141
+      ]
+    ],
+    "Ed": [
+      [
+        -0.00015541105939711501
+      ],
+      [
+        -0.00455596840172253
+      ],
+      [
+        0.00455596840172253
+      ],
+      [
+        0.08698294742364993
+      ]
+    ],
+    "Gd": [
+      [
+        0.004999999999999999
+      ],
+      [
+        0.09999999999999999
+      ],
+      [
+        0.0
+      ],
+      [
+        0.0
+      ]
+    ]
+  },
+  "schema": "SCV_P1_MODEL_VALIDATION_RESULT_V2",
+  "status": "PASS",
+  "timestamp_utc": "20260914T105651Z"
+}

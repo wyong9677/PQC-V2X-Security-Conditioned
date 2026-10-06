@@ -1,0 +1,2340 @@
+{
+  "aggregate": {
+    "all_lower_bounds_pass_minimum_multiple": true,
+    "all_lower_bounds_positive": true,
+    "minimum_certified_lower_bound_m": "0.0018683005675772699",
+    "minimum_certified_lower_bound_multiple_of_tol": "18683005.675772697",
+    "profile_count": 3,
+    "witness_count": 16
+  },
+  "certificate_path": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D8_CERTIFICATE_LATEST.json",
+  "certificate_sha256": "5184beca707cdbcbc8ca994f9146d4d11924418c6faeb5097d5a483b05274ddf",
+  "checker_scope": "Standard-library-only independent arithmetic/source-integrity verification. No Bellman, fixed-point, numpy, scipy, or project solver module is imported.",
+  "claims": {
+    "farkas_certificate_authorized": false,
+    "implementation_refinement_claim_authorized": false,
+    "independent_checker_pass": true,
+    "rational_outward_numerical_separation_certificate_verified": true,
+    "scientific_kernel_claim_authorized": false
+  },
+  "schema": "SCV_P3B1_R7D8_INDEPENDENT_CHECKER_REPORT_V1",
+  "source_hash_checks": {
+    "d7_latest": {
+      "actual": "68da6abcd108841e904004f96b7c378f0ef4095da82830f88e266a7e64ab73a9",
+      "expected": "68da6abcd108841e904004f96b7c378f0ef4095da82830f88e266a7e64ab73a9",
+      "pass": true
+    },
+    "d7b_latest": {
+      "actual": "33f583bbf404d0585e746072bb59325ba112f7aaa0bf0a32c3f5cf6df1c995e8",
+      "expected": "33f583bbf404d0585e746072bb59325ba112f7aaa0bf0a32c3f5cf6df1c995e8",
+      "pass": true
+    },
+    "geometry_csv": {
+      "actual": "02f2f13387a48d312fcd09b1a00fa15de386980e53f4777b4a3cfc6297d94efa",
+      "expected": "02f2f13387a48d312fcd09b1a00fa15de386980e53f4777b4a3cfc6297d94efa",
+      "pass": true
+    },
+    "protocol": {
+      "actual": "2afc5ede8033a277ccb0a9e867015730be58ed0f7a26d854702503207c1a224e",
+      "expected": "2afc5ede8033a277ccb0a9e867015730be58ed0f7a26d854702503207c1a224e",
+      "pass": true
+    },
+    "witness_csv": {
+      "actual": "a55ba23fb70fa4500ee9e16b96fd99399de9eca24784deac8aeb350a13708751",
+      "expected": "a55ba23fb70fa4500ee9e16b96fd99399de9eca24784deac8aeb350a13708751",
+      "pass": true
+    }
+  },
+  "status": "PASS",
+  "timestamp_utc": "20260914T142019Z",
+  "witness_checks": [
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "1481290178434077049413"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.009814688594967924"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.009814688594967924"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.009826969836939425"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.009802407337327068"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.009814688594967924"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.009826969836939425"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.009820829217911164"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.009802407337327068"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.00980854796810593"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "1481290178434077049413"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.009814688594967924"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.009814688594967924"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.009826969836939425"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.009802407337327068"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.009814688594967924"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.009826969836939425"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.009820829217911164"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.009802407337327068"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.00980854796810593"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "1481290178434077049413"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.009814688594967924"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.009814688594967924"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.009826969836939425"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.009802407337327068"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.009814688594967924"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.009826969836939425"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.009820829217911164"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.009802407337327068"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.00980854796810593"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 0
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "3380482756100405871173"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.022382474791124984"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.022382474791124984"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.022394739991257517"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.022370209575328648"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.022382474791124984"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.022394739991257517"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.022388607393148297"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.022370209575328648"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.022376342185183806"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "3380482756100405871173"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.022382474791124984"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.022382474791124984"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.022394739991257517"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.022370209575328648"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.022382474791124984"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.022394739991257517"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.022388607393148297"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.022370209575328648"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.022376342185183806"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "3380482756100405871173"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.022382474791124984"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.022382474791124984"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.022394739991257517"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.022370209575328648"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.022382474791124984"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.022394739991257517"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.022388607393148297"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.022370209575328648"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.022376342185183806"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 1
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5277193144491863196229"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.03493383523867011"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.03493383523867011"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.034946084399107735"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.03492158606257134"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.03493383523867011"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.034946084399107735"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.03493995982084752"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.03492158606257134"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.034927710652577715"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5277193144491863196229"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.03493383523867011"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.03493383523867011"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.034946084399107735"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.03492158606257134"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.03493383523867011"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.034946084399107735"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.03493995982084752"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.03492158606257134"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.034927710652577715"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5277193144491863196229"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.03493383523867011"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.03493383523867011"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.034946084399107735"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.03492158606257134"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.03493383523867011"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.034946084399107735"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.03493995982084752"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.03492158606257134"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.034927710652577715"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 2
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7171421676463632958021"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.04746877214026457"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.04746877214026457"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.047481005263161125"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.04745653900170599"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.04746877214026457"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.047481005263161125"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.04747488870367145"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.04745653900170599"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.047462655572943824"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7171421676463632958021"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.04746877214026457"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.04746877214026457"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.047481005263161125"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.04745653900170599"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.04746877214026457"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.047481005263161125"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.04747488870367145"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.04745653900170599"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.047462655572943824"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7171421676463632958021"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.04746877214026457"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.04746877214026457"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.047481005263161125"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.04745653900170599"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.04746877214026457"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.047481005263161125"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.04747488870367145"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.04745653900170599"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.047462655572943824"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 3
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "9063168686907300790853"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.0599872877120492"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.0599872877120492"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.059999504799581826"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.059975070608859204"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.0599872877120492"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.059999504799581826"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.05999339625777267"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.059975070608859204"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.059981179162412745"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "9063168686907300790853"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.0599872877120492"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.0599872877120492"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.059999504799581826"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.059975070608859204"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.0599872877120492"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.059999504799581826"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.05999339625777267"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.059975070608859204"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.059981179162412745"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "9063168686907300790853"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.0599872877120492"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.0599872877120492"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.059999504799581826"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.059975070608859204"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.0599872877120492"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.059999504799581826"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.05999339625777267"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.059975070608859204"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.059981179162412745"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 4
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "10952434512764275802693"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.07248938418372708"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.07248938418372708"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.07250158523807482"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.0724771831137222"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.07248938418372708"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.07250158523807482"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.07249548471285927"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.0724771831137222"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.07248328365068213"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "10952434512764275802693"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.07248938418372708"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.07248938418372708"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.07250158523807482"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.0724771831137222"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.07248938418372708"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.07250158523807482"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.07249548471285927"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.0724771831137222"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.07248328365068213"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "10952434512764275802693"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.07248938418372708"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.07248938418372708"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.07250158523807482"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.0724771831137222"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.07248938418372708"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.07250158523807482"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.07249548471285927"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.0724771831137222"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.07248328365068213"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 5
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "1831406177734254674501"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.012131545887249295"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.012131545887249295"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.012143811087381828"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.012119280671452959"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.012131545887249295"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.012143811087381828"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.012137678489272608"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.012119280671452959"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.012125413281308117"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "1831406177734254674501"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.012131545887249295"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.012131545887249295"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.012143811087381828"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.012119280671452959"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.012131545887249295"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.012143811087381828"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.012137678489272608"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.012119280671452959"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.012125413281308117"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "1831406177734254674501"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.012131545887249295"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.012131545887249295"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.012143811087381828"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.012119280671452959"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.012131545887249295"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.012143811087381828"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.012137678489272608"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.012119280671452959"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.012125413281308117"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 6
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "3728116566125711999557"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.02468290633479442"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.02468290633479442"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.024695155495232046"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.024670657158695652"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.02468290633479442"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.024695155495232046"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.024689030916971832"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.024670657158695652"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.024676781748702026"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "3728116566125711999557"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.02468290633479442"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.02468290633479442"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.024695155495232046"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.024670657158695652"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.02468290633479442"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.024695155495232046"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.024689030916971832"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.024670657158695652"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.024676781748702026"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "3728116566125711999557"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.02468290633479442"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.02468290633479442"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.024695155495232046"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.024670657158695652"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.02468290633479442"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.024695155495232046"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.024689030916971832"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.024670657158695652"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.024676781748702026"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 7
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5622345098097481761349"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.03721784323638888"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.03721784323638888"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.037230076359285436"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.0372056100978303"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.03721784323638888"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.037230076359285436"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.03722395979979576"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.0372056100978303"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.037211726669068135"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5622345098097481761349"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.03721784323638888"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.03721784323638888"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.037230076359285436"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.0372056100978303"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.03721784323638888"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.037230076359285436"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.03722395979979576"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.0372056100978303"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.037211726669068135"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5622345098097481761349"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.03721784323638888"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.03721784323638888"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.037230076359285436"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.0372056100978303"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.03721784323638888"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.037230076359285436"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.03722395979979576"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.0372056100978303"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.037211726669068135"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 8
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7514092108541149594181"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.04973635880817351"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.04973635880817351"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.04974857589570614"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.049724141704983515"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.04973635880817351"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.04974857589570614"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.04974246735389698"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.049724141704983515"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.049730250258537056"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7514092108541149594181"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.04973635880817351"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.04973635880817351"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.04974857589570614"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.049724141704983515"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.04973635880817351"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.04974857589570614"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.04974246735389698"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.049724141704983515"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.049730250258537056"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7514092108541149594181"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.04973635880817351"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.04973635880817351"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.04974857589570614"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.049724141704983515"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.04973635880817351"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.04974857589570614"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.04974246735389698"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.049724141704983515"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.049730250258537056"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 9
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "9403357934398124606021"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.06223845527985139"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.06223845527985139"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.06225065633419913"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.06222625420984651"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.06223845527985139"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.06225065633419913"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.06224455580898358"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.06222625420984651"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.06223235474680644"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "9403357934398124606021"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.06223845527985139"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.06223845527985139"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.06225065633419913"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.06222625420984651"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.06223845527985139"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.06225065633419913"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.06224455580898358"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.06222625420984651"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.06223235474680644"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "9403357934398124606021"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.06223845527985139"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.06223845527985139"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.06225065633419913"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.06222625420984651"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.06223845527985139"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.06225065633419913"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.06224455580898358"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.06222625420984651"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.06223235474680644"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 10
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "282329599368103477829"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.0018806169833736064"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.0018806169833736064"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.0018928821835061393"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.0018683517675772698"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.0018806169833736064"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.0018928821835061393"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.0018867495853969185"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.0018683517675772698"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.0018744843774324282"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "282329599368103477829"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.0018806169833736064"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.0018806169833736064"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.0018928821835061393"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.0018683517675772698"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.0018806169833736064"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.0018928821835061393"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.0018867495853969185"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.0018683517675772698"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.0018744843774324282"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "282329599368103477829"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.0018806169833736064"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.0018806169833736064"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.0018928821835061393"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.0018683517675772698"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.0018806169833736064"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.0018928821835061393"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.0018867495853969185"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.0018683517675772698"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.0018744843774324282"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 11
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "2179039987759560802885"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.01443197743091873"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.01443197743091873"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.014444226591356357"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.014419728254819963"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.01443197743091873"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.014444226591356357"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.014438102013096143"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.014419728254819963"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.014425852844826337"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "2179039987759560802885"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.01443197743091873"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.01443197743091873"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.014444226591356357"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.014419728254819963"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.01443197743091873"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.014444226591356357"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.014438102013096143"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.014419728254819963"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.014425852844826337"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "2179039987759560802885"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.01443197743091873"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.01443197743091873"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.014444226591356357"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.014419728254819963"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.01443197743091873"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.014444226591356357"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.014438102013096143"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.014419728254819963"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.014425852844826337"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 12
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "4073268519731330564677"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.026966914332513192"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.026966914332513192"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.026979147455409747"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.02695468119395461"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.026966914332513192"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.026979147455409747"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.02697303089592007"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.02695468119395461"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.026960797765192446"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "4073268519731330564677"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.026966914332513192"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.026966914332513192"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.026979147455409747"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.02695468119395461"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.026966914332513192"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.026979147455409747"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.02697303089592007"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.02695468119395461"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.026960797765192446"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "4073268519731330564677"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.026966914332513192"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.026966914332513192"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.026979147455409747"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.02695468119395461"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.026966914332513192"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.026979147455409747"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.02697303089592007"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.02695468119395461"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.026960797765192446"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 13
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5965015530174998397509"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.03948542990429782"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.03948542990429782"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.03949764699183045"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.039473212801107826"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.03948542990429782"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.03949764699183045"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.03949153845002129"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.039473212801107826"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.03947932135466137"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5965015530174998397509"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.03948542990429782"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.03948542990429782"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.03949764699183045"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.039473212801107826"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.03948542990429782"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.03949764699183045"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.03949153845002129"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.039473212801107826"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.03947932135466137"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5965015530174998397509"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.03948542990429782"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.03948542990429782"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.03949764699183045"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.039473212801107826"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.03948542990429782"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.03949764699183045"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.03949153845002129"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.039473212801107826"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.03947932135466137"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 14
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7854281356031973409349"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.0519875263759757"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.0519875263759757"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.05199972743032344"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.05197532530597082"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.0519875263759757"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.05199972743032344"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.05199362690510789"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.05197532530597082"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.05198142584293075"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_nominal": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7854281356031973409349"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.0519875263759757"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.0519875263759757"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.05199972743032344"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.05197532530597082"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.0519875263759757"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.05199972743032344"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.05199362690510789"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.05197532530597082"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.05198142584293075"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        },
+        "diagnostic_stressed": {
+          "certified_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7854281356031973409349"
+          },
+          "fields": {
+            "d7_center_span_m": {
+              "pass": true,
+              "source_text": "0.0519875263759757"
+            },
+            "level_a_center_span_m": {
+              "pass": true,
+              "source_text": "0.0519875263759757"
+            },
+            "level_a_minus_span_m": {
+              "pass": true,
+              "source_text": "0.05199972743032344"
+            },
+            "level_a_plus_span_m": {
+              "pass": true,
+              "source_text": "0.05197532530597082"
+            },
+            "level_b_center_span_m": {
+              "pass": true,
+              "source_text": "0.0519875263759757"
+            },
+            "level_b_minus_A_span_m": {
+              "pass": true,
+              "source_text": "0.05199972743032344"
+            },
+            "level_b_minus_B_span_m": {
+              "pass": true,
+              "source_text": "0.05199362690510789"
+            },
+            "level_b_plus_A_span_m": {
+              "pass": true,
+              "source_text": "0.05197532530597082"
+            },
+            "level_b_plus_B_span_m": {
+              "pass": true,
+              "source_text": "0.05198142584293075"
+            }
+          },
+          "passes_minimum_multiple": true,
+          "positive_after_guard": true
+        }
+      },
+      "unique_witness_id": 15
+    }
+  ]
+}

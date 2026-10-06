@@ -1,0 +1,29 @@
+{
+  "ML_DSA_65": {
+    "R": 6,
+    "converged": true,
+    "iterations": 1,
+    "max_q_span_m": 0.0,
+    "q_sensitive_nodes": 0
+  },
+  "SLH_DSA_SHA2_192S": {
+    "R": 18,
+    "converged": true,
+    "iterations": 1,
+    "max_q_span_m": 0.0,
+    "q_sensitive_nodes": 0
+  },
+  "classification": "SCALAR_HORIZON_DIAGNOSTIC_ONLY",
+  "initial_horizon_field_comparison": {
+    "a_gt_b_count": 0,
+    "b_gt_a_count": 0,
+    "equal_within_tol_count": 94325,
+    "max_abs_gap_m": 0.0,
+    "max_signed_a_minus_b_m": 0.0,
+    "mean_abs_gap_m": 0.0,
+    "min_signed_a_minus_b_m": 0.0,
+    "node_count": 94325,
+    "p95_abs_gap_m": 0.0
+  },
+  "not_full_service_automaton": true
+}

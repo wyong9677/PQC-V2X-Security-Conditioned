@@ -1,0 +1,197 @@
+{
+  "claim_scope": {
+    "allowed": "standards-and-host-calibrated engineering service profile under a declared bounded network contract",
+    "not_allowed": "deployment-certified IEEE 1609.2 PQ service bound or automotive ECU WCET/network guarantee"
+  },
+  "current_cycle_operational_gate": {
+    "ML_DSA_65_NDSS_PARTIALLY_HYBRID": {
+      "bounded_loss_fragment_opportunities_fit_tau5": true,
+      "fragment_count_fits_tau5": true,
+      "strict_tau5_timeout_states": 0
+    },
+    "SLH_DSA_SHA2_192S_NDSS_PARTIALLY_HYBRID": {
+      "bounded_loss_fragment_opportunities_fit_tau5": false,
+      "fragment_count_fits_tau5": false,
+      "strict_tau5_timeout_states": 6
+    }
+  },
+  "gates": {
+    "DECLARED_BOUNDED_NETWORK_CONTRACT_GATE": true,
+    "DSRC_PACKETIZATION_GATE": true,
+    "HOST_VERIFY_CALIBRATION_GATE": true,
+    "PQC_SERVICE_PROFILE_ENGINEERING_COMPLETE": true,
+    "ROBUST_HORIZON_WITHIN_DECLARED_AGE_DOMAIN": true,
+    "STANDARD_ARTIFACT_GATE": true
+  },
+  "input": {
+    "Ts_seconds": 0.1,
+    "benchmark_csv": null,
+    "config": "<PQC_V2X_NUMERICAL_ROOT>/01_config/e4_real_pqc_service_profile_v1.json",
+    "max_age_steps": 20,
+    "p1": "<PQC_V2X_NUMERICAL_ROOT>/01_config/p1_validation_v2.json"
+  },
+  "p3b1_profile_patch": {
+    "do_not_overwrite_diagnostic_profiles": true,
+    "profiles": {
+      "ML_DSA_65_NDSS_PARTIALLY_HYBRID": {
+        "deployment_protocol_certified": false,
+        "eligible_bound_condition": "VALID_CANDIDATE_AND_DECLARED_BOUNDED_QUEUE_LOSS_CONTRACT",
+        "eligible_bound_steps": 6,
+        "fragment_count": 2,
+        "max_loss_burst": 1,
+        "queue_wait_steps_max": 1,
+        "verify_steps": 1
+      },
+      "SLH_DSA_SHA2_192S_NDSS_PARTIALLY_HYBRID": {
+        "deployment_protocol_certified": false,
+        "eligible_bound_condition": "VALID_CANDIDATE_AND_DECLARED_BOUNDED_QUEUE_LOSS_CONTRACT",
+        "eligible_bound_steps": 18,
+        "fragment_count": 8,
+        "max_loss_burst": 1,
+        "queue_wait_steps_max": 1,
+        "verify_steps": 1
+      }
+    },
+    "schema": "PQC_V2X_P3B1_ENGINEERING_SERVICE_PROFILE_PATCH_V1"
+  },
+  "patch_level": "E4_REAL_PQC_SERVICE_PROFILE_V1",
+  "profiles": {
+    "ML_DSA_65_NDSS_PARTIALLY_HYBRID": {
+      "algorithm": "ML-DSA-65",
+      "bounded_queue_no_loss_horizon_steps": 4,
+      "compute_only_horizon_steps": 1,
+      "eligible_bound_condition": "VALID_CANDIDATE_AND_DECLARED_BOUNDED_QUEUE_LOSS_CONTRACT",
+      "fragment_count": 2,
+      "host_verification": {
+        "deployment_wcet": false,
+        "empirical_envelope_multiplier": 1.25,
+        "empirical_envelope_us": 195.99,
+        "host": "Apple M4 Pro",
+        "library": "liboqs 0.15.0 native C interface",
+        "max_observed_us": 156.792,
+        "median_max_us": 32.542,
+        "median_min_us": 31.417,
+        "message_sizes_bytes": [
+          64,
+          256,
+          1024
+        ],
+        "p95_max_us": null,
+        "reported_public_key_bytes": 1952,
+        "reported_signature_bytes": 3309,
+        "source": "FROZEN_EXISTING_APPLE_M4_PRO_CALIBRATION"
+      },
+      "max_loss_burst": 1,
+      "nist_security_category": 3,
+      "packetization": {
+        "base_fragment_frame_bytes": 168,
+        "certificate_fixed_bytes": 192,
+        "certificate_fragment_capacity_bytes": 2136,
+        "certificate_transmission_cycle_frames": 5,
+        "fragment_count": 2,
+        "fragment_count_fits_current_cycle": true,
+        "frame_limit_bytes": 2304,
+        "hybrid_certificate_bytes": 3501,
+        "robust_fragment_opportunities": 4,
+        "robust_fragment_opportunities_fit_current_cycle": true
+      },
+      "profile_id": "ML_DSA_65_NDSS_PARTIALLY_HYBRID",
+      "profile_scope": "STANDARDS_AND_HOST_CALIBRATED_ENGINEERING_PROFILE_NOT_DEPLOYMENT_CERTIFIED",
+      "public_key_bytes": 1952,
+      "queue_wait_steps_max": 1,
+      "robust_valid_candidate_horizon_steps": 6,
+      "signature_bytes": 3309,
+      "standard": "FIPS 204",
+      "transport_verify_no_queue_horizon_steps": 3,
+      "verify_steps": 1
+    },
+    "SLH_DSA_SHA2_192S_NDSS_PARTIALLY_HYBRID": {
+      "algorithm": "SLH-DSA-SHA2-192s",
+      "bounded_queue_no_loss_horizon_steps": 10,
+      "compute_only_horizon_steps": 1,
+      "eligible_bound_condition": "VALID_CANDIDATE_AND_DECLARED_BOUNDED_QUEUE_LOSS_CONTRACT",
+      "fragment_count": 8,
+      "host_verification": {
+        "deployment_wcet": false,
+        "empirical_envelope_multiplier": 1.25,
+        "empirical_envelope_us": 538.48875,
+        "host": "Apple M4 Pro",
+        "library": "liboqs 0.15.0 native C interface",
+        "max_observed_us": 430.791,
+        "median_max_us": 350.5,
+        "median_min_us": 346.042,
+        "message_sizes_bytes": [
+          64,
+          256,
+          1024
+        ],
+        "p95_max_us": null,
+        "reported_public_key_bytes": 48,
+        "reported_signature_bytes": 16224,
+        "source": "FROZEN_EXISTING_APPLE_M4_PRO_CALIBRATION"
+      },
+      "max_loss_burst": 1,
+      "nist_security_category": 3,
+      "packetization": {
+        "base_fragment_frame_bytes": 168,
+        "certificate_fixed_bytes": 192,
+        "certificate_fragment_capacity_bytes": 2136,
+        "certificate_transmission_cycle_frames": 5,
+        "fragment_count": 8,
+        "fragment_count_fits_current_cycle": false,
+        "frame_limit_bytes": 2304,
+        "hybrid_certificate_bytes": 16416,
+        "robust_fragment_opportunities": 16,
+        "robust_fragment_opportunities_fit_current_cycle": false
+      },
+      "profile_id": "SLH_DSA_SHA2_192S_NDSS_PARTIALLY_HYBRID",
+      "profile_scope": "STANDARDS_AND_HOST_CALIBRATED_ENGINEERING_PROFILE_NOT_DEPLOYMENT_CERTIFIED",
+      "public_key_bytes": 48,
+      "queue_wait_steps_max": 1,
+      "robust_valid_candidate_horizon_steps": 18,
+      "signature_bytes": 16224,
+      "standard": "FIPS 205",
+      "transport_verify_no_queue_horizon_steps": 9,
+      "verify_steps": 1
+    }
+  },
+  "schema": "PQC_V2X_E4_REAL_PQC_SERVICE_PROFILE_V1",
+  "source_scope": {
+    "bounded_network_contract_declared": true,
+    "deployment_protocol_certified": false,
+    "dsrc_packetization_calibrated": true,
+    "host_verify_calibrated": true,
+    "network_bound_measured": false,
+    "note": "Packetization is an NDSS-2024 Partially-Hybrid engineering instantiation with current NIST-standardized signature sizes; IEEE 1609.2 does not thereby become PQ-native.",
+    "standard_artifacts_calibrated": true
+  },
+  "timestamp_utc": "20260916T085559Z",
+  "validations": {
+    "ML_DSA_65_NDSS_PARTIALLY_HYBRID": {
+      "checks": {
+        "host_reported_pk_size_matches_standard": true,
+        "host_reported_signature_size_matches_standard": true,
+        "positive_fragment_capacity": true,
+        "positive_fragment_count": true,
+        "robust_horizon_within_declared_age_domain": true,
+        "standard_pk_size_matches": true,
+        "standard_signature_size_matches": true,
+        "verify_horizon_at_least_one": true
+      },
+      "pass": true
+    },
+    "SLH_DSA_SHA2_192S_NDSS_PARTIALLY_HYBRID": {
+      "checks": {
+        "host_reported_pk_size_matches_standard": true,
+        "host_reported_signature_size_matches_standard": true,
+        "positive_fragment_capacity": true,
+        "positive_fragment_count": true,
+        "robust_horizon_within_declared_age_domain": true,
+        "standard_pk_size_matches": true,
+        "standard_signature_size_matches": true,
+        "verify_horizon_at_least_one": true
+      },
+      "pass": true
+    }
+  }
+}

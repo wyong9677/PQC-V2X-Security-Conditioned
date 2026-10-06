@@ -1,0 +1,16 @@
+{
+  "claim_calibration": {
+    "continuous_domain_global_claim_authorized": false,
+    "implementation_refinement_claim_authorized": false,
+    "model_level_supervisory_claim_authorized": false,
+    "scientific_kernel_claim_authorized": false
+  },
+  "description": "Adaptive dyadic bisection of all R7-D6 witness/non-witness edges, followed by finer replay on every multi-transition edge and a machine-ULP perturbation audit at every refined switch bracket. The audit distinguishes lookup-cell staircasing from within-cell non-monotone supervisor geometry.",
+  "edge_batch_size_stage1": 64,
+  "edge_batch_size_stage2": 32,
+  "numeric_tolerance_m": 1e-10,
+  "schema": "SCV_P3B1_R7D6B_ADAPTIVE_BOUNDARY_PROTOCOL_V1",
+  "stage1_subdivisions": 32,
+  "stage2_subdivisions": 128,
+  "ulp_transition_batch_size": 512
+}

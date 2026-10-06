@@ -1,0 +1,47 @@
+{
+  "schema": "SCV_P2C_SWITCHING_GUARD_V1",
+  "status": "ENGINEERING_VALIDATION_BASELINE",
+
+  "random_seed": 20260914,
+
+  "switching": {
+    "N_sw": 2,
+    "follower_acceleration_upper": 3.0,
+    "sensitivity_max_steps": 5
+  },
+
+  "temporal_bracket": {
+    "resolutions": [129, 257, 513, 1025],
+
+    "ambiguity_fraction_tolerance": 0.005,
+    "p95_gap_width_tolerance_m": 0.20
+  },
+
+  "qmc": {
+    "main_power": 15,
+
+    "replicate_power": 13,
+    "replicates": 4,
+
+    "replicate_std_tolerance": 0.003,
+
+    "sensitivity_power": 13,
+    "sensitivity_resolution": 513
+  },
+
+  "boundary_replay": {
+    "max_states": 256,
+    "resolution": 4097
+  },
+
+  "figures": {
+    "slice_v_f": 20.0,
+    "slice_a_f": 0.0,
+    "slice_a_p": 0.0,
+
+    "slice_d_points": 320,
+    "slice_delta_v_points": 240,
+
+    "slice_resolution": 513
+  }
+}

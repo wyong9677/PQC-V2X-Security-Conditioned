@@ -1,0 +1,26 @@
+{
+  "CREDENTIAL": [
+    []
+  ],
+  "FRAGMENTED": [
+    []
+  ],
+  "PENDING_ENTRY": [
+    []
+  ],
+  "REJECTED": [
+    []
+  ],
+  "REPLACED": [
+    []
+  ],
+  "RETRANSMIT": [
+    []
+  ],
+  "TIMEOUT": [
+    []
+  ],
+  "VERIFYING": [
+    []
+  ]
+}

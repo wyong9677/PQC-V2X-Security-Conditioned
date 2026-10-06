@@ -1,0 +1,16 @@
+{
+  "boundary_reentry_fraction_max": 0.01,
+  "claim_calibration": {
+    "continuous_domain_global_claim_authorized": false,
+    "implementation_refinement_claim_authorized": false,
+    "model_level_supervisory_claim_requires_all_scientific_gates": true,
+    "scientific_kernel_claim_authorized": false
+  },
+  "description": "Pre-registered local off-grid holdout replay around the R7-D5 q-dependent supervisor switch region. Interior witness-witness edges are tested at their midpoints; witness/non-witness boundary edges are tested at quarter, midpoint, and three-quarter points.",
+  "diagnostic_profile_holdout_agreement_fraction_min": 0.99,
+  "interior_midpoint_survival_fraction_min": 0.99,
+  "interior_p05_robust_radius_multiple_of_tolerance_min": 1000.0,
+  "numeric_tolerance_m": 1e-10,
+  "replay_tolerance_m": 1e-09,
+  "schema": "SCV_P3B1_R7D6_LOCAL_HOLDOUT_PROTOCOL_V1"
+}

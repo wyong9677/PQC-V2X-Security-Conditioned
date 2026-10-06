@@ -1,0 +1,524 @@
+{
+  "aggregate": {
+    "all_set_separation_checks_pass": true,
+    "minimum_certified_membership_margin_m": "0.00093415028378863497",
+    "profile_count": 3,
+    "witness_count": 16
+  },
+  "certificate_path": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D9_CERTIFICATE_LATEST.json",
+  "certificate_sha256": "4df0abd7292b4bc80edeae2b6f68ff3383425a0d6ac441181a41da478ecb944d",
+  "checker_scope": "Standard-library-only verification of source hashes, exact rational midpoint arithmetic, D8 certified lower-bound linkage, and finite-abstraction membership separation. No solver module or numpy/scipy import is used.",
+  "claims": {
+    "farkas_certificate_authorized": false,
+    "finite_abstraction_kernel_set_separation_verified": true,
+    "implementation_refinement_claim_authorized": false,
+    "independent_checker_pass": true,
+    "scientific_kernel_claim_authorized": false
+  },
+  "schema": "SCV_P3B1_R7D9_INDEPENDENT_SET_SEPARATION_CHECKER_V1",
+  "source_hash_checks": {
+    "d7_candidate_csv": {
+      "actual": "31aa929d80421db1c502723296742bbf083c0eac7b79e48c6ad010b5dfe1baa2",
+      "expected": "31aa929d80421db1c502723296742bbf083c0eac7b79e48c6ad010b5dfe1baa2",
+      "pass": true
+    },
+    "d7_latest": {
+      "actual": "68da6abcd108841e904004f96b7c378f0ef4095da82830f88e266a7e64ab73a9",
+      "expected": "68da6abcd108841e904004f96b7c378f0ef4095da82830f88e266a7e64ab73a9",
+      "pass": true
+    },
+    "d7b_latest": {
+      "actual": "33f583bbf404d0585e746072bb59325ba112f7aaa0bf0a32c3f5cf6df1c995e8",
+      "expected": "33f583bbf404d0585e746072bb59325ba112f7aaa0bf0a32c3f5cf6df1c995e8",
+      "pass": true
+    },
+    "d7b_witness_csv": {
+      "actual": "a55ba23fb70fa4500ee9e16b96fd99399de9eca24784deac8aeb350a13708751",
+      "expected": "a55ba23fb70fa4500ee9e16b96fd99399de9eca24784deac8aeb350a13708751",
+      "pass": true
+    },
+    "d8_certificate": {
+      "actual": "5184beca707cdbcbc8ca994f9146d4d11924418c6faeb5097d5a483b05274ddf",
+      "expected": "5184beca707cdbcbc8ca994f9146d4d11924418c6faeb5097d5a483b05274ddf",
+      "pass": true
+    },
+    "protocol": {
+      "actual": "6af2bfe5408a59528ae624603c9f384f6c01e799e1531485d84542448b4a6bb7",
+      "expected": "6af2bfe5408a59528ae624603c9f384f6c01e799e1531485d84542448b4a6bb7",
+      "pass": true
+    },
+    "threshold_witness_csv": {
+      "actual": "3ca9250772bd611bff903c204f34dce73e115e6ac338a24abe3f7ac435e50975",
+      "expected": "3ca9250772bd611bff903c204f34dce73e115e6ac338a24abe3f7ac435e50975",
+      "pass": true
+    }
+  },
+  "status": "PASS",
+  "timestamp_utc": "20260914T142427Z",
+  "witness_checks": [
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.004901178068663534",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.004901178068663534",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.004901178068663534",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 0
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.011185079187664324",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.011185079187664324",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.011185079187664324",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 1
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.017460767431285672",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.017460767431285672",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.017460767431285672",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 2
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.023728243900852996",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.023728243900852996",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.023728243900852996",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 3
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.029987509704429604",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.029987509704429604",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.029987509704429604",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 4
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.036238565956861098",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.036238565956861098",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.036238565956861098",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 5
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.0060596147357264794",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.0060596147357264794",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.0060596147357264794",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 6
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.012335302979347826",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.012335302979347826",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.012335302979347826",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 7
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.018602779448915151",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.018602779448915151",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.018602779448915151",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 8
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.024862045252491759",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.024862045252491759",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.024862045252491759",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 9
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.031113101504923257",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.031113101504923257",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.031113101504923257",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 10
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.00093415028378863497",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.00093415028378863497",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.00093415028378863497",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 11
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.0072098385274099817",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.0072098385274099817",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.0072098385274099817",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 12
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.013477314996977305",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.013477314996977305",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.013477314996977305",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 13
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.019736580800553915",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.019736580800553915",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.019736580800553915",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 14
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_margin_m": "0.025987637052985412",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_nominal": {
+          "certified_margin_m": "0.025987637052985412",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        },
+        "diagnostic_stressed": {
+          "certified_margin_m": "0.025987637052985412",
+          "midpoint_membership_nonviable_q": false,
+          "midpoint_membership_viable_q": true,
+          "pass": true,
+          "q_nonviable_index": 1,
+          "q_viable_index": 0
+        }
+      },
+      "unique_witness_id": 15
+    }
+  ]
+}

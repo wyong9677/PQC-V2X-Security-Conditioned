@@ -1,0 +1,20 @@
+{
+  "claim_calibration": {
+    "implementation_refinement_claim_authorized": false,
+    "maximal_continuous_kernel_claim_authorized": false,
+    "rational_farkas_certificate_authorized": false,
+    "refined_stability_candidate_only": true,
+    "scientific_kernel_claim_authorized": false
+  },
+  "description": "Two nested, previously untested bar_a micro-refinements around every R7-D7 fixed-point kernel witness. Each level re-solves the full frozen-halo Bellman fixed point. Level A inserts +/- one base-cell width/32768; Level B additionally inserts +/- one base-cell width/65536. The audit tests center persistence, two-sided fixed-point persistence, structural gates, cross-level span drift, and an outward numerical pre-certificate margin. It does not yet authorize a theorem-level/maximal kernel claim.",
+  "fixed_point_candidate_min_multiple_of_tolerance": 1000.0,
+  "level_a_cell_fraction_denominator": 32768,
+  "level_b_cell_fraction_denominator": 65536,
+  "max_eval_grid_nodes_per_axis_scenario": 1200000,
+  "max_lookup_grid_nodes_per_axis_scenario": 2500000,
+  "numeric_tolerance_m": 1e-10,
+  "numerical_precertificate_guard_multiple_of_tolerance": 256.0,
+  "require_all_three_diagnostic_profiles": true,
+  "require_two_sided_persistence_all_witnesses": true,
+  "schema": "SCV_P3B1_R7D7B_SECOND_LEVEL_REFINEMENT_PROTOCOL_V1"
+}

@@ -1,0 +1,5 @@
+node_index,upstream_r9f_robust_full_q_span_m,matched_pending_age_tests,max_frozen_matched_chi_progress_gap_m,max_full_matched_chi_progress_gap_m,best_pending_age_frozen_s,best_pending_age_full_s,frozen_progress_sensitive,full_progress_sensitive
+167058,0.022885534250967066,4,0.4641350247898499,0.4641350247898499,0.0,0.0,True,True
+167247,0.009180682096997073,4,0.45026401855752063,0.45026401855752063,0.0,0.0,True,True
+169137,0.012634605347091377,4,0.4641350247898499,0.4641350247898499,0.0,0.0,True,True
+171216,0.0023836764432157986,4,0.4641350247898499,0.4641350247898499,0.0,0.0,True,True

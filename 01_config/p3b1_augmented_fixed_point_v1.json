@@ -1,0 +1,51 @@
+{
+  "schema": "SCV_P3B1_AUGMENTED_FIXED_POINT_V1",
+  "status": "FINITE_ABSTRACTION_CANDIDATE_NOT_P6_CERTIFIED",
+
+  "random_seed": 20260914,
+
+  "cooperative_actions": [
+    -3.0,
+    -2.0,
+    -1.0
+  ],
+
+  "information_contract": {
+    "slew_rate": 6.0,
+    "parameter_final": false
+  },
+
+  "grid": {
+    "v_f": [0.0, 5.8333333333, 11.6666666667, 17.5, 23.3333333333, 29.1666666667, 35.0],
+
+    "v_p": [0.0, 5.8333333333, 11.6666666667, 17.5, 23.3333333333, 29.1666666667, 35.0],
+
+    "a_f": [-6.0, -3.75, -1.5, 0.75, 3.0],
+
+    "bar_a": [-8.0, -5.25, -2.5, 0.25, 3.0],
+
+    "bar_u": [-8.0, -5.25, -2.5, 0.25, 3.0],
+
+    "age": [0.0, 0.3333333333, 0.6666666667, 1.0, 1.3333333333, 1.6666666667, 2.0]
+  },
+
+  "service_horizon_source": {
+    "use_eligible_bound_steps_only": true,
+    "include_max_loss_burst": false,
+    "reason": "continuity_with_P3B0_diagnostic_profiles; full loss-state q reserved for E4"
+  },
+
+  "one_step": {
+    "trajectory_points": 65
+  },
+
+  "fixed_point": {
+    "max_iterations": 80,
+    "tolerance_m": 1e-5
+  },
+
+  "evaluation": {
+    "qmc_power": 12,
+    "witness_max_rows": 64
+  }
+}

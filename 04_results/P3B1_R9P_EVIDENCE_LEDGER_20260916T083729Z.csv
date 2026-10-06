@@ -1,0 +1,10 @@
+claim,status,value,source
+raw_stage_value_sensitivity,SUPPORTED,nodes=179; max_gap_m=0.206760803451,<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9OR2_LATEST.json
+raw_gap_physical_reachability,SUPPORTED,preimage_tests=43476,<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9NR1_LATEST.json
+matched_pair_phase_reachability,SUPPORTED,tests=22098; nodes=1352,<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9NR1_LATEST.json
+stagewise_cellmax_value_separation,NOT_SUPPORTED,cells=0; max_gap_m=0.0,<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9OR2_LATEST.json
+full_augmented_target_pair_point_gfp_separation,NOT_SUPPORTED,upper_sensitive=0/950950,<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9OR2_LATEST.json
+continuous_action_interval_gfp,NOT_SOLVED,NO,<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9OR2_LATEST.json
+independent_p2c_lower_checker,NOT_AVAILABLE,NO,<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9OR2_LATEST.json
+continuous_state_separation,NOT_CERTIFIED,NO,<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9OR2_LATEST.json
+deployment_protocol_certificate,NOT_CERTIFIED,NO,<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9OR2_LATEST.json

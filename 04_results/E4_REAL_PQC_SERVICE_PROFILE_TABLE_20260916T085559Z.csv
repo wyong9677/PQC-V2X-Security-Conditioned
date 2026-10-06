@@ -1,0 +1,3 @@
+profile_id,algorithm,public_key_bytes,signature_bytes,verify_envelope_us,hybrid_certificate_bytes,fragment_capacity_bytes,fragment_count,cycle_frames,fragment_count_cycle_fit,robust_fragment_cycle_fit,compute_only_R,transport_verify_no_queue_R,bounded_queue_no_loss_R,robust_valid_candidate_R,queue_wait_steps_max,max_loss_burst,deployment_certified
+ML_DSA_65_NDSS_PARTIALLY_HYBRID,ML-DSA-65,1952,3309,195.990000,3501,2136,2,5,YES,YES,1,3,4,6,1,1,NO
+SLH_DSA_SHA2_192S_NDSS_PARTIALLY_HYBRID,SLH-DSA-SHA2-192s,48,16224,538.488750,16416,2136,8,5,NO,NO,1,9,10,18,1,1,NO

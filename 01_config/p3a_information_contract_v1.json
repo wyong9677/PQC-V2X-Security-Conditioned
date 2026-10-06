@@ -1,0 +1,33 @@
+{
+  "schema": "SCV_P3A_INFORMATION_CONTRACT_V1",
+  "status": "CANDIDATE_FINAL_INFORMATION_CONTRACT",
+
+  "random_seed": 20260914,
+
+  "predecessor": {
+    "tau": 0.35,
+    "command_min": -8.0,
+    "command_max": 3.0,
+    "disturbance_abs": 0.20
+  },
+
+  "authenticated_information": {
+    "age_max_seconds": 2.0,
+    "age_grid_points": 201,
+    "bar_u_grid_points": 111,
+
+    "selected_bar_u": [-8.0, -4.0, 0.0, 3.0]
+  },
+
+  "legacy_provisional_model": {
+    "fixed_delta_bar": 3.0
+  },
+
+  "validation": {
+    "random_piecewise_trials": 5000,
+    "segments_per_trial": 32,
+
+    "envelope_tolerance": 1e-11,
+    "worst_case_tightness_tolerance": 5e-10
+  }
+}

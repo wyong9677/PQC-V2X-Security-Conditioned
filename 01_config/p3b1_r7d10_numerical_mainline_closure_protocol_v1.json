@@ -1,0 +1,15 @@
+{
+  "closure_claims": {
+    "certificate_backed_set_separation": true,
+    "continuous_domain_maximal_kernel": false,
+    "farkas_outside_kernel_certificate_linkage": false,
+    "finite_abstraction_q_dependent_kernel_membership": true,
+    "implementation_refinement_Ic_subset_Ac": false,
+    "nested_fixed_point_refinement_stability": true
+  },
+  "description": "Freeze the D4-D9 numerical evidence chain into a claim-calibrated closure record. This stage performs no new search or parameter tuning. It verifies the completed supervisory, refinement, rational-certificate, and kernel set-separation artifacts; emits a claim matrix; and produces manuscript-ready numerical wording while keeping continuous-domain maximality, Farkas, and implementation-refinement claims explicitly separate.",
+  "require_independent_d8_checker": true,
+  "require_independent_d9_checker": true,
+  "required_d9_witness_count": 16,
+  "schema": "SCV_P3B1_R7D10_NUMERICAL_MAINLINE_CLOSURE_PROTOCOL_V1"
+}

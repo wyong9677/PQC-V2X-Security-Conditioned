@@ -1,0 +1,1808 @@
+{
+  "aggregate": {
+    "minimum_certified_membership_margin_exact_rational": {
+      "denominator": "302231454903657293676544",
+      "numerator": "282329599368103477829"
+    },
+    "minimum_certified_membership_margin_m": "0.00093415028378863497",
+    "minimum_raw_halfspan_exact_rational": {
+      "denominator": "2251799813685248",
+      "numerator": "2117386486387"
+    },
+    "minimum_raw_halfspan_m": "0.00094030849168680319"
+  },
+  "claims": {
+    "certificate_backed_q_dependent_kernel_membership": true,
+    "farkas_certificate_authorized": false,
+    "finite_abstraction_kernel_set_separation_certificate": true,
+    "implementation_refinement_claim_authorized": false,
+    "maximal_continuous_kernel_claim_authorized": false,
+    "scientific_kernel_claim_authorized": false
+  },
+  "membership_semantics": "viable_iff_d_greater_equal_h_star",
+  "profiles": [
+    "diagnostic_fast",
+    "diagnostic_nominal",
+    "diagnostic_stressed"
+  ],
+  "schema": "SCV_P3B1_R7D9_KERNEL_SET_SEPARATION_CERTIFICATE_V1",
+  "scope": "Certificate-backed set-separation witnesses for the Level-B refined finite abstraction under membership semantics d >= h_star(y,q). This certifies existence of states with different viability membership across q in the recorded finite abstraction; it is not a maximal continuous-domain, Farkas, or implementation-refinement certificate.",
+  "source_files": {
+    "d7_candidate_csv": {
+      "path": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D7_REFINED_KERNEL_WITNESSES_20260914T140511Z.csv",
+      "sha256": "31aa929d80421db1c502723296742bbf083c0eac7b79e48c6ad010b5dfe1baa2"
+    },
+    "d7_latest": {
+      "path": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D7_LATEST.json",
+      "sha256": "68da6abcd108841e904004f96b7c378f0ef4095da82830f88e266a7e64ab73a9"
+    },
+    "d7b_latest": {
+      "path": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D7B_LATEST.json",
+      "sha256": "33f583bbf404d0585e746072bb59325ba112f7aaa0bf0a32c3f5cf6df1c995e8"
+    },
+    "d7b_witness_csv": {
+      "path": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D7B_NESTED_WITNESS_STABILITY_20260914T141602Z.csv",
+      "sha256": "a55ba23fb70fa4500ee9e16b96fd99399de9eca24784deac8aeb350a13708751"
+    },
+    "d8_certificate": {
+      "path": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D8_CERTIFICATE_LATEST.json",
+      "sha256": "5184beca707cdbcbc8ca994f9146d4d11924418c6faeb5097d5a483b05274ddf"
+    },
+    "protocol": {
+      "path": "<PQC_V2X_PROJECT_ROOT>/01_config/p3b1_r7d9_kernel_set_separation_protocol_v1.json",
+      "sha256": "6af2bfe5408a59528ae624603c9f384f6c01e799e1531485d84542448b4a6bb7"
+    },
+    "threshold_witness_csv": {
+      "path": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D9_KERNEL_SET_SEPARATION_WITNESSES_20260914T142427Z.csv",
+      "sha256": "3ca9250772bd611bff903c204f34dce73e115e6ac338a24abe3f7ac435e50975"
+    }
+  },
+  "timestamp_utc": "20260914T142427Z",
+  "witness_count": 16,
+  "witnesses": [
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "1481290178434077049413"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "1481290178434077049413"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3803535802899011"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3715132947100901"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "939833593749989"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "44201427899055"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "1481290178434077049413"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "1481290178434077049413"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3803535802899011"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3715132947100901"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "939833593749989"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "44201427899055"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "1481290178434077049413"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "1481290178434077049413"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3803535802899011"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3715132947100901"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "939833593749989"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "44201427899055"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-6.0",
+        "age": "0.3333333333",
+        "bar_a": "-1.984375",
+        "bar_u": "3.0",
+        "v_f": "5.8333333333",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 0
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "3380482756100405871173"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "3380482756100405871173"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3918096985336353"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3716493575078473"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3817295280207413"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "25200426282235"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "3380482756100405871173"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "3380482756100405871173"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3918096985336353"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3716493575078473"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3817295280207413"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "25200426282235"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "3380482756100405871173"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "3380482756100405871173"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3918096985336353"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3716493575078473"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3817295280207413"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "25200426282235"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-6.0",
+        "age": "0.3333333333",
+        "bar_a": "-2.0703125",
+        "bar_u": "3.0",
+        "v_f": "5.8333333333",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 1
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "5277193144491863196229"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5277193144491863196229"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "4032510217783039"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3717854203056045"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "1937591105209771"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "157328007363497"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "5277193144491863196229"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5277193144491863196229"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "4032510217783039"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3717854203056045"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "1937591105209771"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "157328007363497"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "5277193144491863196229"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5277193144491863196229"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "4032510217783039"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3717854203056045"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "1937591105209771"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "157328007363497"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-6.0",
+        "age": "0.3333333333",
+        "bar_a": "-2.15625",
+        "bar_u": "3.0",
+        "v_f": "5.8333333333",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 2
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "7171421676463632958021"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7171421676463632958021"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2073387760039439"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3719214831033617"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "7865990351112495"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "427560689045261"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "7171421676463632958021"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7171421676463632958021"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2073387760039439"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3719214831033617"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "7865990351112495"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "427560689045261"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "7171421676463632958021"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7171421676463632958021"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2073387760039439"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3719214831033617"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "7865990351112495"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "427560689045261"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-6.0",
+        "age": "0.3333333333",
+        "bar_a": "-2.2421875",
+        "bar_u": "3.0",
+        "v_f": "5.833333333299999",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 3
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "9063168686907300790853"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "9063168686907300790853"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1065223228046273"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3720575459011189"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "7981468371196281"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "540317453173903"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "9063168686907300790853"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "9063168686907300790853"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1065223228046273"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3720575459011189"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "7981468371196281"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "540317453173903"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "9063168686907300790853"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "9063168686907300790853"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1065223228046273"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3720575459011189"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "7981468371196281"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "540317453173903"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-6.0",
+        "age": "0.3333333333",
+        "bar_a": "-2.328125",
+        "bar_u": "3.0",
+        "v_f": "5.8333333333",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 4
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "10952434512764275802693"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "10952434512764275802693"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1093715603546265"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "1125899906842624",
+            "numerator": "465242010873595"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2024199625293455"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "163231581799075"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "10952434512764275802693"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "10952434512764275802693"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1093715603546265"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "1125899906842624",
+            "numerator": "465242010873595"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2024199625293455"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "163231581799075"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "10952434512764275802693"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "10952434512764275802693"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1093715603546265"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "1125899906842624",
+            "numerator": "465242010873595"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2024199625293455"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "163231581799075"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-6.0",
+        "age": "0.3333333333",
+        "bar_a": "-2.4140625",
+        "bar_u": "3.0",
+        "v_f": "5.8333333333",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 5
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "1831406177734254674501"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "1831406177734254674501"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3918096985336353"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3808825734261865"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3863461359799109"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "13658906384311"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "1831406177734254674501"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "1831406177734254674501"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3918096985336353"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3808825734261865"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3863461359799109"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "13658906384311"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "1831406177734254674501"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "1831406177734254674501"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3918096985336353"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3808825734261865"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3863461359799109"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "13658906384311"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-3.75",
+        "age": "0.3333333333",
+        "bar_a": "-2.0703125",
+        "bar_u": "3.0",
+        "v_f": "5.8333333333",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 6
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "3728116566125711999557"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "3728116566125711999557"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "4032510217783039"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3810186362239437"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "1960674145005619"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "111161927771801"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "3728116566125711999557"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "3728116566125711999557"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "4032510217783039"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3810186362239437"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "1960674145005619"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "111161927771801"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "3728116566125711999557"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "3728116566125711999557"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "4032510217783039"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3810186362239437"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "1960674145005619"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "111161927771801"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-3.75",
+        "age": "0.3333333333",
+        "bar_a": "-2.15625",
+        "bar_u": "3.0",
+        "v_f": "5.8333333333",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 7
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "5622345098097481761349"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5622345098097481761349"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2073387760039439"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3811546990217009"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "7958322510295887"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "335228529861869"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "5622345098097481761349"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5622345098097481761349"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2073387760039439"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3811546990217009"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "7958322510295887"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "335228529861869"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "5622345098097481761349"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5622345098097481761349"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2073387760039439"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3811546990217009"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "7958322510295887"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "335228529861869"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-3.75",
+        "age": "0.3333333333",
+        "bar_a": "-2.2421875",
+        "bar_u": "3.0",
+        "v_f": "5.833333333299999",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 8
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "7514092108541149594181"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7514092108541149594181"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1065223228046273"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3812907618194581"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "8073800530379673"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "447985293990511"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "7514092108541149594181"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7514092108541149594181"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1065223228046273"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3812907618194581"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "8073800530379673"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "447985293990511"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "7514092108541149594181"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7514092108541149594181"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1065223228046273"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3812907618194581"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "8073800530379673"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "447985293990511"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-3.75",
+        "age": "0.3333333333",
+        "bar_a": "-2.328125",
+        "bar_u": "3.0",
+        "v_f": "5.8333333333",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 9
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "9403357934398124606021"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "9403357934398124606021"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1093715603546265"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "1125899906842624",
+            "numerator": "476783530771519"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2047282665089303"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "140148542003227"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "9403357934398124606021"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "9403357934398124606021"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1093715603546265"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "1125899906842624",
+            "numerator": "476783530771519"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2047282665089303"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "140148542003227"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "9403357934398124606021"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "9403357934398124606021"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1093715603546265"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "1125899906842624",
+            "numerator": "476783530771519"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2047282665089303"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "140148542003227"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-3.75",
+        "age": "0.3333333333",
+        "bar_a": "-2.4140625",
+        "bar_u": "3.0",
+        "v_f": "5.8333333333",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 10
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "282329599368103477829"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "282329599368103477829"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3918096985336353"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3901157893445257"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3909627439390805"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "2117386486387"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "282329599368103477829"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "282329599368103477829"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3918096985336353"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3901157893445257"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3909627439390805"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "2117386486387"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "282329599368103477829"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "282329599368103477829"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3918096985336353"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3901157893445257"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3909627439390805"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "2117386486387"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-1.5",
+        "age": "0.3333333333",
+        "bar_a": "-2.0703125",
+        "bar_u": "3.0",
+        "v_f": "5.8333333333",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 11
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "2179039987759560802885"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "2179039987759560802885"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "4032510217783039"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3902518521422829"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "1983757184801467"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "64995848180105"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "2179039987759560802885"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "2179039987759560802885"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "4032510217783039"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3902518521422829"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "1983757184801467"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "64995848180105"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "2179039987759560802885"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "2179039987759560802885"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "4032510217783039"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3902518521422829"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "1983757184801467"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "64995848180105"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-1.5",
+        "age": "0.3333333333",
+        "bar_a": "-2.15625",
+        "bar_u": "3.0",
+        "v_f": "5.8333333333",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 12
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "4073268519731330564677"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "4073268519731330564677"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2073387760039439"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3903879149400401"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "8050654669479279"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "242896370678477"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "4073268519731330564677"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "4073268519731330564677"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2073387760039439"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3903879149400401"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "8050654669479279"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "242896370678477"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "4073268519731330564677"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "4073268519731330564677"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2073387760039439"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3903879149400401"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "8050654669479279"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "242896370678477"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-1.5",
+        "age": "0.3333333333",
+        "bar_a": "-2.2421875",
+        "bar_u": "3.0",
+        "v_f": "5.833333333299999",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 13
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "5965015530174998397509"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5965015530174998397509"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1065223228046273"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3905239777377973"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "8166132689563065"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "355653134807119"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "5965015530174998397509"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5965015530174998397509"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1065223228046273"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3905239777377973"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "8166132689563065"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "355653134807119"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "5965015530174998397509"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "5965015530174998397509"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1065223228046273"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "9007199254740992",
+            "numerator": "3905239777377973"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "8166132689563065"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "18014398509481984",
+            "numerator": "355653134807119"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-1.5",
+        "age": "0.3333333333",
+        "bar_a": "-2.328125",
+        "bar_u": "3.0",
+        "v_f": "5.8333333333",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 14
+    },
+    {
+      "profiles": {
+        "diagnostic_fast": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "7854281356031973409349"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7854281356031973409349"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1093715603546265"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "1125899906842624",
+            "numerator": "488325050669443"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2070365704885151"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "117065502207379"
+          }
+        },
+        "diagnostic_nominal": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "7854281356031973409349"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7854281356031973409349"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1093715603546265"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "1125899906842624",
+            "numerator": "488325050669443"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2070365704885151"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "117065502207379"
+          }
+        },
+        "diagnostic_stressed": {
+          "certified_membership_margin_exact_rational": {
+            "denominator": "302231454903657293676544",
+            "numerator": "7854281356031973409349"
+          },
+          "d8_certified_span_lower_bound_exact_rational": {
+            "denominator": "151115727451828646838272",
+            "numerator": "7854281356031973409349"
+          },
+          "h_nonviable_exact_rational": {
+            "denominator": "2251799813685248",
+            "numerator": "1093715603546265"
+          },
+          "h_viable_exact_rational": {
+            "denominator": "1125899906842624",
+            "numerator": "488325050669443"
+          },
+          "membership_statements": {
+            "nonviable_q": "d_mid < h_star(q_nonviable) with certified positive margin",
+            "viable_q": "d_mid >= h_star(q_viable) with certified positive margin"
+          },
+          "midpoint_d_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "2070365704885151"
+          },
+          "q_nonviable_index": 1,
+          "q_viable_index": 0,
+          "raw_halfspan_exact_rational": {
+            "denominator": "4503599627370496",
+            "numerator": "117065502207379"
+          }
+        }
+      },
+      "state_without_d": {
+        "a_f": "-1.5",
+        "age": "0.3333333333",
+        "bar_a": "-2.4140625",
+        "bar_u": "3.0",
+        "v_f": "5.8333333333",
+        "v_p": "8.75"
+      },
+      "unique_witness_id": 15
+    }
+  ]
+}

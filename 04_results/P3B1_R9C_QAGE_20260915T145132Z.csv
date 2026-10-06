@@ -1,0 +1,5 @@
+R,max_ticks,reachable_pairs,canonical_pairs,missing_from_reachable,extra_vs_canonical,canonical_qage_gate_exact
+1,20,21,21,0,0,True
+2,20,41,41,0,0,True
+5,20,95,95,0,0,True
+10,20,165,165,0,0,True

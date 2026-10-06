@@ -1,0 +1,136 @@
+{
+  "aggregate": {
+    "action_confounded_consensus_switch_holdouts": 0,
+    "all_holdout_profile_agreement_fraction": 1.0,
+    "base_switch_nodes": 2443,
+    "boundary_pattern_profile_agreement_fraction": 1.0,
+    "boundary_profile_agreement_fraction": 1.0,
+    "boundary_witness_edges": 8849,
+    "completion_invalid": 0,
+    "consensus_interior_midpoint_survival_fraction": 1.0,
+    "defer_invalid": 0,
+    "exact_base_grid_holdouts": 0,
+    "holdout_kernel_component_nodes_any_profile": 0,
+    "interior_profile_agreement_fraction": 1.0,
+    "interior_witness_edges": 7604,
+    "max_boundary_reentry_fraction": 0.24545146344219687,
+    "min_interior_p05_robust_radius_m": 0.016141929737418792,
+    "min_interior_p05_robust_radius_multiple_of_tol": 161419297.37418792,
+    "min_profile_interior_midpoint_survival_fraction": 1.0,
+    "offgrid_holdout_points": 34151
+  },
+  "artifacts": {
+    "boundary_pattern_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6_BOUNDARY_EDGE_PATTERNS_20260914T134709Z.csv",
+    "holdout_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6_OFFGRID_HOLDOUT_POINTS_20260914T134709Z.csv",
+    "latest_json": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6_LATEST.json",
+    "manifest": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6_MANIFEST_20260914T134709Z.sha256",
+    "profile_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6_PROFILE_HOLDOUT_AUDIT_20260914T134709Z.csv",
+    "result_json": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6_LOCAL_OFFGRID_HOLDOUT_20260914T134709Z.json"
+  },
+  "boundary_reentry_fraction_by_profile": {
+    "diagnostic_fast": 0.24545146344219687,
+    "diagnostic_nominal": 0.24545146344219687,
+    "diagnostic_stressed": 0.24545146344219687
+  },
+  "claims": {
+    "claim_scope": "If authorized, the claim is restricted to the current frozen-halo finite abstraction plus the pre-registered local off-grid holdout set. It does not establish a global continuous-domain theorem or I_c subset A_c.",
+    "continuous_domain_global_claim_authorized": false,
+    "implementation_refinement_claim_authorized": false,
+    "model_level_supervisory_q_sensitivity_claim_authorized": false,
+    "p6_certified": false,
+    "scientific_kernel_claim_authorized": false
+  },
+  "classification": "local off-grid replay of the q-dependent certified C/F supervisor switch region on the frozen-halo fixed point; not a global continuous-domain kernel proof and not implementation refinement evidence",
+  "integrity_checks": {
+    "BASE_SWITCH_COUNT_REPRODUCED": true,
+    "D3_UPSTREAM_PASS": true,
+    "D4_UPSTREAM_PASS": true,
+    "D5_MODEL_LEVEL_ROBUSTNESS_CANDIDATE": true,
+    "D5_UPSTREAM_PASS": true,
+    "HOLDOUTS_STRICTLY_OFF_BASE_GRID": true,
+    "HOLDOUT_TRANSITION_COVERAGE": true,
+    "LOCAL_EDGE_SET_NONEMPTY": true
+  },
+  "interpretation": "OFFGRID_BOUNDARY_SHOWS_SUBCELL_REENTRY_OR_OSCILLATION",
+  "profile_stats": [
+    {
+      "R": 2,
+      "action_q_change_on_holdout_switch_nodes": 0,
+      "branch_q_change_on_holdout_switch_nodes": 17588,
+      "holdout_kernel_component_nodes": 0,
+      "holdout_points": 34151,
+      "holdout_switch_nodes": 17588,
+      "interior_midpoint_survival_fraction": 1.0,
+      "interior_midpoint_switch_nodes": 7604,
+      "interior_midpoints": 7604,
+      "interior_robust_radius_max_m": 0.3350340922908117,
+      "interior_robust_radius_min_m": 0.012587273668160037,
+      "interior_robust_radius_p05_m": 0.016141929737418792,
+      "interior_robust_radius_p50_m": 0.10116792863903967,
+      "interior_robust_radius_p95_m": 0.24077140466215496,
+      "profile": "diagnostic_fast"
+    },
+    {
+      "R": 5,
+      "action_q_change_on_holdout_switch_nodes": 0,
+      "branch_q_change_on_holdout_switch_nodes": 17588,
+      "holdout_kernel_component_nodes": 0,
+      "holdout_points": 34151,
+      "holdout_switch_nodes": 17588,
+      "interior_midpoint_survival_fraction": 1.0,
+      "interior_midpoint_switch_nodes": 7604,
+      "interior_midpoints": 7604,
+      "interior_robust_radius_max_m": 0.3350340922908117,
+      "interior_robust_radius_min_m": 0.012587273668160037,
+      "interior_robust_radius_p05_m": 0.016141929737418792,
+      "interior_robust_radius_p50_m": 0.10116792863903967,
+      "interior_robust_radius_p95_m": 0.24077140466215496,
+      "profile": "diagnostic_nominal"
+    },
+    {
+      "R": 10,
+      "action_q_change_on_holdout_switch_nodes": 0,
+      "branch_q_change_on_holdout_switch_nodes": 17588,
+      "holdout_kernel_component_nodes": 0,
+      "holdout_points": 34151,
+      "holdout_switch_nodes": 17588,
+      "interior_midpoint_survival_fraction": 1.0,
+      "interior_midpoint_switch_nodes": 7604,
+      "interior_midpoints": 7604,
+      "interior_robust_radius_max_m": 0.3350340922908117,
+      "interior_robust_radius_min_m": 0.012587273668160037,
+      "interior_robust_radius_p05_m": 0.016141929737418792,
+      "interior_robust_radius_p50_m": 0.10116792863903967,
+      "interior_robust_radius_p95_m": 0.24077140466215496,
+      "profile": "diagnostic_stressed"
+    }
+  ],
+  "protocol": {
+    "boundary_reentry_fraction_max": 0.01,
+    "claim_calibration": {
+      "continuous_domain_global_claim_authorized": false,
+      "implementation_refinement_claim_authorized": false,
+      "model_level_supervisory_claim_requires_all_scientific_gates": true,
+      "scientific_kernel_claim_authorized": false
+    },
+    "description": "Pre-registered local off-grid holdout replay around the R7-D5 q-dependent supervisor switch region. Interior witness-witness edges are tested at their midpoints; witness/non-witness boundary edges are tested at quarter, midpoint, and three-quarter points.",
+    "diagnostic_profile_holdout_agreement_fraction_min": 0.99,
+    "interior_midpoint_survival_fraction_min": 0.99,
+    "interior_p05_robust_radius_multiple_of_tolerance_min": 1000.0,
+    "numeric_tolerance_m": 1e-10,
+    "replay_tolerance_m": 1e-09,
+    "schema": "SCV_P3B1_R7D6_LOCAL_HOLDOUT_PROTOCOL_V1"
+  },
+  "recommended_next_step": "RUN_ADAPTIVE_BOUNDARY_BISECTION_AND_HIGH_PRECISION_REPLAY",
+  "schema": "SCV_P3B1_R7D6_LOCAL_OFFGRID_HOLDOUT_REPLAY_V1",
+  "scientific_gates": {
+    "action_deconfounding_gate": true,
+    "boundary_subcell_regularity_gate": false,
+    "diagnostic_profile_holdout_agreement_gate": true,
+    "interior_midpoint_survival_gate": true,
+    "interior_numerical_radius_gate": true,
+    "offgrid_kernel_absence_gate": true
+  },
+  "status": "PASS",
+  "timestamp_utc": "20260914T134709Z"
+}

@@ -1,0 +1,5 @@
+left,right,raw_different_nodes,raw_difference_fraction,raw_difference_p95_positive_m,raw_difference_max_m,clipped_different_nodes,clipped_difference_fraction,clipped_difference_max_m,profile_difference_eliminated_by_fallback_nodes
+ideal,diagnostic_fast,2443,0.017045177045177044,0.48154280932430993,0.6700681845816163,0,0.0,0.0,2443
+diagnostic_fast,diagnostic_nominal,0,0.0,0.0,0.0,0,0.0,0.0,0
+diagnostic_nominal,diagnostic_stressed,0,0.0,0.0,0.0,0,0.0,0.0,0
+ideal,diagnostic_stressed,2443,0.017045177045177044,0.48154280932430993,0.6700681845816163,0,0.0,0.0,2443

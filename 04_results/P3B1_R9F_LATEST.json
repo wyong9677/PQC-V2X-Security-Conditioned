@@ -1,0 +1,58 @@
+{
+  "artifacts": {
+    "robust_chi_witness_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9F_ROBUST_CHI_WITNESSES_20260916T025749Z.csv",
+    "sparse_service_graph_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9F_SPARSE_SERVICE_GRAPH_20260916T025749Z.csv"
+  },
+  "classification": "COUNTDOWN_Q_CONFOUNDS_SERVICE_PROGRESS_WITH_PENDING_MESSAGE_HISTORY",
+  "continuous_state_separation_certified": false,
+  "diagnostic_service_contract": {
+    "R": 2,
+    "chi_representation": "axis-aligned reachable envelope in pending acceleration/command content",
+    "countdown_pending_age_by_q_seconds": {
+      "1": 0.1,
+      "2": 0.0
+    },
+    "countdown_q_determines_pending_generation_age": true,
+    "defer_carries_same_pending_descriptor": true,
+    "deployment_protocol_certified": false,
+    "matched_chi_across_distinct_q_available": false,
+    "profile": "diagnostic_fast",
+    "psi": "completion terminates current candidate and restarts diagnostic cycle"
+  },
+  "gates": {
+    "chi_defer_invariance": true,
+    "deployment_protocol_markov_sufficiency": false,
+    "descriptor_set_not_single_point": true,
+    "general_propagator_regression": true,
+    "matched_chi_progress_comparison": false,
+    "r9d_witness_reproduction": true,
+    "r9e_upstream_pass": true
+  },
+  "markov_sufficiency_certified": false,
+  "metrics": {
+    "coarse_full_action_material_state_q_pairs": 22,
+    "general_propagator_regression_max_error": 4.440892098500626e-16,
+    "invalid_trials": 0,
+    "max_coarse_action_improvement_m": 0.001332094794832539,
+    "max_descriptor_lookup_cells": 4,
+    "max_robust_chi_frozen_q_span_m": 0.02155343945613475,
+    "max_robust_chi_full_action_q_span_m": 0.022885534250967066,
+    "reachable_qage_pairs": 39,
+    "robust_chi_frozen_qdep_nodes": 4,
+    "robust_chi_full_action_qdep_nodes": 4,
+    "upstream_r9d_q_witnesses": 44
+  },
+  "next_action": "R9G_BUILD_MATCHED_CHI_BRANCHING_SERVICE_AUTOMATON_STAGE_TIMING_CONTENT",
+  "schema": "SCV_P3B1_R9F_SPARSE_CHI_ENVELOPE_GRAPH_V1",
+  "status": "PASS",
+  "theory_status": {
+    "causal_output_dependent_adoption_retained": true,
+    "chi_envelope_robustified": true,
+    "continuous_action_interval_certificate": false,
+    "core_viability_fixed_point_definition_retained": true,
+    "full_augmented_fixed_point_with_chi_not_yet_solved": true,
+    "maximal_gfp_inner_outer_certificate": false,
+    "pending_descriptor_single_point_proxy_retired": true
+  },
+  "timestamp_utc": "20260916T025749Z"
+}

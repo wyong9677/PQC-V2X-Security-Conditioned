@@ -1,0 +1,147 @@
+{
+  "artifacts": {
+    "cooperative_witness_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D1_COOPERATIVE_WITNESSES_20260914T125946Z.csv",
+    "service_witness_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D1_SERVICE_WITNESSES_20260914T125946Z.csv"
+  },
+  "checks": {
+    "ALL_PROFILES_CONVERGED": true,
+    "COOPERATIVE_EXACT_WITNESS_EXISTS": true,
+    "FIXED_POINT_MOVED_FROM_FALLBACK": true,
+    "NODE_LEVEL_COOPERATIVE_GAIN_EXISTS": true,
+    "NODE_LEVEL_SERVICE_EFFECT_EXISTS": false,
+    "SERVICE_EXACT_WITNESS_EXISTS": false,
+    "SERVICE_ORDER_NESTED_AT_NODES": true
+  },
+  "classification": "node-level finite-abstraction fixed-point audit; not P6 certified",
+  "cooperative_exact_witness_rows": 42,
+  "evaluation_grid_nodes": 143325,
+  "interpretation": "COOPERATIVE_FIXED_POINT_GAIN_EXISTS_BUT_SERVICE_HORIZON_COLLAPSES",
+  "maximal_continuous_kernel_claim": false,
+  "p6_certified": false,
+  "profile_stats": {
+    "diagnostic_fast": {
+      "fallback_improvement": {
+        "count": 42,
+        "fraction": 0.00029304029304029304,
+        "max_m": 0.614342627373055,
+        "mean_m": 0.21025266834018147,
+        "p50_m": 0.17009065656728828,
+        "p95_m": 0.6040916984686793
+      },
+      "first_iteration_sup_change_m": 0.614342627373055,
+      "iterations": 3,
+      "q_slice_stats": {
+        "max_q_range_m": 0.0,
+        "nodes_with_q_dependence": 0,
+        "p95_positive_q_range_m": 0.0,
+        "q_dependence_fraction": 0.0,
+        "q_slices": 2
+      }
+    },
+    "diagnostic_nominal": {
+      "fallback_improvement": {
+        "count": 42,
+        "fraction": 0.00029304029304029304,
+        "max_m": 0.614342627373055,
+        "mean_m": 0.21025266834018147,
+        "p50_m": 0.17009065656728828,
+        "p95_m": 0.6040916984686793
+      },
+      "first_iteration_sup_change_m": 0.614342627373055,
+      "iterations": 3,
+      "q_slice_stats": {
+        "max_q_range_m": 0.0,
+        "nodes_with_q_dependence": 0,
+        "p95_positive_q_range_m": 0.0,
+        "q_dependence_fraction": 0.0,
+        "q_slices": 5
+      }
+    },
+    "diagnostic_stressed": {
+      "fallback_improvement": {
+        "count": 42,
+        "fraction": 0.00029304029304029304,
+        "max_m": 0.614342627373055,
+        "mean_m": 0.21025266834018147,
+        "p50_m": 0.17009065656728828,
+        "p95_m": 0.6040916984686793
+      },
+      "first_iteration_sup_change_m": 0.614342627373055,
+      "iterations": 3,
+      "q_slice_stats": {
+        "max_q_range_m": 0.0,
+        "nodes_with_q_dependence": 0,
+        "p95_positive_q_range_m": 0.0,
+        "q_dependence_fraction": 0.0,
+        "q_slices": 10
+      }
+    },
+    "ideal": {
+      "fallback_improvement": {
+        "count": 42,
+        "fraction": 0.00029304029304029304,
+        "max_m": 0.614342627373055,
+        "mean_m": 0.21025266834018147,
+        "p50_m": 0.17009065656728828,
+        "p95_m": 0.6040916984686793
+      },
+      "first_iteration_sup_change_m": 0.614342627373055,
+      "iterations": 3,
+      "q_slice_stats": {
+        "max_q_range_m": 0.0,
+        "nodes_with_q_dependence": 0,
+        "p95_positive_q_range_m": 0.0,
+        "q_dependence_fraction": 0.0,
+        "q_slices": 1
+      }
+    }
+  },
+  "schema": "SCV_P3B1_R7D1_NODE_LEVEL_FIXED_POINT_AUDIT_V1",
+  "selected_refinement_axes": [
+    "v_p",
+    "bar_u"
+  ],
+  "service_difference_stats": {
+    "fast_over_nominal": {
+      "count": 0,
+      "fraction": 0.0,
+      "max_m": 0.0,
+      "mean_m": 0.0,
+      "p50_m": 0.0,
+      "p95_m": 0.0
+    },
+    "fast_over_stressed": {
+      "count": 0,
+      "fraction": 0.0,
+      "max_m": 0.0,
+      "mean_m": 0.0,
+      "p50_m": 0.0,
+      "p95_m": 0.0
+    },
+    "ideal_over_stressed": {
+      "count": 0,
+      "fraction": 0.0,
+      "max_m": 0.0,
+      "mean_m": 0.0,
+      "p50_m": 0.0,
+      "p95_m": 0.0
+    },
+    "nominal_over_stressed": {
+      "count": 0,
+      "fraction": 0.0,
+      "max_m": 0.0,
+      "mean_m": 0.0,
+      "p50_m": 0.0,
+      "p95_m": 0.0
+    }
+  },
+  "service_exact_witness_rows": 0,
+  "service_order_violations": {
+    "fast_gt_nominal": 0,
+    "ideal_gt_fast": 0,
+    "nominal_gt_stressed": 0,
+    "stressed_gt_fallback": 0
+  },
+  "status": "FAIL",
+  "timestamp_utc": "20260914T125946Z"
+}

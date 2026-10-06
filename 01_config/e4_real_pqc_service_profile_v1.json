@@ -1,0 +1,78 @@
+{
+  "schema": "PQC_V2X_E4_REAL_PQC_SERVICE_PROFILE_CONFIG_V1",
+  "status": "STANDARDS_AND_HOST_CALIBRATED_ENGINEERING_PROFILE_NOT_DEPLOYMENT_CERTIFICATION",
+  "sources": {
+    "ml_dsa": "NIST FIPS 204 final, 2024-08-13",
+    "slh_dsa": "NIST FIPS 205 final, 2024-08-13",
+    "packetization": "Twardokus et al., NDSS 2024, Partially Hybrid V2V design",
+    "host_verification": "Existing project native liboqs 0.15.0 Apple M4 Pro calibration; optional local rerun supported"
+  },
+  "cryptographic_profiles": {
+    "ml_dsa_65": {
+      "profile_id": "ML_DSA_65_NDSS_PARTIALLY_HYBRID",
+      "algorithm": "ML-DSA-65",
+      "standard": "FIPS 204",
+      "nist_security_category": 3,
+      "public_key_bytes": 1952,
+      "signature_bytes": 3309,
+      "liboqs_aliases": ["ML-DSA-65"],
+      "frozen_host_calibration": {
+        "median_min_us": 31.417,
+        "median_max_us": 32.542,
+        "p95_max_us": null,
+        "max_observed_us": 156.792,
+        "public_key_bytes": 1952,
+        "signature_bytes": 3309
+      }
+    },
+    "slh_dsa_sha2_192s": {
+      "profile_id": "SLH_DSA_SHA2_192S_NDSS_PARTIALLY_HYBRID",
+      "algorithm": "SLH-DSA-SHA2-192s",
+      "standard": "FIPS 205",
+      "nist_security_category": 3,
+      "public_key_bytes": 48,
+      "signature_bytes": 16224,
+      "liboqs_aliases": ["SLH-DSA-SHA2-192s", "SLH_DSA_PURE_SHA2_192S", "SPHINCS+-SHA2-192s-simple"],
+      "frozen_host_calibration": {
+        "median_min_us": 346.042,
+        "median_max_us": 350.500,
+        "p95_max_us": null,
+        "max_observed_us": 430.791,
+        "public_key_bytes": 48,
+        "signature_bytes": 16224
+      }
+    }
+  },
+  "verification_calibration": {
+    "host": "Apple M4 Pro",
+    "library": "liboqs 0.15.0 native C interface",
+    "message_sizes_bytes": [64, 256, 1024],
+    "envelope_multiplier": 1.25,
+    "envelope_scope": "EMPIRICAL_HOST_CALIBRATION_NOT_AUTOMOTIVE_ECU_WCET"
+  },
+  "v2x_packetization": {
+    "construction": "NDSS_2024_PARTIALLY_HYBRID_ENGINEERING_RECALIBRATION_WITH_FIPS204_205_ARTIFACTS",
+    "dsrc_frame_payload_limit_bytes": 2304,
+    "certificate_transmission_cycle_frames": 5,
+    "mac_layer_fixed_bytes": 40,
+    "spdu_fixed_bytes": 24,
+    "bsm_bytes": 40,
+    "classical_bsm_signature_bytes": 64,
+    "classical_explicit_certificate_bytes": 162,
+    "partially_hybrid_certificate_wrapper_bytes": 30,
+    "notes": [
+      "Hybrid credential bytes are 30 + 162 + PQ signature bytes, following the NDSS Partially Hybrid certificate-size construction with the classical explicit credential retained.",
+      "Certificate fragment capacity is 2304 - (40 + 24 + 40 + 64) = 2136 bytes.",
+      "This is an engineering recalibration of a published V2V construction; it is not a claim that IEEE 1609.2 currently standardizes these PQ credential encodings."
+    ]
+  },
+  "bounded_network_contract": {
+    "queue_wait_steps_max": 1,
+    "max_consecutive_fragment_losses": 1,
+    "retransmit_at_next_service_opportunity": true,
+    "allow_cross_cycle_reassembly": true,
+    "network_bound_measured": false,
+    "scope": "DECLARED_ROBUST_ENGINEERING_CONTRACT_FOR_CONTROL_CALIBRATION",
+    "interpretation": "At most one sampled queue slot before service; at most one consecutive loss for each fragment, followed by successful retransmission at the next service opportunity. Correlated/unbounded starvation outside this envelope is out of contract."
+  }
+}

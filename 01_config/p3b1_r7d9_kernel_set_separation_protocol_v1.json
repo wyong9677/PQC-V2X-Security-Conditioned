@@ -1,0 +1,18 @@
+{
+  "claim_calibration": {
+    "farkas_certificate_authorized": false,
+    "finite_abstraction_kernel_set_separation_certificate": true,
+    "implementation_refinement_claim_authorized": false,
+    "maximal_continuous_kernel_claim_authorized": false,
+    "scientific_kernel_claim_authorized": false
+  },
+  "description": "Re-solve the R7-D7B Level-B refined frozen-halo fixed point, extract q-specific viability thresholds at all 16 certified centers, construct exact-rational midpoint distance witnesses, and prove certificate-backed finite-abstraction kernel set separation using the independently checked R7-D8 outward lower bounds. An isolated standard-library checker verifies source hashes and all midpoint/margin arithmetic without importing solver modules.",
+  "membership_semantics": "viable_iff_d_greater_equal_h_star",
+  "required_profiles": [
+    "diagnostic_fast",
+    "diagnostic_nominal",
+    "diagnostic_stressed"
+  ],
+  "required_witness_count": 16,
+  "schema": "SCV_P3B1_R7D9_KERNEL_SET_SEPARATION_PROTOCOL_V1"
+}

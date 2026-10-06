@@ -1,0 +1,51 @@
+{
+  "authoritative_flags": {
+    "continuous_action_interval_gfp_solved": false,
+    "continuous_promotion_branch_closed": true,
+    "continuous_state_separation_certified": false,
+    "deployment_protocol_certified": false,
+    "full_augmented_target_pair_point_gfp_separation": false,
+    "further_automatic_axis_refinement_authorized": false,
+    "p2c_independent_lower_checker": false,
+    "positive_continuous_promotion_stop": true,
+    "raw_service_value_sensitivity_preserve": true,
+    "reachable_raw_value_gap_preserve": true,
+    "tensor_cell_enclosure_limitation": true
+  },
+  "classification": "RAW_REACHABLE_SERVICE_VALUE_SENSITIVITY_PERSISTS_BUT_CONTINUOUS_MAXIMAL_KERNEL_SEPARATION_NOT_CERTIFIED_DUE_TO_TENSOR_CELL_ENCLOSURE",
+  "final_metrics": {
+    "matched_pair_phase_preimage_nodes": 1352,
+    "matched_pair_phase_preimage_tests": 22098,
+    "raw_gap_preimage_tests": 43476,
+    "target_pair_common_nodes": 950950,
+    "target_pair_paired_positive": 0,
+    "target_pair_upper_sensitive_nodes": 0,
+    "two_axis_raw_gap_cells": 1320,
+    "two_axis_raw_gap_m": 0.206760803451,
+    "two_axis_raw_gap_nodes": 179,
+    "two_axis_stagewise_cellmax_gap_cells": 0,
+    "two_axis_stagewise_cellmax_gap_m": 0.0
+  },
+  "manuscript_claim_audit_hits": 3,
+  "next_action": "REVISE_MANUSCRIPT_SCOPE_PRESERVE_DIAGNOSTIC_VALUE_SENSITIVITY_AND_TREAT_LOCAL_SPARSE_ENCLOSURES_AS_FUTURE_METHOD_WORK",
+  "outputs": {
+    "closeout_txt": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9P_CLOSEOUT_20260916T083729Z.txt",
+    "evidence_ledger_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9P_EVIDENCE_LEDGER_20260916T083729Z.csv",
+    "manuscript_claim_audit_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9P_MANUSCRIPT_CLAIM_AUDIT_20260916T083729Z.csv",
+    "manuscript_scope_tex": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9P_MANUSCRIPT_SCOPE_20260916T083729Z.tex"
+  },
+  "schema": "P3B1_R9P_CONTINUOUS_SCOPE_CLOSEOUT_V1",
+  "status": "PASS",
+  "upstream_latest": {
+    "R9HH": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9HH_LATEST.json",
+    "R9I": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9I_LATEST.json",
+    "R9J": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9J_LATEST.json",
+    "R9K": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9K_LATEST.json",
+    "R9L": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9L_LATEST.json",
+    "R9M": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9M_LATEST.json",
+    "R9N": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9N_LATEST.json",
+    "R9NR1": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9NR1_LATEST.json",
+    "R9O": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9O_LATEST.json",
+    "R9OR2": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9OR2_LATEST.json"
+  }
+}

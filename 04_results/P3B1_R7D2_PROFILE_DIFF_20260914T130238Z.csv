@@ -1,0 +1,5 @@
+left,right,different_nodes,max_abs_difference_m,mean_abs_difference_m
+ideal,diagnostic_fast,0,0.0,0.0
+diagnostic_fast,diagnostic_nominal,0,0.0,0.0
+diagnostic_nominal,diagnostic_stressed,0,0.0,0.0
+ideal,diagnostic_stressed,0,0.0,0.0

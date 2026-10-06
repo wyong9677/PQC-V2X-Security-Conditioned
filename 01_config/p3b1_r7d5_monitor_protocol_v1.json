@@ -1,0 +1,26 @@
+{
+  "boundary_perturbation_ladder_m": [
+    1e-09,
+    1e-08,
+    1e-07,
+    1e-06,
+    1e-05,
+    0.0001,
+    0.001
+  ],
+  "claim_calibration": {
+    "final_supervisory_q_sensitivity_claim_authorized": false,
+    "implementation_refinement_claim_authorized": false,
+    "reason": "R7-D5 can establish numerical and grid-neighborhood robustness only. Local boundary refinement/holdout replay and real-trace implementation refinement remain separate gates.",
+    "scientific_kernel_claim_authorized": false
+  },
+  "description": "Pre-registered model-level stress protocol for the q-dependent certified supervisor switching boundary. This is not implementation refinement evidence I_c <= A_c.",
+  "geometric_support_gate": {
+    "max_isolated_switch_fraction": 0.01,
+    "min_median_neighbor_support_fraction": 0.5
+  },
+  "numeric_tolerance_m": 1e-10,
+  "replay_tolerance_m": 1e-09,
+  "robust_radius_min_multiple_of_numeric_tolerance": 1000.0,
+  "schema": "SCV_P3B1_R7D5_MONITOR_PROTOCOL_V1"
+}

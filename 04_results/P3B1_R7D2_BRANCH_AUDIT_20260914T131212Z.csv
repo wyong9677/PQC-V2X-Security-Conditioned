@@ -1,0 +1,5 @@
+profile,R,gain_nodes,defer_branch_available,best_action_defer_dominant_nodes,best_action_completion_dominant_nodes,best_action_equal_branch_nodes,gain_nodes_defer_dominant,gain_nodes_completion_dominant,gain_nodes_equal_branch,gain_nodes_with_q_dependence,best_action_index_0_count,best_action_index_1_count,best_action_index_2_count
+ideal,1,42,False,0,0,0,0,0,0,0,,,
+diagnostic_fast,2,42,True,6007,64222,73096,0,3,39,0,143325,0,0
+diagnostic_nominal,5,42,True,6007,64222,73096,0,3,39,0,143325,0,0
+diagnostic_stressed,10,42,True,6007,64222,73096,0,3,39,0,143325,0,0

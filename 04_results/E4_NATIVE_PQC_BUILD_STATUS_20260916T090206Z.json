@@ -1,0 +1,26 @@
+{
+  "patch_level": "E4_R1_NATIVE_REBENCH_LINKER_FIX",
+  "native_liboqs_found": true,
+  "build_ok": true,
+  "selected_method": "pkg-config",
+  "selected_prefix": "",
+  "compiler": "/usr/bin/clang",
+  "output": "<PQC_V2X_NUMERICAL_ROOT>/03_build/e4_pqc_verify_bench",
+  "attempts": [
+    {
+      "index": 1,
+      "method": "pkg-config",
+      "prefix": "",
+      "cflags": [
+        "-I<USER_HOME>/ResearchTools/openssl_oqs/liboqs-install/include"
+      ],
+      "libs": [
+        "-L<USER_HOME>/ResearchTools/openssl_oqs/liboqs-install/lib",
+        "-loqs"
+      ],
+      "returncode": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    }
+  ]
+}

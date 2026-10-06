@@ -1,0 +1,70 @@
+{
+  "artifacts": {
+    "second_axis_attribution_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9OR2_SECOND_AXIS_ATTRIBUTION_20260916T083327Z.csv",
+    "second_axis_intervals_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9OR2_SECOND_AXIS_INTERVALS_20260916T083327Z.csv"
+  },
+  "classification": "TWO_AXIS_PREDECLARED_REFINEMENT_INSUFFICIENT_ENCLOSURE_ERASURE_PERSISTS",
+  "final_predeclared_refinement_round": true,
+  "first_refinement": {
+    "axis": "bar_u",
+    "eval_nodes": 1051050,
+    "lookup_nodes": 1930500,
+    "max_raw_last_stage_gap_m": 0.20676080345072378,
+    "raw_last_stage_gap_nodes": 92,
+    "selected_interval_ids": [
+      7
+    ]
+  },
+  "further_automatic_axis_refinement_authorized": false,
+  "hard_flags": {
+    "continuous_action_interval_gfp_solved": false,
+    "continuous_state_separation_certified": false,
+    "deployment_protocol_certified": false,
+    "p2c_independent_lower_checker": false
+  },
+  "metrics": {
+    "common_nodes": 950950,
+    "max_credential_worse_margin_m": 0.0,
+    "max_fragment_worse_margin_m": 0.0,
+    "max_raw_last_stage_gap_m": 0.20676080345072378,
+    "max_stagewise_cellmax_gap_m": 0.0,
+    "max_upper_pair_gap_m": 0.0,
+    "paired_positive_nodes": 0,
+    "raw_gap_containing_cells": 1320,
+    "raw_last_stage_gap_nodes": 179,
+    "stagewise_cellmax_gap_cells": 0,
+    "upper_sensitive_nodes": 0
+  },
+  "next_action": "R9P_STOP_POSITIVE_CONTINUOUS_PROMOTION_AND_REPORT_ENCLOSURE_LIMITATION",
+  "p2c_lower_metrics": null,
+  "schema": "P3B1_R9O_R2_SECOND_AXIS_ADAPTIVE_REFINEMENT_V1",
+  "second_refinement": {
+    "axis": "age",
+    "axis_votes_after_first_refinement": {
+      "a_f": 0.03442498777088465,
+      "age": 698.0467088743626,
+      "bar_a": 112.12494937700596,
+      "bar_u": 698.0467088743626,
+      "v_f": 253.88915800064072,
+      "v_p": 297.97639031031235
+    },
+    "eval_nodes": 1101100,
+    "lookup_nodes": 2018250,
+    "plan": {
+      "available_intervals": 1,
+      "axis": "age",
+      "axis_index": 5,
+      "base_eval_nodes": 1051050,
+      "base_lookup_nodes": 1930500,
+      "node_budget_truncated": false,
+      "projected_eval_nodes": 1101100,
+      "projected_lookup_nodes": 2018250,
+      "selected_intervals": 1,
+      "vote": 698.0467088743626
+    },
+    "selected_interval_ids": [
+      4
+    ]
+  },
+  "status": "PASS"
+}

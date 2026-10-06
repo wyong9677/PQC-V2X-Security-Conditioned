@@ -1,0 +1,83 @@
+{
+  "schema": "SCV_P2B_HYBRID_FALLBACK_V1",
+  "status": "ENGINEERING_VALIDATION_BASELINE",
+
+  "random_seed": 20260914,
+
+  "sampling": {
+    "Ts": 0.1
+  },
+
+  "state_domain": {
+    "d_min": 2.0,
+    "d_max": 220.0,
+
+    "delta_v_min": -15.0,
+    "delta_v_max": 15.0,
+
+    "v_f_min": 0.0,
+    "v_f_max": 35.0,
+
+    "a_f_min": -6.0,
+    "a_f_max": 3.0,
+
+    "a_p_min": -8.0,
+    "a_p_max": 3.0,
+
+    "v_p_min": 0.0,
+    "v_p_max": 35.0
+  },
+
+  "follower": {
+    "tau": 0.35,
+    "fallback_command": -6.0,
+    "worst_disturbance": 0.20
+  },
+
+  "predecessor": {
+    "tau": 0.35,
+    "worst_command": -8.0,
+    "worst_disturbance": -0.20,
+
+    "dominance_command_max": -0.5,
+    "disturbance_max": 0.20
+  },
+
+  "temporal_bracket": {
+    "resolutions": [129, 257, 513, 1025],
+
+    "ambiguity_fraction_tolerance": 0.005,
+    "p95_gap_width_tolerance_m": 0.15
+  },
+
+  "qmc": {
+    "main_power": 15,
+
+    "replicate_power": 13,
+    "replicates": 4,
+
+    "replicate_std_tolerance": 0.003
+  },
+
+  "bellman": {
+    "sample_count": 256,
+    "interval_resolution": 257,
+    "overlap_tolerance": 1e-9
+  },
+
+  "dominance": {
+    "trials": 1000,
+    "tolerance": 1e-10
+  },
+
+  "figures": {
+    "slice_v_f": 20.0,
+    "slice_a_f": 0.0,
+    "slice_a_p": 0.0,
+
+    "slice_d_points": 320,
+    "slice_delta_v_points": 240,
+
+    "slice_resolution": 513
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "classification": "CORRECTIONS_NUMERICALLY_EQUIVALENT_ON_BASE_GRID",
+  "input_r9a_latest": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9A_LATEST.json",
+  "input_sha256": "a0a41ec37125686d7b94d19b06c47c3796c1708e281eb67e9c707e2b43cabf5b",
+  "next_action": "R9B_WITNESS_FOCUSED_SEMANTIC_AND_ACTION_AUDIT",
+  "retired_gate": {
+    "false_gate_detected_in_input": true,
+    "name": "SAFETY_SEED_CONTAINS_SWITCHING_FALLBACK",
+    "reason": "INVALID_CROSS_MODE_PROJECTION_ORDER: N_sw=0 completed-fallback lifting and N_sw>0 cooperative/switching guard are distinct hybrid-mode sets; their scalar spacing thresholds are not required to be nested.",
+    "retired": true
+  },
+  "schema": "SCV_P3B1_R9A_R1_FALSE_GATE_REAUDIT_V1",
+  "scope": {
+    "base_grid_only": true,
+    "continuous_state_separation_certified": false,
+    "maximal_continuous_kernel_claim": false,
+    "policy_class": "FROZEN_FINITE_ACTION_ALPHABET",
+    "semantic_admissibility_certified": false
+  },
+  "status": "PASS",
+  "timestamp_utc": "20260915T143417Z",
+  "valid_gates": {
+    "all_profile_correctness_gates": true,
+    "causal_nonworsening_all_profiles": true,
+    "gfp_contains_causal_lfp_all_profiles": true
+  }
+}

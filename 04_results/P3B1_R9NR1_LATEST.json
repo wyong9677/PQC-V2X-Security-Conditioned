@@ -1,0 +1,35 @@
+{
+  "artifacts": {
+    "witness_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9NR1_WITNESSES_20260916T075358Z.csv"
+  },
+  "classification": "REACHABLE_RAW_STAGE_GAP_ERASED_BY_STAGEWISE_CELL_CORNER_MAX_ENCLOSURE",
+  "hard_flags": {
+    "continuous_state_separation_certified": false,
+    "r9n_original_no_preimage_classification_accepted_as_final": false
+  },
+  "metrics": {
+    "earliest_raw_preimage_age_s": 0.2,
+    "enclosure_erased_cells": 928,
+    "enclosure_erased_pair_phase_tests": 22098,
+    "enclosure_erased_preimage_tests": 43476,
+    "max_raw_eval_gap_m": 0.20676080345072378,
+    "max_raw_lookup_gap_m": 0.20676080345072378,
+    "preserved_gap_cells": 0,
+    "raw_cell_max_corner_gap_m": 0.20676080345072378,
+    "raw_eval_semantic_gap_nodes": 96,
+    "raw_gap_cell_preimage_nodes": 2660,
+    "raw_gap_cell_preimage_tests": 43476,
+    "raw_gap_containing_cells": 928,
+    "raw_gap_pair_phase_nodes": 1352,
+    "raw_gap_pair_phase_tests": 22098,
+    "raw_lookup_gap_nodes": 96,
+    "stagewise_cellmax_gap_cells": 0,
+    "stagewise_cellmax_gap_pair_phase_tests": 0,
+    "stagewise_cellmax_gap_preimage_tests": 0,
+    "stagewise_cellmax_max_gap_m": 0.0,
+    "upstream_global_last_stage_gap_m": 0.20676080345072378
+  },
+  "next_action": "R9O_ADAPTIVELY_REFINE_ONLY_REACHABLE_RAW_GAP_CELLS_AND_RECOMPUTE_FULL_GFP",
+  "schema": "P3B1_R9NR1_ENCLOSURE_ERASURE_CORRECTION_V1",
+  "status": "PASS"
+}

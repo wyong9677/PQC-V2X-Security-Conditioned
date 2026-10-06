@@ -1,0 +1,100 @@
+{
+  "artifacts": {
+    "action_discovery_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9C_ACTION_DISCOVERY_20260915T145132Z.csv",
+    "qage_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9C_QAGE_20260915T145132Z.csv",
+    "witness_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9C_TARGETED_WITNESSES_20260915T145132Z.csv"
+  },
+  "classification": "TARGETED_FINITE_Q_LAYER_OFF_EXACT_QAGE_HISTORY_LATTICE",
+  "continuous_action_certificate": false,
+  "continuous_state_separation_certified": false,
+  "gates": {
+    "all_solvers_converged": true,
+    "frozen_transition_equivalence": {
+      "index_or_valid_mismatch": 0,
+      "max_float_error": 0.0,
+      "pass": true,
+      "sample_count": 257
+    },
+    "r6_halo_provenance": {
+      "actual_sha256": "912d9fbc06e39ba6d71e0663a39315b8dcce7e7e39066acffb408529e66c1546",
+      "content_gate": "PASS",
+      "lookup_grid_nodes": 382725,
+      "manifest_expected_sha256": "912d9fbc06e39ba6d71e0663a39315b8dcce7e7e39066acffb408529e66c1546",
+      "manifest_gate": "PASS",
+      "manifest_path": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R6_MANIFEST_20260914T125657Z.sha256"
+    },
+    "targeted_baseline_qdep_exactly_16": true
+  },
+  "geometry": {
+    "base_refinement_axes": [
+      "v_p",
+      "bar_u"
+    ],
+    "evaluation_nodes": 315315,
+    "inserted_bar_a": [
+      -2.4140625,
+      -2.328125,
+      -2.2421875,
+      -2.15625,
+      -2.0703125,
+      -1.984375
+    ],
+    "lookup_nodes": 710775
+  },
+  "metrics": {
+    "action_discovery": {
+      "material_witnesses": 0,
+      "scan_is_discovery_only": true,
+      "scanned_witnesses": 0
+    },
+    "causal_all": {
+      "comparable_nodes": 315315,
+      "max_q_span_m": 0.07248938418372708,
+      "p95_positive_q_span_m": 0.06480118750582031,
+      "qdep_nodes": 16
+    },
+    "causal_changed_nodes": 81,
+    "causal_exact_qage": {
+      "comparable_nodes": 90090,
+      "max_q_span_m": 0.0,
+      "p95_positive_q_span_m": 0.0,
+      "qdep_nodes": 0
+    },
+    "hull_all": {
+      "comparable_nodes": 315315,
+      "max_q_span_m": 0.07248938418372708,
+      "p95_positive_q_span_m": 0.06480118750582031,
+      "qdep_nodes": 16
+    },
+    "hull_changed_nodes": 0,
+    "hull_exact_qage": {
+      "comparable_nodes": 90090,
+      "max_q_span_m": 0.0,
+      "p95_positive_q_span_m": 0.0,
+      "qdep_nodes": 0
+    },
+    "legacy_all": {
+      "comparable_nodes": 315315,
+      "max_q_span_m": 0.07248938418372708,
+      "p95_positive_q_span_m": 0.06480118750582031,
+      "qdep_nodes": 16
+    },
+    "legacy_exact_qage": {
+      "comparable_nodes": 90090,
+      "max_q_span_m": 0.0,
+      "p95_positive_q_span_m": 0.0,
+      "qdep_nodes": 0
+    },
+    "qage_lattice": {
+      "age_nodes": 315315,
+      "age_nodes_off_Ts_lattice": 180180,
+      "age_nodes_on_Ts_lattice": 135135,
+      "fraction_on_Ts_lattice": 0.42857142857142855
+    }
+  },
+  "next_action": "R9D_REBUILD_HISTORY_ALIGNED_AGE_GRID_AND_SERVICE_AUTOMATON",
+  "schema": "SCV_P3B1_R9C_TARGETED_HISTORY_GATE_V1",
+  "semantic_admissibility_scope": "exact q-age lattice under frozen countdown/reset model only",
+  "status": "PASS",
+  "timestamp_utc": "20260915T145132Z"
+}

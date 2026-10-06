@@ -1,0 +1,44 @@
+{
+  "artifacts": {
+    "action_interval_geometry_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9HC_ACTION_INTERVAL_GEOMETRY_20260916T040701Z.csv",
+    "p2c_directional_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9HC_P2C_DIRECTIONAL_20260916T040701Z.csv",
+    "state_box_diagnostic_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9HC_STATE_BOX_DIAGNOSTIC_20260916T040701Z.csv"
+  },
+  "classification": "LOCAL_THEOREM_PREFLIGHTS_PASS_PAIRED_INTERVAL_GFP_REMAINS",
+  "continuous_state_separation_certified": false,
+  "full_augmented_interval_gfp_solved": false,
+  "gates": {
+    "action_interval_geometry_complete": true,
+    "continuous_action_restart_interval_certified": false,
+    "continuous_state_cell_enclosure_certified": false,
+    "full_augmented_interval_gfp_solved": false,
+    "local_state_box_sign_stability_pass": true,
+    "p2c_bracket_directional_audit_pass": true,
+    "p2c_lower_bound_semantics_theorem_certified": false,
+    "r9hb_action_refinement_pass": true
+  },
+  "metrics": {
+    "action_interval_lookup_failures": 0,
+    "action_interval_monotonicity_failures": 0,
+    "action_interval_tests": 1088,
+    "action_interval_width": 0.03125,
+    "action_intervals": 272,
+    "matched_chi_tests": 16,
+    "max_adopt_cell_product": 16,
+    "max_hold_cell_product": 8,
+    "p2c_directional_failures": 0,
+    "p2c_max_finest_bracket_width_m": 0.0032876434475309635,
+    "p2c_nodes": 4,
+    "state_box_min_abs_gap_m": 0.42428750252680025,
+    "state_box_nodes": 4,
+    "state_box_sign_failures": 0,
+    "unique_physical_nodes": 4,
+    "upstream_max_action_refinement_drift_m": 0.0,
+    "upstream_max_finest_gap_m": 0.4641350247898499
+  },
+  "next_action": "R9H_D_SOLVE_PAIRED_INTERVAL_GFP_ON_REACHABLE_SERVICE_GRAPH_WITH_VALIDATED_P2C_LOWER_CHECKER",
+  "p2c_switching_loss_bracket_source_sha256": "462f34a11511f6db15831be0484007be3e452a0e3f7f6cd178cc0cb69c418620",
+  "schema": "SCV_P3B1_R9HC_THEOREM_GATE_AUDIT_V1",
+  "status": "PASS",
+  "timestamp_utc": "20260916T040701Z"
+}

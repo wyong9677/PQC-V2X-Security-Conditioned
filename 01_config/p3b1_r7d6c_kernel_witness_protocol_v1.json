@@ -1,0 +1,19 @@
+{
+  "claim_calibration": {
+    "continuous_domain_global_claim_authorized": false,
+    "implementation_refinement_claim_authorized": false,
+    "maximal_kernel_claim_authorized": false,
+    "scientific_kernel_claim_authorized": false
+  },
+  "coordinate_dedup_tolerance": 1e-12,
+  "description": "Localization, physical-coordinate deduplication, dyadic local-persistence replay, and machine-ULP stress for the kernel-positive sample occurrences revealed by R7-D6B Stage 1. This is an operator-level witness audit, not a refined fixed-point or maximal-kernel claim.",
+  "local_dyadic_offsets_t": [
+    0.0009765625,
+    0.000244140625,
+    6.103515625e-05
+  ],
+  "minimum_center_kernel_multiple_of_tolerance": 1000.0,
+  "numeric_tolerance_m": 1e-10,
+  "schema": "SCV_P3B1_R7D6C_KERNEL_WITNESS_PROTOCOL_V1",
+  "stage1_subdivisions": 32
+}

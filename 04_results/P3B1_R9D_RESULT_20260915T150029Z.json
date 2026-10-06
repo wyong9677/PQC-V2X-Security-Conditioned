@@ -1,0 +1,115 @@
+{
+  "R": 2,
+  "artifacts": {
+    "automaton_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9D_AUTOMATON_20260915T150029Z.csv",
+    "witness_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9D_TIMESTAMPED_WITNESSES_20260915T150029Z.csv"
+  },
+  "classification": "Q_LAYER_PERSISTS_ON_TIMESTAMPED_HISTORY_ALIGNED_GRID_PENDING_CONTENT_UNRESOLVED",
+  "continuous_action_certificate": false,
+  "continuous_state_separation_certified": false,
+  "formal_timestamp_age_rule_implemented": true,
+  "gates": {
+    "pending_message_content_gate": false,
+    "r6_halo_provenance": {
+      "actual_sha256": "912d9fbc06e39ba6d71e0663a39315b8dcce7e7e39066acffb408529e66c1546",
+      "content_gate": "PASS",
+      "lookup_grid_nodes": 382725,
+      "manifest_expected_sha256": "912d9fbc06e39ba6d71e0663a39315b8dcce7e7e39066acffb408529e66c1546",
+      "manifest_gate": "PASS",
+      "manifest_path": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R6_MANIFEST_20260914T125657Z.sha256"
+    },
+    "r9c_upstream_pass": true,
+    "solver_converged": true,
+    "timestamp_age_not_reset_zero": true
+  },
+  "geometry": {
+    "age_axis": [
+      0.0,
+      0.1,
+      0.2,
+      0.30000000000000004,
+      0.4,
+      0.5,
+      0.6000000000000001,
+      0.7000000000000001,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2000000000000002,
+      1.3,
+      1.4000000000000001,
+      1.5,
+      1.6,
+      1.7000000000000002,
+      1.8,
+      1.9000000000000001,
+      2.0
+    ],
+    "evaluation_nodes": 945945,
+    "inserted_bar_a": [
+      -2.4140625,
+      -2.328125,
+      -2.2421875,
+      -2.15625,
+      -2.0703125,
+      -1.984375
+    ],
+    "lookup_nodes": 1737450
+  },
+  "metrics": {
+    "frozen_all": {
+      "comparable_nodes": 945945,
+      "max_q_span_m": 0.2334642268422087,
+      "p95_positive_q_span_m": 0.21154514114671963,
+      "qdep_nodes": 44
+    },
+    "frozen_semantic": {
+      "comparable_nodes": 855855,
+      "max_q_span_m": 0.2334642268422087,
+      "p95_positive_q_span_m": 0.21154514114671963,
+      "qdep_nodes": 44
+    },
+    "midpoint_all": {
+      "comparable_nodes": 945945,
+      "max_q_span_m": 0.2334642268422087,
+      "p95_positive_q_span_m": 0.21154514114671963,
+      "qdep_nodes": 44
+    },
+    "midpoint_changed_nodes": 0,
+    "midpoint_semantic": {
+      "comparable_nodes": 855855,
+      "max_q_span_m": 0.2334642268422087,
+      "p95_positive_q_span_m": 0.21154514114671963,
+      "qdep_nodes": 44
+    }
+  },
+  "next_action": "R9E_ADD_PENDING_MESSAGE_CONTENT_DESCRIPTOR_AND_GENERAL_ACTION_PROPAGATOR",
+  "pending_message_content_explicit": false,
+  "profile": "diagnostic_fast",
+  "schema": "SCV_P3B1_R9D_TIMESTAMPED_SERVICE_V1",
+  "semantic_scope": "timestamp-corrected diagnostic countdown only; pending message content/replacement/credential state not explicit",
+  "service_contract": {
+    "completion_age_by_q_seconds": {
+      "1": 0.2,
+      "2": 0.1
+    },
+    "qage_reachability": {
+      "age_nodes": 945945,
+      "comparable_physical_nodes": 855855,
+      "off_lattice": 0,
+      "on_lattice": 945945,
+      "reachable_qage_pairs": 39
+    },
+    "upstream_r9c_witness_age_summary": {
+      "available": true,
+      "count": 16,
+      "unique_ages": [
+        0.3333333333
+      ],
+      "witness_csv_available": true
+    }
+  },
+  "status": "PASS",
+  "timestamp_utc": "20260915T150029Z"
+}

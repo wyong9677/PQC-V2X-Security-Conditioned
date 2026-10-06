@@ -1,0 +1,32 @@
+{
+  "claim_calibration": {
+    "certificate_backed_finite_abstraction_witness_candidate": true,
+    "farkas_certificate_authorized": false,
+    "implementation_refinement_claim_authorized": false,
+    "maximal_continuous_kernel_claim_authorized": false,
+    "scientific_kernel_claim_authorized": false
+  },
+  "description": "Generate an exact-rational outward numerical separation certificate from the R7-D7B nested fixed-point witness table and verify it with a standalone standard-library checker that imports no Bellman/fixed-point solver modules. The certificate proves positivity of the recorded q-span under the declared two-sided numerical guard; it does not by itself prove the real-arithmetic Bellman model, maximal continuous-domain viability, Farkas infeasibility, or implementation refinement.",
+  "difference_guard_factor": 2,
+  "endpoint_guard_multiple_of_tolerance": 256,
+  "minimum_certified_lower_bound_multiple_of_tolerance": 1000,
+  "numeric_tolerance_m": "1e-10",
+  "required_profiles": [
+    "diagnostic_fast",
+    "diagnostic_nominal",
+    "diagnostic_stressed"
+  ],
+  "required_witness_count": 16,
+  "schema": "SCV_P3B1_R7D8_RATIONAL_OUTWARD_CERT_PROTOCOL_V1",
+  "span_fields_per_profile": [
+    "d7_center_span_m",
+    "level_a_center_span_m",
+    "level_b_center_span_m",
+    "level_a_minus_span_m",
+    "level_a_plus_span_m",
+    "level_b_minus_A_span_m",
+    "level_b_plus_A_span_m",
+    "level_b_minus_B_span_m",
+    "level_b_plus_B_span_m"
+  ]
+}

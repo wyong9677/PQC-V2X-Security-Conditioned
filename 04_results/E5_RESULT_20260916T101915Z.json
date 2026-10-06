@@ -1,0 +1,591 @@
+{
+  "artifact_runtime_gate": {
+    "gate": true,
+    "issues": []
+  },
+  "bench_summary": {
+    "0.15.0": {
+      "ML-DSA-65": {
+        "compute_only_R": 1,
+        "empirical_envelope_us": 96.25,
+        "max_observed_us": 77.0,
+        "median_max_us": 32.0,
+        "median_min_us": 31.0,
+        "p95_max_us": 35.0
+      },
+      "SLH-DSA-SHA2-192s": {
+        "compute_only_R": 1,
+        "empirical_envelope_us": 2751.25,
+        "max_observed_us": 2201.0,
+        "median_max_us": 337.0,
+        "median_min_us": 321.0,
+        "p95_max_us": 363.0
+      }
+    },
+    "0.16.0": {
+      "ML-DSA-65": {
+        "compute_only_R": 1,
+        "empirical_envelope_us": 195.0,
+        "max_observed_us": 156.0,
+        "median_max_us": 32.0,
+        "median_min_us": 31.0,
+        "p95_max_us": 39.0
+      },
+      "SLH-DSA-SHA2-192s": {
+        "compute_only_R": 1,
+        "empirical_envelope_us": 1125.0,
+        "max_observed_us": 900.0,
+        "median_max_us": 353.0,
+        "median_min_us": 335.0,
+        "p95_max_us": 366.0
+      }
+    }
+  },
+  "continuous_action_interval_gfp_solved": false,
+  "continuous_state_separation_certified": false,
+  "deployment_protocol_certified": false,
+  "full_service": {
+    "classification": "REAL_PQC_SERVICE_AUTOMATA_DIFFER_BUT_ARE_NONBINDING_FOR_FINITE_POINT_ACTION_VIABILITY_ON_TESTED_DOMAIN",
+    "comparisons": [
+      {
+        "a_gt_b_count": 0,
+        "b_gt_a_count": 0,
+        "comparison": "ML_minus_SLH_entry",
+        "equal_within_tol_count": 94325,
+        "max_abs_gap_m": 0.0,
+        "max_signed_a_minus_b_m": 0.0,
+        "mean_abs_gap_m": 0.0,
+        "min_signed_a_minus_b_m": 0.0,
+        "node_count": 94325,
+        "p95_abs_gap_m": 0.0,
+        "policy": "strict_tau5",
+        "verification_mode": "eligible_valid_message"
+      },
+      {
+        "a_gt_b_count": 0,
+        "b_gt_a_count": 0,
+        "comparison": "ML_minus_SLH_entry",
+        "equal_within_tol_count": 94325,
+        "max_abs_gap_m": 0.0,
+        "max_signed_a_minus_b_m": 0.0,
+        "mean_abs_gap_m": 0.0,
+        "min_signed_a_minus_b_m": 0.0,
+        "node_count": 94325,
+        "p95_abs_gap_m": 0.0,
+        "policy": "extended_reassembly",
+        "verification_mode": "eligible_valid_message"
+      },
+      {
+        "a_gt_b_count": 0,
+        "b_gt_a_count": 0,
+        "comparison": "ML_DSA_65_strict_minus_extended_entry",
+        "equal_within_tol_count": 94325,
+        "max_abs_gap_m": 0.0,
+        "max_signed_a_minus_b_m": 0.0,
+        "mean_abs_gap_m": 0.0,
+        "min_signed_a_minus_b_m": 0.0,
+        "node_count": 94325,
+        "p95_abs_gap_m": 0.0,
+        "policy": "strict_vs_extended",
+        "verification_mode": "eligible_valid_message"
+      },
+      {
+        "a_gt_b_count": 0,
+        "b_gt_a_count": 0,
+        "comparison": "SLH_DSA_SHA2_192S_strict_minus_extended_entry",
+        "equal_within_tol_count": 94325,
+        "max_abs_gap_m": 0.0,
+        "max_signed_a_minus_b_m": 0.0,
+        "mean_abs_gap_m": 0.0,
+        "min_signed_a_minus_b_m": 0.0,
+        "node_count": 94325,
+        "p95_abs_gap_m": 0.0,
+        "policy": "strict_vs_extended",
+        "verification_mode": "eligible_valid_message"
+      },
+      {
+        "a_gt_b_count": 0,
+        "b_gt_a_count": 0,
+        "comparison": "ML_minus_SLH_entry",
+        "equal_within_tol_count": 94325,
+        "max_abs_gap_m": 0.0,
+        "max_signed_a_minus_b_m": 0.0,
+        "mean_abs_gap_m": 0.0,
+        "min_signed_a_minus_b_m": 0.0,
+        "node_count": 94325,
+        "p95_abs_gap_m": 0.0,
+        "policy": "strict_tau5",
+        "verification_mode": "general_verify_outcome"
+      },
+      {
+        "a_gt_b_count": 0,
+        "b_gt_a_count": 0,
+        "comparison": "ML_minus_SLH_entry",
+        "equal_within_tol_count": 94325,
+        "max_abs_gap_m": 0.0,
+        "max_signed_a_minus_b_m": 0.0,
+        "mean_abs_gap_m": 0.0,
+        "min_signed_a_minus_b_m": 0.0,
+        "node_count": 94325,
+        "p95_abs_gap_m": 0.0,
+        "policy": "extended_reassembly",
+        "verification_mode": "general_verify_outcome"
+      },
+      {
+        "a_gt_b_count": 0,
+        "b_gt_a_count": 0,
+        "comparison": "ML_DSA_65_strict_minus_extended_entry",
+        "equal_within_tol_count": 94325,
+        "max_abs_gap_m": 0.0,
+        "max_signed_a_minus_b_m": 0.0,
+        "mean_abs_gap_m": 0.0,
+        "min_signed_a_minus_b_m": 0.0,
+        "node_count": 94325,
+        "p95_abs_gap_m": 0.0,
+        "policy": "strict_vs_extended",
+        "verification_mode": "general_verify_outcome"
+      },
+      {
+        "a_gt_b_count": 0,
+        "b_gt_a_count": 0,
+        "comparison": "SLH_DSA_SHA2_192S_strict_minus_extended_entry",
+        "equal_within_tol_count": 94325,
+        "max_abs_gap_m": 0.0,
+        "max_signed_a_minus_b_m": 0.0,
+        "mean_abs_gap_m": 0.0,
+        "min_signed_a_minus_b_m": 0.0,
+        "node_count": 94325,
+        "p95_abs_gap_m": 0.0,
+        "policy": "strict_vs_extended",
+        "verification_mode": "general_verify_outcome"
+      }
+    ],
+    "continuous_action_interval_gfp_solved": false,
+    "continuous_state_separation_certified": false,
+    "deployment_protocol_certified": false,
+    "gate": true,
+    "primary_real_profile_comparison": {
+      "a_gt_b_count": 0,
+      "b_gt_a_count": 0,
+      "comparison": "ML_minus_SLH_entry",
+      "equal_within_tol_count": 94325,
+      "max_abs_gap_m": 0.0,
+      "max_signed_a_minus_b_m": 0.0,
+      "mean_abs_gap_m": 0.0,
+      "min_signed_a_minus_b_m": 0.0,
+      "node_count": 94325,
+      "p95_abs_gap_m": 0.0,
+      "policy": "extended_reassembly",
+      "verification_mode": "eligible_valid_message"
+    },
+    "profile_summaries": {
+      "ML_DSA_65|extended_reassembly|eligible_valid_message": {
+        "converged": true,
+        "entry_index": 0,
+        "entry_threshold_max_m": 132.86994648888614,
+        "entry_threshold_mean_m": 33.8939019573842,
+        "final_change_m": 0.0,
+        "iterations": 1,
+        "max_q_span_m": 0.0,
+        "monotone_violation_m": 0.0,
+        "name": "ML_DSA_65:extended_reassembly:eligible_valid_message",
+        "noqueue_index": 1,
+        "noqueue_threshold_mean_m": 33.8939019573842,
+        "q_sensitive_nodes": 0,
+        "service_state_count": 6,
+        "service_states": [
+          "QUEUE(q=1)",
+          "TX(f=2,l=0,u=0)",
+          "TX(f=1,l=0,u=0)",
+          "TX(f=2,l=1,u=0)",
+          "VERIFY(v=1)",
+          "TX(f=1,l=1,u=0)"
+        ],
+        "worst_eligible_steps_from_worst_queue_entry": 6.0
+      },
+      "ML_DSA_65|extended_reassembly|general_verify_outcome": {
+        "converged": true,
+        "entry_index": 0,
+        "entry_threshold_max_m": 132.86994648888614,
+        "entry_threshold_mean_m": 33.8939019573842,
+        "final_change_m": 0.0,
+        "iterations": 1,
+        "max_q_span_m": 0.0,
+        "monotone_violation_m": 0.0,
+        "name": "ML_DSA_65:extended_reassembly:general_verify_outcome",
+        "noqueue_index": 1,
+        "noqueue_threshold_mean_m": 33.8939019573842,
+        "q_sensitive_nodes": 0,
+        "service_state_count": 6,
+        "service_states": [
+          "QUEUE(q=1)",
+          "TX(f=2,l=0,u=0)",
+          "TX(f=1,l=0,u=0)",
+          "TX(f=2,l=1,u=0)",
+          "VERIFY(v=1)",
+          "TX(f=1,l=1,u=0)"
+        ],
+        "worst_eligible_steps_from_worst_queue_entry": Infinity
+      },
+      "ML_DSA_65|strict_tau5|eligible_valid_message": {
+        "converged": true,
+        "entry_index": 0,
+        "entry_threshold_max_m": 132.86994648888614,
+        "entry_threshold_mean_m": 33.8939019573842,
+        "final_change_m": 0.0,
+        "iterations": 1,
+        "max_q_span_m": 0.0,
+        "monotone_violation_m": 0.0,
+        "name": "ML_DSA_65:strict_tau5:eligible_valid_message",
+        "noqueue_index": 1,
+        "noqueue_threshold_mean_m": 33.8939019573842,
+        "q_sensitive_nodes": 0,
+        "service_state_count": 8,
+        "service_states": [
+          "QUEUE(q=1)",
+          "TX(f=2,l=0,u=0)",
+          "TX(f=1,l=0,u=1)",
+          "TX(f=2,l=1,u=1)",
+          "VERIFY(v=1)",
+          "TX(f=1,l=1,u=2)",
+          "TX(f=1,l=0,u=2)",
+          "TX(f=1,l=1,u=3)"
+        ],
+        "worst_eligible_steps_from_worst_queue_entry": 6.0
+      },
+      "ML_DSA_65|strict_tau5|general_verify_outcome": {
+        "converged": true,
+        "entry_index": 0,
+        "entry_threshold_max_m": 132.86994648888614,
+        "entry_threshold_mean_m": 33.8939019573842,
+        "final_change_m": 0.0,
+        "iterations": 1,
+        "max_q_span_m": 0.0,
+        "monotone_violation_m": 0.0,
+        "name": "ML_DSA_65:strict_tau5:general_verify_outcome",
+        "noqueue_index": 1,
+        "noqueue_threshold_mean_m": 33.8939019573842,
+        "q_sensitive_nodes": 0,
+        "service_state_count": 8,
+        "service_states": [
+          "QUEUE(q=1)",
+          "TX(f=2,l=0,u=0)",
+          "TX(f=1,l=0,u=1)",
+          "TX(f=2,l=1,u=1)",
+          "VERIFY(v=1)",
+          "TX(f=1,l=1,u=2)",
+          "TX(f=1,l=0,u=2)",
+          "TX(f=1,l=1,u=3)"
+        ],
+        "worst_eligible_steps_from_worst_queue_entry": Infinity
+      },
+      "SLH_DSA_SHA2_192S|extended_reassembly|eligible_valid_message": {
+        "converged": true,
+        "entry_index": 0,
+        "entry_threshold_max_m": 132.86994648888614,
+        "entry_threshold_mean_m": 33.8939019573842,
+        "final_change_m": 0.0,
+        "iterations": 1,
+        "max_q_span_m": 0.0,
+        "monotone_violation_m": 0.0,
+        "name": "SLH_DSA_SHA2_192S:extended_reassembly:eligible_valid_message",
+        "noqueue_index": 1,
+        "noqueue_threshold_mean_m": 33.8939019573842,
+        "q_sensitive_nodes": 0,
+        "service_state_count": 18,
+        "service_states": [
+          "QUEUE(q=1)",
+          "TX(f=8,l=0,u=0)",
+          "TX(f=7,l=0,u=0)",
+          "TX(f=8,l=1,u=0)",
+          "TX(f=6,l=0,u=0)",
+          "TX(f=7,l=1,u=0)",
+          "TX(f=5,l=0,u=0)",
+          "TX(f=6,l=1,u=0)",
+          "TX(f=4,l=0,u=0)",
+          "TX(f=5,l=1,u=0)",
+          "TX(f=3,l=0,u=0)",
+          "TX(f=4,l=1,u=0)",
+          "TX(f=2,l=0,u=0)",
+          "TX(f=3,l=1,u=0)",
+          "TX(f=1,l=0,u=0)",
+          "TX(f=2,l=1,u=0)",
+          "VERIFY(v=1)",
+          "TX(f=1,l=1,u=0)"
+        ],
+        "worst_eligible_steps_from_worst_queue_entry": 18.0
+      },
+      "SLH_DSA_SHA2_192S|extended_reassembly|general_verify_outcome": {
+        "converged": true,
+        "entry_index": 0,
+        "entry_threshold_max_m": 132.86994648888614,
+        "entry_threshold_mean_m": 33.8939019573842,
+        "final_change_m": 0.0,
+        "iterations": 1,
+        "max_q_span_m": 0.0,
+        "monotone_violation_m": 0.0,
+        "name": "SLH_DSA_SHA2_192S:extended_reassembly:general_verify_outcome",
+        "noqueue_index": 1,
+        "noqueue_threshold_mean_m": 33.8939019573842,
+        "q_sensitive_nodes": 0,
+        "service_state_count": 18,
+        "service_states": [
+          "QUEUE(q=1)",
+          "TX(f=8,l=0,u=0)",
+          "TX(f=7,l=0,u=0)",
+          "TX(f=8,l=1,u=0)",
+          "TX(f=6,l=0,u=0)",
+          "TX(f=7,l=1,u=0)",
+          "TX(f=5,l=0,u=0)",
+          "TX(f=6,l=1,u=0)",
+          "TX(f=4,l=0,u=0)",
+          "TX(f=5,l=1,u=0)",
+          "TX(f=3,l=0,u=0)",
+          "TX(f=4,l=1,u=0)",
+          "TX(f=2,l=0,u=0)",
+          "TX(f=3,l=1,u=0)",
+          "TX(f=1,l=0,u=0)",
+          "TX(f=2,l=1,u=0)",
+          "VERIFY(v=1)",
+          "TX(f=1,l=1,u=0)"
+        ],
+        "worst_eligible_steps_from_worst_queue_entry": Infinity
+      },
+      "SLH_DSA_SHA2_192S|strict_tau5|eligible_valid_message": {
+        "converged": true,
+        "entry_index": 0,
+        "entry_threshold_max_m": 132.86994648888614,
+        "entry_threshold_mean_m": 33.8939019573842,
+        "final_change_m": 0.0,
+        "iterations": 1,
+        "max_q_span_m": 0.0,
+        "monotone_violation_m": 0.0,
+        "name": "SLH_DSA_SHA2_192S:strict_tau5:eligible_valid_message",
+        "noqueue_index": 1,
+        "noqueue_threshold_mean_m": 33.8939019573842,
+        "q_sensitive_nodes": 0,
+        "service_state_count": 16,
+        "service_states": [
+          "QUEUE(q=1)",
+          "TX(f=8,l=0,u=0)",
+          "TX(f=7,l=0,u=1)",
+          "TX(f=8,l=1,u=1)",
+          "TX(f=6,l=0,u=2)",
+          "TX(f=7,l=1,u=2)",
+          "TX(f=7,l=0,u=2)",
+          "TX(f=5,l=0,u=3)",
+          "TX(f=6,l=1,u=3)",
+          "TX(f=6,l=0,u=3)",
+          "TX(f=7,l=1,u=3)",
+          "TX(f=4,l=0,u=4)",
+          "TX(f=5,l=1,u=4)",
+          "TX(f=5,l=0,u=4)",
+          "TX(f=6,l=1,u=4)",
+          "TX(f=6,l=0,u=4)"
+        ],
+        "worst_eligible_steps_from_worst_queue_entry": Infinity
+      },
+      "SLH_DSA_SHA2_192S|strict_tau5|general_verify_outcome": {
+        "converged": true,
+        "entry_index": 0,
+        "entry_threshold_max_m": 132.86994648888614,
+        "entry_threshold_mean_m": 33.8939019573842,
+        "final_change_m": 0.0,
+        "iterations": 1,
+        "max_q_span_m": 0.0,
+        "monotone_violation_m": 0.0,
+        "name": "SLH_DSA_SHA2_192S:strict_tau5:general_verify_outcome",
+        "noqueue_index": 1,
+        "noqueue_threshold_mean_m": 33.8939019573842,
+        "q_sensitive_nodes": 0,
+        "service_state_count": 16,
+        "service_states": [
+          "QUEUE(q=1)",
+          "TX(f=8,l=0,u=0)",
+          "TX(f=7,l=0,u=1)",
+          "TX(f=8,l=1,u=1)",
+          "TX(f=6,l=0,u=2)",
+          "TX(f=7,l=1,u=2)",
+          "TX(f=7,l=0,u=2)",
+          "TX(f=5,l=0,u=3)",
+          "TX(f=6,l=1,u=3)",
+          "TX(f=6,l=0,u=3)",
+          "TX(f=7,l=1,u=3)",
+          "TX(f=4,l=0,u=4)",
+          "TX(f=5,l=1,u=4)",
+          "TX(f=5,l=0,u=4)",
+          "TX(f=6,l=1,u=4)",
+          "TX(f=6,l=0,u=4)"
+        ],
+        "worst_eligible_steps_from_worst_queue_entry": Infinity
+      }
+    }
+  },
+  "geometry": "targeted",
+  "liboqs_service_profile_invariance_gate": true,
+  "manuscript_mutation_performed": false,
+  "network_bound_measured": false,
+  "packetization_provenance": {
+    "declared_assumptions": {
+      "consecutive_loss_bound": 1,
+      "deployment_protocol_certified": false,
+      "kind": "declared_engineering_assumption",
+      "network_bound_measured": false,
+      "queue_bound_steps": 1
+    },
+    "derived_baseline_bsm_plus_signature_bytes": 104,
+    "derived_fragment_capacity_bytes": 2136,
+    "direct_facts": {
+      "ecdsa_certificate_bytes": 162,
+      "frame_limit_bytes": 2304,
+      "mac_frame_overhead_bytes": 40,
+      "pure_ecdsa_first_frame_bytes": 330,
+      "spdu_fixed_overhead_bytes": 24,
+      "tau_messages": 5
+    },
+    "gate": true,
+    "profile_rows": [
+      {
+        "algorithm": "ML-DSA-65",
+        "fragment_capacity_bytes": 2136,
+        "fragment_count": 2,
+        "hybrid_certificate_bytes": 3501,
+        "profile_key": "ML_DSA_65"
+      },
+      {
+        "algorithm": "SLH-DSA-SHA2-192s",
+        "fragment_capacity_bytes": 2136,
+        "fragment_count": 8,
+        "hybrid_certificate_bytes": 16416,
+        "profile_key": "SLH_DSA_SHA2_192S"
+      }
+    ]
+  },
+  "packetization_provenance_gate": true,
+  "platform": {
+    "build_015": {
+      "argv": [
+        "/usr/bin/clang",
+        "-O3",
+        "-std=c11",
+        "-I<USER_HOME>/ResearchTools/openssl_oqs/liboqs-install/include",
+        "<PQC_V2X_NUMERICAL_ROOT>/02_src/e5_pqc_verify_bench.c",
+        "-L<USER_HOME>/ResearchTools/openssl_oqs/liboqs-install/lib",
+        "-loqs",
+        "-Wl,-rpath,<USER_HOME>/ResearchTools/openssl_oqs/liboqs-install/lib",
+        "-o",
+        "<PQC_V2X_NUMERICAL_ROOT>/03_build/e5_pqc_verify_bench_015"
+      ],
+      "output": "<PQC_V2X_NUMERICAL_ROOT>/02_src/e5_pqc_verify_bench.c:192:39: warning: format specifies type 'size_t' (aka 'unsigned long') but the argument has type 'int' [-Wformat]\n  192 |     printf(\"OQS_SIG_ALG_COUNT=%zu\\n\", OQS_SIG_alg_count());\n      |                               ~~~     ^~~~~~~~~~~~~~~~~~~\n      |                               %d\n1 warning generated.\n",
+      "sha256": "f51d39c8aa8e06fec978de7e3e5028f7e4b7339671c3f009d414e0804e99daf7"
+    },
+    "build_016": {
+      "argv": [
+        "/usr/bin/clang",
+        "-O3",
+        "-std=c11",
+        "-I<USER_HOME>/ResearchTools/liboqs_versions/install/0.16.0/include",
+        "-I/opt/homebrew/Cellar/openssl@3/3.6.3/include",
+        "<PQC_V2X_NUMERICAL_ROOT>/02_src/e5_pqc_verify_bench.c",
+        "-L<USER_HOME>/ResearchTools/liboqs_versions/install/0.16.0/lib",
+        "-loqs",
+        "-Wl,-rpath,<USER_HOME>/ResearchTools/liboqs_versions/install/0.16.0/lib",
+        "-o",
+        "<PQC_V2X_NUMERICAL_ROOT>/03_build/e5_pqc_verify_bench_016"
+      ],
+      "output": "<PQC_V2X_NUMERICAL_ROOT>/02_src/e5_pqc_verify_bench.c:192:39: warning: format specifies type 'size_t' (aka 'unsigned long') but the argument has type 'int' [-Wformat]\n  192 |     printf(\"OQS_SIG_ALG_COUNT=%zu\\n\", OQS_SIG_alg_count());\n      |                               ~~~     ^~~~~~~~~~~~~~~~~~~\n      |                               %d\n1 warning generated.\n",
+      "sha256": "545dd99c1d2c2caca1b9fe785b775c8e387f6ab0cb6e5f71fd798435572aa3af"
+    },
+    "default_unchanged": true,
+    "default_version_after": "0.15.0",
+    "default_version_before": "0.15.0",
+    "legacy_explicit_version": "0.15.0",
+    "legacy_prefix": "<USER_HOME>/ResearchTools/openssl_oqs/liboqs-install",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "research_explicit_version": "0.16.0",
+    "research_prefix": "<USER_HOME>/ResearchTools/liboqs_versions/install/0.16.0"
+  },
+  "platform_isolation_gate": true,
+  "profile_parameters": {
+    "ML_DSA_65": {
+      "algorithm": "ML-DSA-65",
+      "alpha": 2,
+      "fragment_capacity_bytes": 2136,
+      "hybrid_certificate_bytes": 3501,
+      "lmax": 1,
+      "qmax": 1,
+      "robust_R_formula": 6,
+      "rverify": 1,
+      "tau": 5
+    },
+    "SLH_DSA_SHA2_192S": {
+      "algorithm": "SLH-DSA-SHA2-192s",
+      "alpha": 8,
+      "fragment_capacity_bytes": 2136,
+      "hybrid_certificate_bytes": 16416,
+      "lmax": 1,
+      "qmax": 1,
+      "robust_R_formula": 18,
+      "rverify": 1,
+      "tau": 5
+    }
+  },
+  "profile_parameters_016": {
+    "ML_DSA_65": {
+      "algorithm": "ML-DSA-65",
+      "alpha": 2,
+      "fragment_capacity_bytes": 2136,
+      "hybrid_certificate_bytes": 3501,
+      "lmax": 1,
+      "qmax": 1,
+      "robust_R_formula": 6,
+      "rverify": 1,
+      "tau": 5
+    },
+    "SLH_DSA_SHA2_192S": {
+      "algorithm": "SLH-DSA-SHA2-192s",
+      "alpha": 8,
+      "fragment_capacity_bytes": 2136,
+      "hybrid_certificate_bytes": 16416,
+      "lmax": 1,
+      "qmax": 1,
+      "robust_R_formula": 18,
+      "rverify": 1,
+      "tau": 5
+    }
+  },
+  "scalar_bridge": {
+    "ML_DSA_65": {
+      "R": 6,
+      "converged": true,
+      "iterations": 1,
+      "max_q_span_m": 0.0,
+      "q_sensitive_nodes": 0
+    },
+    "SLH_DSA_SHA2_192S": {
+      "R": 18,
+      "converged": true,
+      "iterations": 1,
+      "max_q_span_m": 0.0,
+      "q_sensitive_nodes": 0
+    },
+    "classification": "SCALAR_HORIZON_DIAGNOSTIC_ONLY",
+    "initial_horizon_field_comparison": {
+      "a_gt_b_count": 0,
+      "b_gt_a_count": 0,
+      "equal_within_tol_count": 94325,
+      "max_abs_gap_m": 0.0,
+      "max_signed_a_minus_b_m": 0.0,
+      "mean_abs_gap_m": 0.0,
+      "min_signed_a_minus_b_m": 0.0,
+      "node_count": 94325,
+      "p95_abs_gap_m": 0.0
+    },
+    "not_full_service_automaton": true
+  },
+  "schema": "PQC_V2X_E5_REAL_PROFILE_NUMERICAL_CLOSURE_V1",
+  "status": "PASS",
+  "timestamp_utc": "20260916T101915Z",
+  "verify_depth_robustness_gate": true
+}

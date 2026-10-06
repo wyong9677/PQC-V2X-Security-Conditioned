@@ -1,0 +1,42 @@
+{
+  "artifacts": {
+    "action_refinement_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9HB_ACTION_REFINEMENT_20260916T033603Z.csv",
+    "paired_summary_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9HB_PAIRED_SUMMARY_20260916T033603Z.csv"
+  },
+  "classification": "MATCHED_CHI_GAP_PERSISTS_UNDER_ACTION_REFINEMENT_CONTINUOUS_PROMOTION_BLOCKED_BY_REMAINING_THEOREM_GATES",
+  "continuous_state_separation_certified": false,
+  "full_augmented_gfp_solved": false,
+  "gates": {
+    "action_refinement_sign_stable_some_tests": true,
+    "continuous_state_cell_enclosure_certified": false,
+    "deployment_protocol_certified": false,
+    "generalized_restart_continuation_converged": true,
+    "matched_chi": true,
+    "p2c_lower_bound_semantics_certified": false,
+    "r9ha_interval_preflight": true,
+    "r9har1_reachable_protocol": true,
+    "restart_continuous_action_interval_certified": false,
+    "same_pending_generation_time": true,
+    "same_two_step_liveness_bound": true
+  },
+  "matched_chi_service_progress_numerically_stable": true,
+  "metrics": {
+    "action_refinement_widths": [
+      0.25,
+      0.125,
+      0.0625,
+      0.03125
+    ],
+    "matched_chi_tests": 16,
+    "max_action_refinement_drift_m": 0.0,
+    "max_finest_gap_m": 0.4641350247898499,
+    "restart_action_count": 18,
+    "restart_action_width": 0.5,
+    "sign_flip_tests": 0,
+    "stable_sensitive_tests": 16
+  },
+  "next_action": "R9H_C_CERTIFY_STATE_CELL_ENCLOSURE_RESTART_INTERVAL_AND_P2C_LOWER_SEMANTICS",
+  "schema": "SCV_P3B1_R9HB_PROTOCOLIZED_PAIRED_BOUNDS_V1",
+  "status": "PASS",
+  "timestamp_utc": "20260916T033603Z"
+}

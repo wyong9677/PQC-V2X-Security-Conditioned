@@ -1,0 +1,47 @@
+{
+  "schema": "SCV_P3B0_FRESHNESS_SERVICE_AUDIT_R2",
+  "status": "HIGH_RESOLUTION_DIAGNOSTIC_REPLAY_NOT_FINAL_KERNEL",
+
+  "random_seed": 20260914,
+
+  "cooperative_control": {
+    "candidate_protective_command": -3.0,
+    "candidate_parameter_final": false
+  },
+
+  "information_contract": {
+    "candidate_slew_rate": 6.0,
+    "candidate_parameter_final": false
+  },
+
+  "freshness": {
+    "age_max_seconds": 2.0,
+    "fiber_points": 41,
+    "current_age_max_seconds": 1.0
+  },
+
+  "qmc": {
+    "main_power": 11
+  },
+
+  "temporal_bracket": {
+    "resolutions": [257, 513, 1025],
+    "ambiguity_fraction_tolerance": 0.003,
+    "p95_width_tolerance_m": 0.25
+  },
+
+  "boundary_replay": {
+    "resolutions": [2049, 4097]
+  },
+
+  "service_replication": {
+    "replicates": 6,
+    "power": 10,
+    "resolutions": [513, 1025],
+    "minimum_positive_replicates": 4
+  },
+
+  "witness": {
+    "max_rows": 64
+  }
+}

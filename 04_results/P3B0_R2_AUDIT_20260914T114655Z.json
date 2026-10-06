@@ -1,0 +1,176 @@
+{
+  "age_replay": {
+    "original_count": 3,
+    "persistent_count": 2,
+    "persistent_indices": [
+      286,
+      926
+    ],
+    "replayed_count": 3,
+    "resolved_as_numerical_count": 1
+  },
+  "artifacts": {
+    "persistent_age_counterexample_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B0_R2_AGE_COUNTEREXAMPLE_REPLAY_20260914T114655Z.csv",
+    "persistent_q_witness_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B0_R2_Q_WITNESS_REPLAY_20260914T114655Z.csv",
+    "service_replicate_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B0_R2_SERVICE_REPLICATES_20260914T114655Z.csv",
+    "service_replicate_figure": "<PQC_V2X_PROJECT_ROOT>/05_figures/P3B0_R2_SERVICE_REPLICATES_20260914T114655Z.png"
+  },
+  "checks": {
+    "AGE_COUNTEREXAMPLE_REPLAY_COMPLETE": true,
+    "AUGMENTED_SAMPLE_NONEMPTY": true,
+    "SERVICE_EFFECT_REPLICATED": true,
+    "SERVICE_ORDER_NO_NUMERICAL_REVERSAL": true,
+    "SERVICE_WITNESS_REPLAY_CONFIRMED": true,
+    "TEMPORAL_AMBIGUITY_SMALL": true,
+    "TEMPORAL_BRACKET_ORDERED": true,
+    "TEMPORAL_P95_WIDTH_SMALL": true
+  },
+  "classification": "high-resolution diagnostic replay; not the maximal augmented viability kernel and not a final PQC service experiment",
+  "interpretation": {
+    "age_interpretation": "Persistent replay counterexamples, if nonzero, are numerical evidence against scalar-threshold reduction for this diagnostic model; zero counterexamples remain numerical evidence only and do not replace the analytical age-simulation condition.",
+    "age_monotonicity_proved": false,
+    "maximal_kernel_claim": false,
+    "persistent_age_counterexamples": 2,
+    "service_effect_observed": true,
+    "service_profile_final": false
+  },
+  "metrics": {
+    "age_counterexample_numerically_resolved_count": 1,
+    "age_counterexample_original_count": 3,
+    "age_counterexample_persistent_count": 2,
+    "augmented_sample_count": 1605,
+    "empirical_downward_closed_fraction": 0.9981308411214953,
+    "physical_fraction_of_qmc_box": 0.78369140625,
+    "q_witness_numerically_resolved_count": 1,
+    "q_witness_original_count": 6,
+    "q_witness_persistent_count": 5,
+    "service_diagnostic_fast_fraction": 0.7931464174454829,
+    "service_diagnostic_nominal_fraction": 0.7925233644859813,
+    "service_diagnostic_stressed_fraction": 0.7894080996884735,
+    "service_difference_mean": 0.007038598829917142,
+    "service_difference_std": 0.002439266325277046,
+    "service_ideal_fraction": 0.795638629283489,
+    "service_order_violation_count": 0,
+    "service_positive_replicates": 6,
+    "service_witness_count_mean": 4.666666666666667,
+    "service_witness_count_total": 28,
+    "temporal_ambiguity_fraction": 0.0004254995820986247,
+    "temporal_gap_width_max_m": 0.21480442577157532,
+    "temporal_gap_width_mean_m": 0.07446777878490991,
+    "temporal_gap_width_p95_m": 0.18034345864046486
+  },
+  "platform": {
+    "executable": "<USER_HOME>/envs/research/bin/python",
+    "numpy": "2.4.6",
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "system": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "q_witness_replay": {
+    "original_count": 6,
+    "persistent_count": 5,
+    "persistent_indices": [
+      354,
+      517,
+      615,
+      1103,
+      1189
+    ],
+    "replayed_count": 6,
+    "resolved_as_numerical_count": 1
+  },
+  "schema": "SCV_P3B0_FRESHNESS_SERVICE_AUDIT_R2_RESULT",
+  "service_fractions": {
+    "diagnostic_fast": 0.7931464174454829,
+    "diagnostic_nominal": 0.7925233644859813,
+    "diagnostic_stressed": 0.7894080996884735,
+    "ideal": 0.795638629283489
+  },
+  "service_inclusion_violations": {
+    "diagnostic_fast_not_subset_ideal": 0,
+    "diagnostic_nominal_not_subset_diagnostic_fast": 0,
+    "diagnostic_stressed_not_subset_diagnostic_nominal": 0
+  },
+  "service_replication": {
+    "difference_mean": 0.007038598829917142,
+    "difference_std": 0.002439266325277046,
+    "positive_replicates": 6,
+    "rows": [
+      {
+        "fast_fraction": 0.7965043695380774,
+        "fast_safe_stressed_unsafe_count": 2,
+        "ideal_fraction": 0.797752808988764,
+        "ideal_minus_stressed": 0.0037453183520598232,
+        "nominal_fraction": 0.7952559300873908,
+        "physical_fraction": 0.7822265625,
+        "replicate": 0,
+        "sample_count": 801,
+        "seed": 20262914,
+        "stressed_fraction": 0.7940074906367042
+      },
+      {
+        "fast_fraction": 0.7900621118012422,
+        "fast_safe_stressed_unsafe_count": 5,
+        "ideal_fraction": 0.7937888198757764,
+        "ideal_minus_stressed": 0.00993788819875785,
+        "nominal_fraction": 0.7875776397515528,
+        "physical_fraction": 0.7861328125,
+        "replicate": 1,
+        "sample_count": 805,
+        "seed": 20262915,
+        "stressed_fraction": 0.7838509316770186
+      },
+      {
+        "fast_fraction": 0.7975155279503106,
+        "fast_safe_stressed_unsafe_count": 8,
+        "ideal_fraction": 0.7975155279503106,
+        "ideal_minus_stressed": 0.009937888198757738,
+        "nominal_fraction": 0.7925465838509317,
+        "physical_fraction": 0.7861328125,
+        "replicate": 2,
+        "sample_count": 805,
+        "seed": 20262916,
+        "stressed_fraction": 0.7875776397515528
+      },
+      {
+        "fast_fraction": 0.7985074626865671,
+        "fast_safe_stressed_unsafe_count": 4,
+        "ideal_fraction": 0.7997512437810945,
+        "ideal_minus_stressed": 0.006218905472636815,
+        "nominal_fraction": 0.7947761194029851,
+        "physical_fraction": 0.78515625,
+        "replicate": 3,
+        "sample_count": 804,
+        "seed": 20262917,
+        "stressed_fraction": 0.7935323383084577
+      },
+      {
+        "fast_fraction": 0.7952853598014888,
+        "fast_safe_stressed_unsafe_count": 5,
+        "ideal_fraction": 0.7952853598014888,
+        "ideal_minus_stressed": 0.006203473945409432,
+        "nominal_fraction": 0.794044665012407,
+        "physical_fraction": 0.787109375,
+        "replicate": 4,
+        "sample_count": 806,
+        "seed": 20262918,
+        "stressed_fraction": 0.7890818858560794
+      },
+      {
+        "fast_fraction": 0.7908415841584159,
+        "fast_safe_stressed_unsafe_count": 4,
+        "ideal_fraction": 0.7920792079207921,
+        "ideal_minus_stressed": 0.006188118811881194,
+        "nominal_fraction": 0.7871287128712872,
+        "physical_fraction": 0.7890625,
+        "replicate": 5,
+        "sample_count": 808,
+        "seed": 20262919,
+        "stressed_fraction": 0.7858910891089109
+      }
+    ],
+    "witness_count_mean": 4.666666666666667,
+    "witness_count_total": 28
+  },
+  "status": "PASS",
+  "timestamp_utc": "20260914T114655Z"
+}

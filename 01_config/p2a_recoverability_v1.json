@@ -1,0 +1,71 @@
+{
+  "schema": "SCV_P2A_RECOVERABILITY_V1",
+  "status": "ENGINEERING_CERTIFIED_BASELINE",
+
+  "random_seed": 20260914,
+
+  "sampling": {
+    "Ts": 0.1
+  },
+
+  "state_domain": {
+    "d_min": 2.0,
+    "d_max": 220.0,
+
+    "delta_v_min": -15.0,
+    "delta_v_max": 15.0,
+
+    "v_f_min": 0.0,
+    "v_f_max": 35.0,
+
+    "a_f_min": -6.0,
+    "a_f_max": 3.0,
+
+    "v_p_min": 0.0,
+    "v_p_max": 35.0
+  },
+
+  "follower": {
+    "tau": 0.35,
+    "emergency_command": -6.0,
+    "disturbance_worst": 0.20
+  },
+
+  "predecessor": {
+    "tau": 0.35,
+    "emergency_command": -8.0,
+    "disturbance_shortest_stop": -0.20,
+    "initial_acceleration_shortest_stop": -8.0
+  },
+
+  "switching": {
+    "N_sw": 2,
+    "worst_acceleration_during_switch": 3.0,
+    "sensitivity_max_steps": 5
+  },
+
+  "validation": {
+    "stopping_ivp_trials": 128,
+    "stopping_ivp_tolerance": 2e-9,
+
+    "monotonicity_grid_v": 141,
+    "monotonicity_grid_a": 73,
+
+    "qmc_power_main": 17,
+    "qmc_power_replicate": 15,
+    "qmc_replicates": 4,
+    "qmc_stability_tolerance": 0.005
+  },
+
+  "sensitivity": {
+    "tau_values": [0.20, 0.35, 0.50, 0.70],
+    "brake_commands": [-4.5, -5.0, -6.0, -7.0, -8.0]
+  },
+
+  "figures": {
+    "slice_v_f": 20.0,
+    "slice_a_f": 0.0,
+    "slice_d_points": 420,
+    "slice_delta_v_points": 320
+  }
+}

@@ -1,0 +1,4 @@
+profile,R,holdout_points,holdout_switch_nodes,holdout_kernel_component_nodes,interior_midpoints,interior_midpoint_switch_nodes,interior_midpoint_survival_fraction,interior_robust_radius_min_m,interior_robust_radius_p05_m,interior_robust_radius_p50_m,interior_robust_radius_p95_m,interior_robust_radius_max_m,action_q_change_on_holdout_switch_nodes,branch_q_change_on_holdout_switch_nodes
+diagnostic_fast,2,34151,17588,0,7604,7604,1.0,0.012587273668160037,0.016141929737418792,0.10116792863903967,0.24077140466215496,0.3350340922908117,0,17588
+diagnostic_nominal,5,34151,17588,0,7604,7604,1.0,0.012587273668160037,0.016141929737418792,0.10116792863903967,0.24077140466215496,0.3350340922908117,0,17588
+diagnostic_stressed,10,34151,17588,0,7604,7604,1.0,0.012587273668160037,0.016141929737418792,0.10116792863903967,0.24077140466215496,0.3350340922908117,0,17588

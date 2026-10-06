@@ -1,0 +1,11 @@
+claim_id,claim,status,evidence,allowed_scope
+C1,Latent q-dependence exists in the cooperative Bellman requirement.,SUPPORTED,D3-D4,finite abstraction / model level
+C2,q changes the certified cooperative/fallback supervisor boundary on the coarse grid.,SUPPORTED,D4-D5,coarse finite abstraction
+C3,The coarse projected viability envelope is q-independent at the original grid resolution.,SUPPORTED,D3-D7 baseline control,original coarse grid only
+C4,Targeted bar_a refinement reveals q-dependent refined fixed-point viability thresholds.,SUPPORTED,D6C-D7,refined finite abstraction
+C5,The q-dependent layer persists under two nested true fixed-point refinements.,SUPPORTED,D7B,nested refined finite abstractions
+C6,Recorded q-span separation has an exact-rational outward numerical certificate verified by an independent checker.,SUPPORTED,D8,recorded binary64 numerical evidence with declared guard
+C7,There exist refined finite-abstraction states with different viability membership across q.,SUPPORTED,D9,Level-B refined finite abstraction
+C8,The continuous-domain maximal viability kernel is globally q-dependent.,NOT_AUTHORIZED,not established by D4-D9,requires independent theory/convergence argument
+C9,A Farkas certificate proves the D9 non-membership witnesses.,NOT_AUTHORIZED,D8-D9 explicitly exclude Farkas authorization,requires explicit infeasibility system and multipliers
+C10,The real implementation refines the abstract service/control model I_c subset A_c.,NOT_AUTHORIZED,no implementation traces in D4-D9,requires implementation-refinement audit

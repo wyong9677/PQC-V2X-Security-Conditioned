@@ -1,0 +1,16 @@
+state_a,state_b,stage_a,stage_b,liveness_a,liveness_b,same_liveness,matched_current_chi,common_predecessors,trace_count_a,trace_count_b,a_trace_subset_b,b_trace_subset_a,trace_nondominated,trace_symmetric_difference,screen_candidate
+CREDENTIAL_DECISION,FRAGMENT_CARRY,Verifying,Fragmented,2,2,True,True,SAME_CANDIDATE_ENTRY,2,2,False,False,True,4,True
+CREDENTIAL_DECISION,POST_TERMINATION_ENTRY,Verifying,Idle,2,3,False,False,,2,4,False,False,True,6,False
+CREDENTIAL_DECISION,SAME_CANDIDATE_ENTRY,Verifying,Received,2,3,False,True,,2,4,False,False,True,6,False
+CREDENTIAL_DECISION,VERIFY_OLD_LAST,Verifying,Verifying,2,1,False,True,,2,2,False,False,True,4,False
+CREDENTIAL_DECISION,VERIFY_REPLACEMENT_LAST,Verifying,Verifying,2,1,False,False,,2,2,False,False,True,4,False
+FRAGMENT_CARRY,POST_TERMINATION_ENTRY,Fragmented,Idle,2,3,False,False,,2,4,False,False,True,6,False
+FRAGMENT_CARRY,SAME_CANDIDATE_ENTRY,Fragmented,Received,2,3,False,True,,2,4,False,False,True,6,False
+FRAGMENT_CARRY,VERIFY_OLD_LAST,Fragmented,Verifying,2,1,False,True,,2,2,False,False,True,4,False
+FRAGMENT_CARRY,VERIFY_REPLACEMENT_LAST,Fragmented,Verifying,2,1,False,False,,2,2,False,False,True,4,False
+POST_TERMINATION_ENTRY,SAME_CANDIDATE_ENTRY,Idle,Received,3,3,True,False,,4,4,False,False,True,8,False
+POST_TERMINATION_ENTRY,VERIFY_OLD_LAST,Idle,Verifying,3,1,False,False,,4,2,False,False,True,6,False
+POST_TERMINATION_ENTRY,VERIFY_REPLACEMENT_LAST,Idle,Verifying,3,1,False,False,,4,2,False,False,True,6,False
+SAME_CANDIDATE_ENTRY,VERIFY_OLD_LAST,Received,Verifying,3,1,False,True,,4,2,False,False,True,6,False
+SAME_CANDIDATE_ENTRY,VERIFY_REPLACEMENT_LAST,Received,Verifying,3,1,False,False,,4,2,False,False,True,6,False
+VERIFY_OLD_LAST,VERIFY_REPLACEMENT_LAST,Verifying,Verifying,1,1,True,False,,2,2,True,True,False,0,False

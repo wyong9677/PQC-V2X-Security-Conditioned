@@ -1,0 +1,47 @@
+{
+  "artifacts": {
+    "attribution_witness_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9L_ATTRIBUTION_WITNESSES_20260916T072114Z.csv"
+  },
+  "classification": "CANDIDATE_FATE_DIFFERENCE_REMAINS_NONBINDING_EVEN_UNDER_FORCED_ADOPTION_COUNTERFACTUAL",
+  "continuous_state_separation_certified": false,
+  "counterfactual_forced_adopt_is_certificate": false,
+  "deployment_protocol_certified": false,
+  "gates": {
+    "actual_pair_gap_zero": true,
+    "actual_upper_gfp_reproduced": true,
+    "continuous_action_interval_gfp_solved": false,
+    "continuous_state_separation_certified": false,
+    "deployment_protocol_certified": false,
+    "forced_adopt_counterfactual_converged": true,
+    "forced_adopt_is_protocol_semantics": false,
+    "upstream_r9k_full_gfp_collapse": true
+  },
+  "metrics": {
+    "action_min_erasure_nodes": 0,
+    "actionwise_pair_difference_nodes": 0,
+    "after_optional_hold_difference_nodes": 48330,
+    "common_nodes": 810810,
+    "cooperative_min_difference_nodes": 0,
+    "direct_adopt_difference_nodes": 326265,
+    "eligible_last_nodes": 765765,
+    "fallback_binds_both_nodes": 810801,
+    "fallback_cap_erasure_nodes": 0,
+    "forced_adopt_credential_more_nodes": 0,
+    "forced_adopt_fragment_more_nodes": 0,
+    "forced_adopt_iterations": 3,
+    "forced_adopt_max_gap_m": 0.0,
+    "forced_adopt_sensitive_nodes": 0,
+    "hold_dominates_both_for_all_actions_nodes": 717435,
+    "hold_erasure_nodes": 279315,
+    "max_actionwise_pair_gap_m": 0.0,
+    "max_actual_fragment_vs_credential_gap_m": 0.0,
+    "max_after_optional_hold_difference_m": 1.5289115679676968,
+    "max_cooperative_min_gap_m": 0.0,
+    "max_direct_adopt_difference_m": 2.1189273102151773,
+    "max_old_vs_replacement_last_gap_m": 0.20676080345072378
+  },
+  "next_action": "R9M_STOP_TRACE_ONLY_PAIR_SEARCH_AND_TEST_VALUE_NONDOMINANCE_NECESSITY",
+  "schema": "SCV_P3B1_R9L_COLLAPSE_MECHANISM_AUDIT_V1",
+  "status": "PASS",
+  "timestamp_utc": "20260916T072114Z"
+}

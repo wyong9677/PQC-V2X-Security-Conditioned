@@ -1,0 +1,5 @@
+profile,R,fixed_point_replay_max_error_m,raw_q_dependence_nodes,raw_q_dependence_fraction,raw_q_range_mean_positive_m,raw_q_range_p95_positive_m,raw_q_range_max_m,clipped_q_dependence_nodes,clipped_q_dependence_fraction,clipped_q_range_max_m,q_dependence_eliminated_by_fallback_nodes,final_gain_nodes,gain_nodes_with_raw_q_dependence,gain_nodes_defer_dominant_initial_slice,initial_slice_defer_dominant_nodes
+ideal,1,0.0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,42,0,0,0
+diagnostic_fast,2,0.0,2443,0.017045177045177044,0.22414377375737812,0.48154280932430993,0.6700681845816163,0,0.0,0.0,2443,42,0,0,6007
+diagnostic_nominal,5,0.0,2443,0.017045177045177044,0.22414377375737812,0.48154280932430993,0.6700681845816163,0,0.0,0.0,2443,42,0,0,6007
+diagnostic_stressed,10,0.0,2443,0.017045177045177044,0.22414377375737812,0.48154280932430993,0.6700681845816163,0,0.0,0.0,2443,42,0,0,6007

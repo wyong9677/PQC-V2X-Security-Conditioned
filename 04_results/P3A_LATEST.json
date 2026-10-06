@@ -1,0 +1,52 @@
+{
+  "artifacts": {
+    "acceleration_error_figure": "<PQC_V2X_PROJECT_ROOT>/05_figures/P3A_ACCELERATION_ERROR_INTERVAL_20260914T112814Z.png",
+    "directional_delta_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3A_DIRECTIONAL_DELTA_20260914T112814Z.csv",
+    "directional_delta_figure": "<PQC_V2X_PROJECT_ROOT>/05_figures/P3A_DIRECTIONAL_DELTA_20260914T112814Z.png",
+    "velocity_error_figure": "<PQC_V2X_PROJECT_ROOT>/05_figures/P3A_VELOCITY_ERROR_INTERVAL_20260914T112814Z.png"
+  },
+  "checks": {
+    "ADVERSARIAL_BOUNDS_TIGHT": true,
+    "AGE_WIDTH_MONOTONE": true,
+    "FULL_RANGE_COMMAND_CONTRACT_VALID": true,
+    "LEGACY_FIXED_DELTA_REJECTED_FOR_P3": true,
+    "RANDOM_ENVELOPE_CONTAINMENT": true
+  },
+  "classification": "state-dependent asymmetric authenticated-information uncertainty contract for P3 and later stages",
+  "contract": {
+    "certification_status": "VALIDATED_FOR_P3_NUMERICAL_MODEL",
+    "command_max": 3.0,
+    "command_min": -8.0,
+    "disturbance_abs": 0.2,
+    "tau": 0.35,
+    "type": "asymmetric_state_dependent"
+  },
+  "metrics": {
+    "global_delta_minus_max": 31.62857142857143,
+    "global_delta_plus_max": 31.62857142857143,
+    "global_symmetric_delta_required": 31.62857142857143,
+    "legacy_coverage_fraction": 0.0,
+    "legacy_fully_valid": false,
+    "legacy_legacy_delta": 3.0,
+    "legacy_required_delta_max": 31.62857142857143,
+    "legacy_required_delta_min": 15.914285714285715,
+    "max_ea_lower_violation": 0.0,
+    "max_ea_random_utilization": 0.7051011091959751,
+    "max_ea_upper_violation": 0.0,
+    "max_ev_lower_violation": 0.0,
+    "max_ev_random_utilization": 0.6792199613458892,
+    "max_ev_upper_violation": 0.0,
+    "min_ea_width_increment": 0.001065009229545666,
+    "min_ev_width_increment": 0.001576379753593328,
+    "worst_case_tightness_error": 3.5083047578154947e-14
+  },
+  "platform": {
+    "executable": "<USER_HOME>/envs/research/bin/python",
+    "numpy": "2.4.6",
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "system": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "schema": "SCV_P3A_INFORMATION_CONTRACT_RESULT_V1",
+  "status": "PASS",
+  "timestamp_utc": "20260914T112814Z"
+}

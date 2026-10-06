@@ -1,0 +1,36 @@
+{
+  "artifacts": {
+    "general_action_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9E_GENERAL_ACTION_DISCOVERY_20260915T153252Z.csv",
+    "pending_descriptor_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9E_PENDING_DESCRIPTOR_20260915T153252Z.csv"
+  },
+  "classification": "PENDING_DESCRIPTOR_MATERIAL_ON_TIMESTAMPED_Q_WITNESSES",
+  "continuous_state_separation_certified": false,
+  "gates": {
+    "general_propagator_regression": true,
+    "pending_content_full_protocol_certificate": false,
+    "post_output_service_bookkeeping_explicit": false,
+    "r9d_witness_reproduction": true,
+    "upstream_r9d_pass": true
+  },
+  "metrics": {
+    "coarse_general_action_material_state_q_pairs": 22,
+    "descriptor_adoption_cell_changes": 88,
+    "descriptor_material_state_q_pairs": 44,
+    "general_propagator_regression_max_error": 4.440892098500626e-16,
+    "invalid_general_action_trials": 0,
+    "max_coarse_action_improvement_m": 0.001332094794832539,
+    "max_descriptor_bar_a_shift": 1.094433258219703,
+    "max_descriptor_required_gap_change_m": 0.2334642268422087,
+    "r9d_witness_count": 44
+  },
+  "next_action": "R9F_BUILD_SPARSE_AUGMENTED_SERVICE_GRAPH_WITH_EXPLICIT_CHI_AND_PSI",
+  "schema": "SCV_P3B1_R9E_SERVICE_CONTRACT_GENERAL_ACTION_V1",
+  "status": "PASS",
+  "theory_status": {
+    "numerical_markov_sufficiency_closed": false,
+    "pending_descriptor_model": "canonical held-predictor lower-bound diagnostic only",
+    "post_output_bookkeeping_Psi_explicit": false,
+    "viability_fixed_point_definition_retained": true
+  },
+  "timestamp_utc": "20260915T153252Z"
+}

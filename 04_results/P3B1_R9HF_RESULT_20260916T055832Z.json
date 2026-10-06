@@ -1,0 +1,41 @@
+{
+  "artifacts": {
+    "restart_lower_attribution_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9HF_RESTART_LOWER_ATTRIBUTION_20260916T055832Z.csv"
+  },
+  "classification": "RESTART_SERVICE_SEMANTICS_BIND_BEYOND_EXISTING_CELL_MIN_CONSERVATISM",
+  "continuous_state_separation_certified": false,
+  "gates": {
+    "cellmax_object_is_diagnostic_only": true,
+    "continuous_action_lower_gfp_certified": false,
+    "full_augmented_interval_gfp_solved": false,
+    "independent_p2c_lower_checker_pass": false,
+    "interval_relaxation_not_stronger_than_point_lower": true,
+    "recomputed_lower_fixed_point_converged": true,
+    "upstream_r9he_pass": true
+  },
+  "metrics": {
+    "action_relaxation_direction_failures": 0,
+    "cellmax_diagnostic_positive_margin_tests": 0,
+    "interval_relaxed_positive_margin_tests": 0,
+    "lower_final_delta_m": 0.0,
+    "lower_iterations": 7,
+    "matched_chi_tests": 16,
+    "max_action_relaxation_loss_m": 0.0,
+    "max_spatial_cell_headroom_m": 0.0,
+    "p2c_lower_above_legacy_upper_failures": 0,
+    "p2c_max_lower_m": 132.41332207860796,
+    "p2c_max_same_resolution_width_m": 0.4566244102782093,
+    "p2c_ordered_failures_same_resolution": 0,
+    "p2c_p95_same_resolution_width_m": 0.4566244102781809,
+    "p2c_resolution": 257,
+    "restart_action_width": 0.25,
+    "sampled_point_positive_margin_tests": 0,
+    "stage_action_count": 273,
+    "stage_action_width": 0.03125,
+    "stage_interval_count": 272
+  },
+  "next_action": "R9H_G_BUILD_FULL_SPARSE_AUGMENTED_SERVICE_RESTART_GFP_BEFORE_FURTHER_CONTINUOUS_PROMOTION",
+  "schema": "SCV_P3B1_R9HF_RESTART_LOWER_ATTRIBUTION_V1",
+  "status": "PASS",
+  "timestamp_utc": "20260916T055832Z"
+}

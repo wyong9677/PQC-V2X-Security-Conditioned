@@ -1,0 +1,47 @@
+{
+  "deployment_certified": false,
+  "edges": [],
+  "instructions": [
+    "Populate states and edges only from the declared implementation/service contract.",
+    "Do not add rejection, timeout, retransmission, replacement, or credential branches merely to create separation.",
+    "For a positive GFP candidate, preserve same physical/adopted information, same pending generation time/chi where required, same scalar liveness bound, and common-history co-reachability.",
+    "Set deployment_certified=true only after every edge/liveness bound is supported by protocol or implementation evidence."
+  ],
+  "schema": "SCV_R9I_SERVICE_AUTOMATON_INSTANTIATION_TEMPLATE_V1",
+  "screening_horizon": 4,
+  "states": {
+    "CREDENTIAL": {
+      "evidence": "declared control-relevant dimension; exact edge TO_FILL",
+      "liveness_bound": null
+    },
+    "FRAGMENTED": {
+      "evidence": "manuscript conceptual example only",
+      "liveness_bound": 2
+    },
+    "PENDING_ENTRY": {
+      "evidence": "TO_FILL",
+      "liveness_bound": null
+    },
+    "REJECTED": {
+      "evidence": "declared observable outcome; exact edge TO_FILL",
+      "liveness_bound": null
+    },
+    "REPLACED": {
+      "evidence": "declared possible behavior; exact edge TO_FILL",
+      "liveness_bound": null
+    },
+    "RETRANSMIT": {
+      "evidence": "declared possible behavior; exact bound/edge TO_FILL",
+      "liveness_bound": null
+    },
+    "TIMEOUT": {
+      "evidence": "declared observable outcome; exact edge TO_FILL",
+      "liveness_bound": null
+    },
+    "VERIFYING": {
+      "evidence": "manuscript conceptual example only",
+      "liveness_bound": 2
+    }
+  },
+  "status": "TEMPLATE_REQUIRES_PROTOCOL_EVIDENCE"
+}

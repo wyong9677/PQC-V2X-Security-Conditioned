@@ -1,0 +1,65 @@
+{
+  "artifacts": {
+    "conditional_theorem_tex": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9I_CURRENT_PAIR_THEOREM_20260916T063458Z.tex",
+    "pair_screen_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9I_PAIR_SCREEN_20260916T063458Z.csv",
+    "service_automaton_template_json": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9I_SERVICE_AUTOMATON_TEMPLATE_20260916T063458Z.json",
+    "trace_sets_json": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9I_TRACE_SETS_20260916T063458Z.json"
+  },
+  "classification": "CURRENT_PAIR_STRUCTURALLY_COLLAPSED_AND_NO_CERTIFIED_NONDominated_REPLACEMENT_PAIR_YET",
+  "continuous_state_separation_certified": false,
+  "current_pair": {
+    "continuous_action_structural_impossibility_certified": false,
+    "fixed_point_nonzero_stage_nodes": 0,
+    "pair": [
+      "FRAGMENTED",
+      "VERIFYING"
+    ],
+    "sampled_branch_tests": 16216200,
+    "sampled_branch_violations": 0,
+    "sampled_point_action_structural_equivalence": true,
+    "theorem_status": "EXACT_CONDITIONAL_THEOREM_WITH_SAMPLED_PREMISE_EVIDENCE_NOT_UNCONDITIONAL_CONTINUOUS_THEOREM"
+  },
+  "gates": {
+    "current_pair_continuous_action_impossibility_certified": false,
+    "current_pair_sampled_structural_equivalence": true,
+    "deployment_nondominated_replacement_pair_found": false,
+    "deployment_service_automaton_certified": false,
+    "operator_source_structure": true,
+    "upstream_r9hh_structural_collapse": true
+  },
+  "manuscript_semantics": {
+    "declares_fragmented_vs_verifying_conceptual_pair": true,
+    "declares_non_age_only_features": true,
+    "declares_outcomes": true,
+    "declares_stateful_service": true,
+    "explicitly_says_pair_not_viability_claim": false,
+    "found": true,
+    "path": "<PQC_V2X_PROJECT_ROOT>/PQC_V2X_Security_Conditioned.tex"
+  },
+  "next_action": "R9J_INSTANTIATE_DECLARED_SERVICE_AUTOMATON_FROM_PROTOCOL_EVIDENCE_THEN_SCREEN_NONDominated_PAIRS",
+  "operator_structure": {
+    "assignments": {
+      "comp_v": "np.minimum(adopt_v, entry_hold)",
+      "future_frag": "last_hold",
+      "future_last": "comp_last",
+      "future_verify": "np.maximum(comp_v, last_hold)"
+    },
+    "comp_v_is_safe_adopt_min": true,
+    "fragment_future_is_last": true,
+    "last_future_is_completion": true,
+    "pass": true,
+    "verify_future_is_max_completion_last": true
+  },
+  "pair_discovery": {
+    "automaton_path": "<PQC_V2X_NUMERICAL_ROOT>/01_config/p3b1_r9i_service_automaton_candidates.json",
+    "candidate_pairs": [],
+    "deployment_certified": false,
+    "deployment_certified_nondominated_candidates": 0,
+    "nondominated_screen_candidates": 0,
+    "pairs_screened": 28,
+    "screening_horizon": 4
+  },
+  "schema": "SCV_P3B1_R9I_STRUCTURAL_THEOREM_AND_PAIR_DISCOVERY_V1",
+  "status": "PASS",
+  "timestamp_utc": "20260916T063458Z"
+}

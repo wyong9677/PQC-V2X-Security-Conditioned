@@ -1,0 +1,5 @@
+axis_scenario,profile,R,eval_grid_nodes,lookup_grid_nodes,converged,iterations,final_change_m,monotone_violation_m,outside_halo_change_max_m,refined_eval_q_dependent_nodes,refined_eval_q_span_min_positive_m,refined_eval_q_span_p50_positive_m,refined_eval_q_span_max_m,original_base_nodes_q_dependent_after_refinement,original_base_nodes_q_span_max_m
+bar_a,ideal,1,315315,710775,True,3,0.0,0.0,0.0,0,0.0,0.0,0.0,0,0.0
+bar_a,diagnostic_fast,2,315315,710775,True,3,0.0,0.0,0.0,16,0.0018806169833736064,0.036075839237529495,0.07248938418372708,0,0.0
+bar_a,diagnostic_nominal,5,315315,710775,True,3,0.0,0.0,0.0,16,0.0018806169833736064,0.036075839237529495,0.07248938418372708,0,0.0
+bar_a,diagnostic_stressed,10,315315,710775,True,3,0.0,0.0,0.0,16,0.0018806169833736064,0.036075839237529495,0.07248938418372708,0,0.0

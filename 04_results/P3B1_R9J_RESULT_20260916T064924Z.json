@@ -1,0 +1,119 @@
+{
+  "artifacts": {
+    "declared_contract_json": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9J_DECLARED_DIAGNOSTIC_CONTRACT_20260916T064924Z.json",
+    "declared_contract_tex": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9J_DECLARED_DIAGNOSTIC_CONTRACT_20260916T064924Z.tex",
+    "evidence_ledger_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9J_EVIDENCE_LEDGER_20260916T064924Z.csv",
+    "pair_screen_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9J_PAIR_SCREEN_20260916T064924Z.csv",
+    "trace_sets_json": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9J_TRACE_SETS_20260916T064924Z.json"
+  },
+  "classification": "DECLARED_DIAGNOSTIC_NONDominated_MATCHED_CHI_PAIR_FOUND_READY_FOR_FULL_AUGMENTED_GFP_NOT_DEPLOYMENT_CERTIFIED",
+  "continuous_state_separation_certified": false,
+  "contract_validation_gates": {
+    "candidate_updates_supported": true,
+    "comparison_matched_current_chi": true,
+    "comparison_same_liveness_two": true,
+    "contract_type_ok": true,
+    "deployment_certified_false": true,
+    "diagnostic_fast_two_step_support": true,
+    "edge_endpoints_valid": true,
+    "manuscript_semantics_support": true,
+    "outcomes_supported": true,
+    "schema_ok": true
+  },
+  "evidence_boundary": {
+    "declared_diagnostic_contract_validated": true,
+    "deployment_certified": false,
+    "diagnostic_contract_is_not_deployment_evidence": true,
+    "diagnostic_fast_profile": {
+      "eligible_bound_steps": 2,
+      "found": true,
+      "max_loss_burst": 1,
+      "path": "<PQC_V2X_NUMERICAL_ROOT>/01_config/p1_validation_v2.json",
+      "status": "PROVISIONAL_ENGINEERING_BASELINE_NOT_FOR_MANUSCRIPT"
+    },
+    "manuscript_semantics": {
+      "all_required_semantics": true,
+      "exact_transition_relation_profile_specific": true,
+      "finite_service_horizon": true,
+      "found": true,
+      "generation_time_preserved": true,
+      "outcome_eligible": true,
+      "outcome_rejected": true,
+      "outcome_timeout": true,
+      "pair_explicitly_not_viability_claim": false,
+      "path": "<PQC_V2X_PROJECT_ROOT>/PQC_V2X_Security_Conditioned.tex",
+      "replacement_semantics": true,
+      "retransmission_semantics": true,
+      "same_horizon_trace_difference_example": true,
+      "stage_fragmented": true,
+      "stage_verifying": true,
+      "stateful_service": true
+    },
+    "strict_manuscript_or_deployment_transition_relation_complete": false
+  },
+  "gates": {
+    "continuous_state_separation_certified": false,
+    "declared_diagnostic_contract_valid": true,
+    "deployment_transition_relation_certified": false,
+    "diagnostic_fast_two_step_support": true,
+    "manuscript_semantics_support": true,
+    "matched_chi_same_liveness_common_history_nondominated_pair_found": true,
+    "upstream_r9i_pass": true
+  },
+  "next_action": "R9K_BUILD_MATCHED_CHI_FULL_AUGMENTED_GFP_FOR_R9J_DECLARED_DIAGNOSTIC_PAIR",
+  "pair_screen": {
+    "all_candidates": [
+      {
+        "a_trace_subset_b": false,
+        "b_trace_subset_a": false,
+        "common_predecessors": "SAME_CANDIDATE_ENTRY",
+        "liveness_a": 2,
+        "liveness_b": 2,
+        "matched_current_chi": true,
+        "same_liveness": true,
+        "screen_candidate": true,
+        "stage_a": "Verifying",
+        "stage_b": "Fragmented",
+        "state_a": "CREDENTIAL_DECISION",
+        "state_b": "FRAGMENT_CARRY",
+        "trace_count_a": 2,
+        "trace_count_b": 2,
+        "trace_nondominated": true,
+        "trace_symmetric_difference": 4
+      }
+    ],
+    "horizon": 4,
+    "nondominated_matched_chi_candidates": 1,
+    "pairs_screened": 15,
+    "target_pair": [
+      "FRAGMENT_CARRY",
+      "CREDENTIAL_DECISION"
+    ],
+    "target_pair_pass": true,
+    "top_candidate": {
+      "a_trace_subset_b": false,
+      "b_trace_subset_a": false,
+      "common_predecessors": "SAME_CANDIDATE_ENTRY",
+      "liveness_a": 2,
+      "liveness_b": 2,
+      "matched_current_chi": true,
+      "same_liveness": true,
+      "screen_candidate": true,
+      "stage_a": "Verifying",
+      "stage_b": "Fragmented",
+      "state_a": "CREDENTIAL_DECISION",
+      "state_b": "FRAGMENT_CARRY",
+      "trace_count_a": 2,
+      "trace_count_b": 2,
+      "trace_nondominated": true,
+      "trace_symmetric_difference": 4
+    }
+  },
+  "schema": "SCV_P3B1_R9J_DECLARED_SERVICE_AUTOMATON_V2",
+  "status": "PASS",
+  "timestamp_utc": "20260916T064924Z",
+  "upstream": {
+    "current_pair_structurally_collapsed": true,
+    "r9i_classification": "CURRENT_PAIR_STRUCTURALLY_COLLAPSED_AND_NO_CERTIFIED_NONDominated_REPLACEMENT_PAIR_YET"
+  }
+}

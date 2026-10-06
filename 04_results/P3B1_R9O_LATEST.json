@@ -1,0 +1,78 @@
+{
+  "artifacts": {
+    "axis_attribution_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9O_AXIS_ATTRIBUTION_20260916T081508Z.csv",
+    "refined_intervals_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9O_REFINED_INTERVALS_20260916T081508Z.csv"
+  },
+  "axis_votes": {
+    "a_f": 0.0,
+    "age": 743.5552649371539,
+    "bar_a": 124.12685433398043,
+    "bar_u": 749.2836653173492,
+    "v_f": 269.4360633048748,
+    "v_p": 319.06360164507646
+  },
+  "classification": "ONE_AXIS_ADAPTIVE_REFINEMENT_INSUFFICIENT_ENCLOSURE_ERASURE_PERSISTS",
+  "coarse": {
+    "max_raw_last_stage_gap_m": 0.20676080345072378,
+    "raw_last_stage_gap_nodes": 96,
+    "reachable_raw_gap_cells": 448
+  },
+  "hard_flags": {
+    "continuous_action_interval_gfp_solved": false,
+    "continuous_state_separation_certified": false,
+    "deployment_protocol_certified": false,
+    "p2c_independent_lower_checker": false
+  },
+  "metrics": {
+    "common_nodes": 900900,
+    "max_credential_worse_margin_m": 0.0,
+    "max_fragment_worse_margin_m": 0.0,
+    "max_raw_last_stage_gap_m": 0.20676080345072378,
+    "max_stagewise_cellmax_gap_m": 0.0,
+    "max_upper_pair_gap_m": 0.0,
+    "paired_positive_nodes": 0,
+    "raw_gap_containing_cells": 896,
+    "raw_last_stage_gap_nodes": 92,
+    "stagewise_cellmax_gap_cells": 0,
+    "upper_sensitive_nodes": 0
+  },
+  "next_action": "R9O_R2_REFINE_SECOND_ATTRIBUTED_AXIS_ONLY_IF_WITHIN_PREDECLARED_NODE_BUDGET",
+  "p2c_lower_metrics": null,
+  "refined_geometry": {
+    "eval_nodes": 1051050,
+    "eval_shape": [
+      7,
+      13,
+      5,
+      11,
+      10,
+      21
+    ],
+    "lookup_nodes": 1930500,
+    "lookup_shape": [
+      9,
+      15,
+      5,
+      13,
+      10,
+      22
+    ]
+  },
+  "refinement_plan": {
+    "available_intervals": 1,
+    "axis": "bar_u",
+    "axis_index": 4,
+    "base_eval_nodes": 945945,
+    "base_lookup_nodes": 1737450,
+    "node_budget_truncated": false,
+    "projected_eval_nodes": 1051050,
+    "projected_lookup_nodes": 1930500,
+    "selected_intervals": 1,
+    "vote": 749.2836653173492
+  },
+  "schema": "P3B1_R9O_ADAPTIVE_REACHABLE_GAP_REFINEMENT_V1",
+  "selected_interval_ids": [
+    7
+  ],
+  "status": "PASS"
+}

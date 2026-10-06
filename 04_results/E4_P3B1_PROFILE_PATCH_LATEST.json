@@ -1,0 +1,24 @@
+{
+  "do_not_overwrite_diagnostic_profiles": true,
+  "profiles": {
+    "ML_DSA_65_NDSS_PARTIALLY_HYBRID": {
+      "deployment_protocol_certified": false,
+      "eligible_bound_condition": "VALID_CANDIDATE_AND_DECLARED_BOUNDED_QUEUE_LOSS_CONTRACT",
+      "eligible_bound_steps": 6,
+      "fragment_count": 2,
+      "max_loss_burst": 1,
+      "queue_wait_steps_max": 1,
+      "verify_steps": 1
+    },
+    "SLH_DSA_SHA2_192S_NDSS_PARTIALLY_HYBRID": {
+      "deployment_protocol_certified": false,
+      "eligible_bound_condition": "VALID_CANDIDATE_AND_DECLARED_BOUNDED_QUEUE_LOSS_CONTRACT",
+      "eligible_bound_steps": 18,
+      "fragment_count": 8,
+      "max_loss_burst": 1,
+      "queue_wait_steps_max": 1,
+      "verify_steps": 1
+    }
+  },
+  "schema": "PQC_V2X_P3B1_ENGINEERING_SERVICE_PROFILE_PATCH_V1"
+}

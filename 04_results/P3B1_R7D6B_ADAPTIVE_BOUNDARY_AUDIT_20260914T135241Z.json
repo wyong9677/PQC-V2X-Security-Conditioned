@@ -1,0 +1,121 @@
+{
+  "aggregate": {
+    "all_coverage_invalid": 0,
+    "all_kernel_component_nodes": 16,
+    "all_profile_mismatch_points": 0,
+    "d6_boundary_edges": 8849,
+    "d6_reentry_edges": 2172,
+    "endpoint_replay_errors": 0,
+    "stage1_reentry_edges": 2172,
+    "stage2_lookup_signature_change_fraction": 1.0,
+    "stage2_lookup_signature_changed_transitions": 6516,
+    "stage2_lookup_signature_same_transitions": 0,
+    "stage2_reentry_edges": 2172,
+    "stage2_refined_edges": 2172,
+    "stage2_total_switch_transitions": 6516
+  },
+  "artifacts": {
+    "latest_json": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6B_LATEST.json",
+    "manifest": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6B_MANIFEST_20260914T135241Z.sha256",
+    "result_json": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6B_ADAPTIVE_BOUNDARY_AUDIT_20260914T135241Z.json",
+    "stage1_edge_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6B_STAGE1_EDGE_SCAN_20260914T135241Z.csv",
+    "stage2_edge_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6B_STAGE2_REFINED_EDGES_20260914T135241Z.csv",
+    "transition_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6B_REFINED_TRANSITIONS_20260914T135241Z.csv",
+    "ulp_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D6B_TRANSITION_ULP_AUDIT_20260914T135241Z.csv"
+  },
+  "claims": {
+    "continuous_domain_global_claim_authorized": false,
+    "implementation_refinement_claim_authorized": false,
+    "model_level_supervisory_claim_authorized": false,
+    "p6_certified": false,
+    "reason": "R7-D6B attributes the D6 reentry mechanism but does not remove it. Claim promotion remains blocked until the identified lookup-cell or within-cell mechanism is resolved by the next targeted refinement audit.",
+    "scientific_kernel_claim_authorized": false
+  },
+  "classification": "adaptive local boundary-topology and lookup-cell attribution audit; diagnostic only, with no kernel, global continuous-domain, or implementation-refinement claim authorization",
+  "integrity_checks": {
+    "BOUNDARY_EDGE_COUNT_REPRODUCED": true,
+    "D4_UPSTREAM_PASS": true,
+    "D5_UPSTREAM_PASS": true,
+    "D6_REENTRY_INTERPRETATION_MATCH": true,
+    "D6_REENTRY_LOWER_BOUND_REPRODUCED": true,
+    "D6_UPSTREAM_PASS": true,
+    "EDGE_ENDPOINT_REPLAY": true,
+    "TRANSITION_COVERAGE_COMPLETE": true
+  },
+  "interpretation": "ADAPTIVE_BOUNDARY_REPLAY_REVEALS_Q_DEPENDENT_KERNEL_COMPONENT",
+  "protocol": {
+    "claim_calibration": {
+      "continuous_domain_global_claim_authorized": false,
+      "implementation_refinement_claim_authorized": false,
+      "model_level_supervisory_claim_authorized": false,
+      "scientific_kernel_claim_authorized": false
+    },
+    "description": "Adaptive dyadic bisection of all R7-D6 witness/non-witness edges, followed by finer replay on every multi-transition edge and a machine-ULP perturbation audit at every refined switch bracket. The audit distinguishes lookup-cell staircasing from within-cell non-monotone supervisor geometry.",
+    "edge_batch_size_stage1": 64,
+    "edge_batch_size_stage2": 32,
+    "numeric_tolerance_m": 1e-10,
+    "schema": "SCV_P3B1_R7D6B_ADAPTIVE_BOUNDARY_PROTOCOL_V1",
+    "stage1_subdivisions": 32,
+    "stage2_subdivisions": 128,
+    "ulp_transition_batch_size": 512
+  },
+  "recommended_next_step": "STOP_SUPERVISOR_PROMOTION_AND_RECOMPUTE_REFINED_Q_DEPENDENT_KERNEL",
+  "schema": "SCV_P3B1_R7D6B_ADAPTIVE_BOUNDARY_BISECTION_V1",
+  "scientific_diagnostics": {
+    "all_refined_transitions_lookup_signature_aligned": true,
+    "machine_ulp_lookup_signature_sensitivity_detected": false,
+    "machine_ulp_switch_sensitivity_detected": false,
+    "q_dependent_kernel_component_detected": true,
+    "service_profile_disagreement_detected": false,
+    "within_signature_transition_detected": false
+  },
+  "stage1": {
+    "axis_reentry_counts": {
+      "age": 2172
+    },
+    "completion_invalid": 0,
+    "defer_invalid": 0,
+    "edge_count": 8849,
+    "endpoint_replay_errors": 0,
+    "kernel_nodes_any_profile": 16,
+    "max_transition_count": 3,
+    "profile_mismatch_points": 0,
+    "q_action_change_on_switch_observations": 0,
+    "reentry_edges": 2172,
+    "single_transition_edges": 6677,
+    "subdivisions": 32,
+    "transition_lookup_signature_changed": 13183,
+    "transition_lookup_signature_same": 10,
+    "zero_transition_edges": 0
+  },
+  "stage2": {
+    "axis_reentry_counts": {
+      "age": 2172
+    },
+    "completion_invalid": 0,
+    "defer_invalid": 0,
+    "edge_count": 2172,
+    "endpoint_replay_errors": 0,
+    "kernel_nodes_any_profile": 0,
+    "max_transition_count": 3,
+    "profile_mismatch_points": 0,
+    "q_action_change_on_switch_observations": 0,
+    "reentry_edges": 2172,
+    "single_transition_edges": 0,
+    "subdivisions": 128,
+    "transition_lookup_signature_changed": 6516,
+    "transition_lookup_signature_same": 0,
+    "zero_transition_edges": 0
+  },
+  "status": "PASS",
+  "timestamp_utc": "20260914T135241Z",
+  "ulp_audit": {
+    "completion_invalid": 0,
+    "defer_invalid": 0,
+    "kernel_nodes_any_profile": 0,
+    "ulp_lookup_signature_sensitive_transitions": 0,
+    "ulp_profile_disagreement_points": 0,
+    "ulp_switch_sensitive_transitions": 0,
+    "ulp_transition_count": 6516
+  }
+}

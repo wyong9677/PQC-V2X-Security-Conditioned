@@ -1,0 +1,177 @@
+{
+  "aggregate": {
+    "axis_scenarios": 1,
+    "baseline_diagnostic_q_dependent_nodes_sum": 0,
+    "candidate_rows_recomputed": 16,
+    "candidate_rows_strong_in_all_diagnostic_profiles": 16,
+    "d6c_open_witnesses": 16,
+    "minimum_candidate_q_span_multiple_of_tol": 18806169.833736062,
+    "original_base_nodes_q_dependent_after_refinement_sum_by_profile": {
+      "diagnostic_fast": 0,
+      "diagnostic_nominal": 0,
+      "diagnostic_stressed": 0
+    },
+    "refined_eval_q_dependent_nodes_sum_by_profile": {
+      "diagnostic_fast": 16,
+      "diagnostic_nominal": 16,
+      "diagnostic_stressed": 16
+    }
+  },
+  "artifacts": {
+    "candidate_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D7_REFINED_KERNEL_WITNESSES_20260914T140511Z.csv",
+    "convergence_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D7_FIXED_POINT_CONVERGENCE_20260914T140511Z.csv",
+    "latest_json": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D7_LATEST.json",
+    "manifest": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D7_MANIFEST_20260914T140511Z.sha256",
+    "profile_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D7_AXIS_PROFILE_AUDIT_20260914T140511Z.csv",
+    "result_json": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D7_REFINED_FIXED_POINT_20260914T140511Z.json",
+    "scenario_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D7_SCENARIO_SUMMARY_20260914T140511Z.csv"
+  },
+  "baseline_q_control": {
+    "diagnostic_fast": {
+      "count": 0,
+      "max_m": 0.0,
+      "mean_m": 0.0,
+      "min_m": 0.0,
+      "p05_m": 0.0,
+      "p50_m": 0.0,
+      "p95_m": 0.0
+    },
+    "diagnostic_nominal": {
+      "count": 0,
+      "max_m": 0.0,
+      "mean_m": 0.0,
+      "min_m": 0.0,
+      "p05_m": 0.0,
+      "p50_m": 0.0,
+      "p95_m": 0.0
+    },
+    "diagnostic_stressed": {
+      "count": 0,
+      "max_m": 0.0,
+      "mean_m": 0.0,
+      "min_m": 0.0,
+      "p05_m": 0.0,
+      "p50_m": 0.0,
+      "p95_m": 0.0
+    },
+    "ideal": {
+      "count": 0,
+      "max_m": 0.0,
+      "mean_m": 0.0,
+      "min_m": 0.0,
+      "p05_m": 0.0,
+      "p50_m": 0.0,
+      "p95_m": 0.0
+    }
+  },
+  "claims": {
+    "implementation_refinement_claim_authorized": false,
+    "maximal_continuous_kernel_claim_authorized": false,
+    "p6_certified": false,
+    "reason": "A positive R7-D7 confirms q-dependence after an actual refined Bellman fixed-point solve, but independent second-level refinement stability, certificate rationalization/outward rounding, and theorem/implementation gates remain required before a manuscript-level kernel claim.",
+    "refined_finite_abstraction_q_dependent_kernel_candidate": true,
+    "scientific_kernel_claim_authorized": false
+  },
+  "classification": "axis-grouped tensor-grid frozen-halo Bellman fixed-point recomputation with D6C witnesses inserted as exact state nodes; finite-abstraction result only",
+  "integrity_checks": {
+    "AXIS_SCENARIOS_PRESENT": true,
+    "BASELINE_ZERO_Q_DEPENDENCE_CONTROL": true,
+    "D4_UPSTREAM_PASS": true,
+    "D5_UPSTREAM_PASS": true,
+    "D6B_UPSTREAM_PASS": true,
+    "D6C_OPEN_WITNESS_COUNT_REPRODUCED": true,
+    "D6C_UPSTREAM_PASS": true,
+    "D6_UPSTREAM_PASS": true
+  },
+  "interpretation": "Q_DEPENDENT_KERNEL_COMPONENT_PERSISTS_AFTER_TRUE_AXIS_REFINED_FIXED_POINT_RECOMPUTATION",
+  "protocol": {
+    "claim_calibration": {
+      "implementation_refinement_claim_authorized": false,
+      "maximal_continuous_kernel_claim_authorized": false,
+      "refined_finite_abstraction_kernel_candidate_only": true,
+      "scientific_kernel_claim_authorized": false
+    },
+    "description": "Axis-grouped tensor refinement that inserts every R7-D6C open-neighborhood kernel witness as an exact evaluation/lookup-grid coordinate and then re-solves the frozen-halo Bellman fixed point. The original grid is used as a zero-q-dependence control. This is a finite-abstraction refined fixed-point audit, not yet a maximal continuous-domain or implementation claim.",
+    "fixed_point_candidate_min_multiple_of_tolerance": 1000.0,
+    "max_eval_grid_nodes_per_axis_scenario": 1200000,
+    "max_lookup_grid_nodes_per_axis_scenario": 2500000,
+    "numeric_tolerance_m": 1e-10,
+    "require_all_d6c_open_witnesses_reproduced": true,
+    "require_all_three_diagnostic_profiles_at_candidate_nodes": true,
+    "schema": "SCV_P3B1_R7D7_REFINED_FIXED_POINT_PROTOCOL_V1"
+  },
+  "recommended_next_step": "RUN_P3B1_R7D7B_SECOND_LEVEL_REFINEMENT_STABILITY_AND_CERTIFICATE_AUDIT",
+  "scenario_summaries": [
+    {
+      "axis_name": "bar_a",
+      "checks": {
+        "ALL_AXIS_CANDIDATE_PROFILE_Q_SPANS_STRONG": true,
+        "COMMON_DOMAIN_LOOKUP_VALID": true,
+        "EVAL_LOOKUP_EMBEDDING_COMPLETE": true,
+        "FALLBACK_INCLUDED_ALL_PROFILES": true,
+        "FIXED_POINT_CONVERGED_ALL": true,
+        "FROZEN_HALO_COVERAGE": true,
+        "HALO_OUTSIDE_EVAL_FROZEN": true,
+        "MONOTONE_PREDECESSOR_ITERATION": true,
+        "SERVICE_ORDER_NESTED": true,
+        "STOP_SEMANTICS_GATE": true
+      },
+      "eval_nodes": 315315,
+      "eval_shape": [
+        7,
+        13,
+        5,
+        11,
+        9,
+        7
+      ],
+      "fallback_inclusion_violations": {
+        "diagnostic_fast": 0,
+        "diagnostic_nominal": 0,
+        "diagnostic_stressed": 0,
+        "ideal": 0
+      },
+      "fractions": {
+        "diagnostic_fast": 0.804931640625,
+        "diagnostic_nominal": 0.804931640625,
+        "diagnostic_stressed": 0.804931640625,
+        "fallback": 0.804931640625,
+        "ideal": 0.804931640625
+      },
+      "inserted_values": [
+        -2.4140625,
+        -2.328125,
+        -2.2421875,
+        -2.15625,
+        -2.0703125,
+        -1.984375
+      ],
+      "lookup_nodes": 710775,
+      "lookup_shape": [
+        9,
+        15,
+        5,
+        13,
+        9,
+        9
+      ],
+      "minimum_candidate_q_span_multiple_of_tol": 18806169.833736062,
+      "service_order_violations": {
+        "fast_not_subset_ideal": 0,
+        "nominal_not_subset_fast": 0,
+        "stressed_not_subset_nominal": 0
+      },
+      "status": "PASS",
+      "strict_gain": {
+        "fast_over_fallback": 0,
+        "fast_over_stressed": 0,
+        "ideal_over_fallback": 0,
+        "nominal_over_fallback": 0,
+        "stressed_over_fallback": 0
+      }
+    }
+  ],
+  "schema": "SCV_P3B1_R7D7_AXIS_REFINED_FIXED_POINT_V1",
+  "status": "PASS",
+  "timestamp_utc": "20260914T140511Z"
+}

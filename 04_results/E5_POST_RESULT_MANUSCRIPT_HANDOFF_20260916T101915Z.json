@@ -1,0 +1,36 @@
+{
+  "liboqs_version_robustness": true,
+  "literature_bridge": [
+    {
+      "authors": "Julien Calbert, Antoine Girard, Raphaël M. Jungers",
+      "doi": "10.1016/j.automatica.2026.113040",
+      "role": "Generic simulation/refinement literature; use to position rather than claim invention of simulation relations.",
+      "title": "Characterizing simulation relations through control architectures in abstraction-based control",
+      "venue": "Automatica",
+      "year": 2026
+    },
+    {
+      "authors": "Wei Ren, Dimos V. Dimarogonas",
+      "doi": "10.1016/j.automatica.2020.108828",
+      "role": "Generic symbolic abstraction and feedback-refinement background.",
+      "title": "Symbolic abstractions for nonlinear control systems via feedback refinement relation",
+      "venue": "Automatica",
+      "year": 2020
+    }
+  ],
+  "manuscript_mutation_performed": false,
+  "next_action": "Update theorem/Related Work/title/finite-gap interpretation only after reviewing the E5 numerical evidence ledger.",
+  "numerical_classification": "REAL_PQC_SERVICE_AUTOMATA_DIFFER_BUT_ARE_NONBINDING_FOR_FINITE_POINT_ACTION_VIABILITY_ON_TESTED_DOMAIN",
+  "packetization_provenance_gate": true,
+  "schema": "E5_POST_RESULT_MANUSCRIPT_HANDOFF_V1",
+  "theory_items_after_numerical_closeout": {
+    "canonical_quotient": [
+      "Prove future-service equivalence is continuation-compatible (right congruence under admissible service extensions).",
+      "Define the induced quotient transition relation on H_c/~_c and prove representative independence.",
+      "State the minimal quotient as a well-defined service automaton, not only a factorization of representations."
+    ],
+    "finite_gap_interpretation": "The millimeter-scale finite gap is an existence certificate for state-dependent membership in the declared abstraction, not a deployment-scale spacing margin.",
+    "related_work": "Explicitly distinguish generic simulation/refinement machinery from the manuscript's authentication-service trace semantics and Bellman-active viability coupling.",
+    "title_candidate": "Authentication-Service-State-Aware Viability for Post-Quantum V2X Control: Robust Supervision, Service Equivalence, and Certified Fallback"
+  }
+}

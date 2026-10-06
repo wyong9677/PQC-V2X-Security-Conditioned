@@ -1,0 +1,50 @@
+{
+  "aggregate": {
+    "d7_strong_witnesses": 16,
+    "d7_witnesses": 16,
+    "d7b_max_center_relative_drift_A_to_B": 0.0,
+    "d7b_max_center_relative_drift_D7_to_B": 0.0,
+    "d7b_nested_strong_witnesses": 16,
+    "d8_min_certified_q_span_m": 0.00186830056757727,
+    "d9_min_certified_membership_margin_m": 0.000934150283788635
+  },
+  "artifacts": {
+    "claim_matrix_csv": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D10_CLAIM_MATRIX_20260914T142731Z.csv",
+    "latest_json": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D10_LATEST.json",
+    "manifest": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D10_MANIFEST_20260914T142731Z.sha256",
+    "manuscript_numerical_statement_md": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D10_MANUSCRIPT_NUMERICAL_STATEMENT_20260914T142731Z.md",
+    "result_json": "<PQC_V2X_PROJECT_ROOT>/04_results/P3B1_R7D10_NUMERICAL_MAINLINE_CLOSURE_20260914T142731Z.json"
+  },
+  "checks": {
+    "D4_PASS": true,
+    "D5_PASS": true,
+    "D6B_PASS": true,
+    "D6C_PASS": true,
+    "D6_PASS": true,
+    "D7B_PASS": true,
+    "D7_PASS": true,
+    "D8_INDEPENDENT_CHECKER": true,
+    "D8_RATIONAL_OUTWARD_CERTIFICATE": true,
+    "D9_INDEPENDENT_CHECKER": true,
+    "D9_SET_SEPARATION_CERTIFICATE": true,
+    "D9_WITNESS_COUNT": true
+  },
+  "claims": {
+    "certificate_backed_set_separation": true,
+    "continuous_domain_maximal_kernel_claim_authorized": false,
+    "farkas_certificate_authorized": false,
+    "finite_abstraction_q_dependent_kernel_membership": true,
+    "implementation_refinement_claim_authorized": false,
+    "nested_fixed_point_refinement_stability": true,
+    "numerical_mainline_closed": true
+  },
+  "classification": "numerical mainline closure for q-dependent kernel membership in the refined finite abstraction",
+  "recommended_next_steps": [
+    "Map D9 non-membership witnesses to the explicit outside-kernel linear infeasibility system and produce genuine Farkas multipliers if that system is available.",
+    "Perform implementation-refinement audit I_c subset A_c using real authentication/service traces before making end-to-end implementation claims.",
+    "Use the generated claim matrix and manuscript numerical statement for paper integration; do not run further existence-search sweeps unless a reviewer asks for them."
+  ],
+  "schema": "SCV_P3B1_R7D10_NUMERICAL_MAINLINE_CLOSURE_V1",
+  "status": "PASS",
+  "timestamp_utc": "20260914T142731Z"
+}

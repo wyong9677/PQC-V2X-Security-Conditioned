@@ -1,0 +1,35 @@
+{
+  "artifacts": {
+    "paired_interval_bounds_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9HD_PAIRED_INTERVAL_BOUNDS_20260916T043042Z.csv"
+  },
+  "classification": "ONE_STEP_LOWER_BOUND_TOO_WEAK_FOR_PAIRED_INTERVAL_SEPARATION",
+  "continuous_state_separation_certified": false,
+  "full_augmented_interval_gfp_solved": false,
+  "gates": {
+    "analytic_one_step_restart_lower_constructed": true,
+    "candidate_paired_margin_positive_somewhere": false,
+    "continuous_state_cell_interval_gfp": false,
+    "full_augmented_interval_gfp_solved": false,
+    "independent_p2c_lower_checker_pass": false,
+    "lower_restart_gfp_converged": false,
+    "upper_restart_continuation_converged": true,
+    "upstream_r9hc_pass": true
+  },
+  "metrics": {
+    "action_intervals": 272,
+    "candidate_positive_tests": 0,
+    "interval_width": 0.03125,
+    "matched_chi_tests": 16,
+    "max_candidate_margin_m": 0.0,
+    "min_candidate_margin_m": 0.0,
+    "p2c_resolution": 4097,
+    "restart_upper_action_width": 0.25,
+    "restart_upper_actions": 35,
+    "upstream_p2c_max_finest_bracket_width_m": 0.0032876434475309635,
+    "upstream_state_box_min_abs_gap_m": 0.42428750252680025
+  },
+  "next_action": "R9H_E_CONVERGE_OPTIMISTIC_LOWER_GFP_BEFORE_REASSESSING_CONTINUOUS_SEPARATION",
+  "schema": "SCV_P3B1_R9HD_PAIRED_INTERVAL_GFP_ATTEMPT_V1",
+  "status": "PASS",
+  "timestamp_utc": "20260916T043042Z"
+}

@@ -1,0 +1,69 @@
+{
+  "artifacts": {
+    "interval_preflight_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9HA_R1_INTERVAL_PREFLIGHT_COPY_20260916T032055Z.csv",
+    "reachable_protocol_graph_csv": "<PQC_V2X_NUMERICAL_ROOT>/04_results/P3B1_R9HA_R1_REACHABLE_PROTOCOL_20260916T032055Z.csv"
+  },
+  "classification": "READY_FOR_R9H_B_REACHABLE_PROTOCOLIZED_SPARSE_GFP_AND_INTERVAL_INNER_OUTER",
+  "continuous_action_interval_certificate": false,
+  "continuous_state_separation_certified": false,
+  "full_augmented_gfp_solved": false,
+  "gates": {
+    "all_protocol_nodes_semantically_reachable": true,
+    "candidate_update_total": true,
+    "chi_update_total": true,
+    "continuous_action_interval_certificate": false,
+    "deployment_protocol_certified": false,
+    "full_augmented_gfp_solved": false,
+    "interval_endpoint_monotonicity": true,
+    "interval_lookup_coverage": true,
+    "matched_pair_common_predecessor_same_candidate": true,
+    "pending_time_update_total": true,
+    "restart_rule_total": true,
+    "same_chi_on_common_branch": true,
+    "same_pending_generation_time_on_common_branch": true,
+    "same_two_step_liveness_bound": true,
+    "v1_reachability_defect_detected": true
+  },
+  "metrics": {
+    "action_interval_width": 0.25,
+    "action_intervals": 34,
+    "interval_lookup_failures": 0,
+    "interval_monotonicity_failures": 0,
+    "interval_tests": 136,
+    "upstream_max_matched_chi_gap_m": 0.4641350247898499
+  },
+  "next_action": "R9H_B_SOLVE_REACHABLE_PROTOCOLIZED_SPARSE_GFP_THEN_INTERVAL_ACTION_PAIRED_BOUNDS",
+  "protocol_graph": {
+    "all_nodes_reachable_from_restart": true,
+    "candidate_update_total": true,
+    "chi_update_total": true,
+    "edge_count": 6,
+    "fragmented_worst_completion_steps": 2,
+    "matched_pair_common_predecessor": true,
+    "no_dead_ends": true,
+    "nodes": [
+      "FRAGMENTED",
+      "PENDING_ENTRY",
+      "VERIFYING",
+      "VERIFYING_LAST"
+    ],
+    "pass": true,
+    "pending_time_update_total": true,
+    "restart_closed": true,
+    "same_two_step_liveness_bound": true,
+    "verifying_worst_completion_steps": 2
+  },
+  "r9ha_v1_false_protocol_reachability_gate_detected": true,
+  "schema": "SCV_P3B1_R9HA_R1_REACHABLE_PROTOCOL_PREFLIGHT_V1",
+  "status": "PASS",
+  "timestamp_utc": "20260916T032055Z",
+  "v1_defect": {
+    "false_reachability_gate_detected": true,
+    "v1_incoming_to_verifying": 0,
+    "v1_nodes": [
+      "FRAGMENTED",
+      "VERIFYING",
+      "VERIFYING_LAST"
+    ]
+  }
+}

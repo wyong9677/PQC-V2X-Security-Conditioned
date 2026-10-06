@@ -1,0 +1,36 @@
+{
+  "declared_assumptions": {
+    "consecutive_loss_bound": 1,
+    "deployment_protocol_certified": false,
+    "kind": "declared_engineering_assumption",
+    "network_bound_measured": false,
+    "queue_bound_steps": 1
+  },
+  "derived_baseline_bsm_plus_signature_bytes": 104,
+  "derived_fragment_capacity_bytes": 2136,
+  "direct_facts": {
+    "ecdsa_certificate_bytes": 162,
+    "frame_limit_bytes": 2304,
+    "mac_frame_overhead_bytes": 40,
+    "pure_ecdsa_first_frame_bytes": 330,
+    "spdu_fixed_overhead_bytes": 24,
+    "tau_messages": 5
+  },
+  "gate": true,
+  "profile_rows": [
+    {
+      "algorithm": "ML-DSA-65",
+      "fragment_capacity_bytes": 2136,
+      "fragment_count": 2,
+      "hybrid_certificate_bytes": 3501,
+      "profile_key": "ML_DSA_65"
+    },
+    {
+      "algorithm": "SLH-DSA-SHA2-192s",
+      "fragment_capacity_bytes": 2136,
+      "fragment_count": 8,
+      "hybrid_certificate_bytes": 16416,
+      "profile_key": "SLH_DSA_SHA2_192S"
+    }
+  ]
+}
